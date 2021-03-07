@@ -1,0 +1,36 @@
+/* Latest Posts and Events */
+
+.card-date__day, .card-date__month{
+  margin-bottom:0;
+  font-size:clamp(1rem, 1.5vw, 1.3rem);
+  line-height:1.5rem;
+  font-weight:var(--weight-bold);
+  text-align: center;
+}
+
+.card-link{
+  font-family: $serif;
+  font-weight: var(--weight-bold);
+}
+
+.card-date{
+  margin-left:1rem;
+
+  @media only screen and (max-width:1000px){
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: flex-end;
+    margin-left:0;
+  }
+}
+
+.card-date__month{
+  margin-right:0.25rem;
+}
+
+.card-header{
+  h4{
+    font-size:clamp(1.25rem, 2vw, 1.5625rem) !important;
+    margin-bottom:0;
+  }
+}

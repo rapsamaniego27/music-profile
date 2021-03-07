@@ -1,0 +1,15 @@
+.hero-banner{
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+      );
+      max-height:400px; // makes sure it does not go beyond 400px
+      min-height:100px; // makes sure it does not go below 200px
+      height:42.7vw; //42.7 is the percentage total of my screen (938px) which equates to 400px
+
+
+    .hero-banner__title, h1, h2{
+      font-size:clamp(1.75rem, 4vw, 3rem) !important;
+    }
+}

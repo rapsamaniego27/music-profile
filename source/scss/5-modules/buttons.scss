@@ -1,0 +1,38 @@
+
+.cbtn-success{
+  @include btn-background(color('success'));
+}
+
+.cbtn-danger{
+  @include btn-background(color('danger'));
+}
+
+.cbtn-info{
+  @include btn-background(color('info'));
+}
+
+.cbtn-warning{
+  @include btn-background(color('warning'));
+  width:max-content !important;
+}
+
+.cbtn-primary{
+  @include btn-background(color('primary'));
+   width:max-content !important;
+}
+
+.cbtn-tertiary{
+  @include btn-background(color('tertiary'));
+  color:var(--dark);
+  width:max-content !important;
+
+}
+
+.cbtn-accent{
+  @include btn-background(color('accent'));
+   width:max-content !important;
+  
+}
+
+
+

@@ -1,0 +1,143 @@
+.welcome__container{
+  background: url(../files/home-background.svg) left center no-repeat;
+  background-size:1000px auto;
+  height:max-content;
+  position:relative;
+
+ /*  @media only screen and (max-width:1200px){
+    height:391px;
+  }
+  @media only screen and (max-width:768px){
+    height:238px;
+  }
+
+  @media only screen and (max-width:576px){
+    max-height:434px;
+    height:100%;
+  } */
+
+}
+
+.welcome__heading{
+  font-size:clamp(1.75rem, 4vw, 3rem);
+
+   @media only screen and (max-width:1200px){
+    margin: 40px 0 0 40px;
+  }
+
+  @media only screen and (max-width:768px){
+    margin: 20px 0 0 20px;
+  }
+}
+
+.welcome__subheading{
+  font-size:clamp(1.1rem, 4vw, 1.375rem);
+  font-family: $sans-serif;
+  font-weight: var(--weight-semibold);
+  @media only screen and (max-width:1200px){
+    margin: 0 0 0 40px;
+  }
+   @media only screen and (max-width:768px){
+    margin: 0 0 0 20px;
+  }
+}
+
+.btn-welcome{
+  @media only screen and (max-width:1200px){
+    margin: 0 0 0 40px;
+  }
+   @media only screen and (max-width:768px){
+    margin: 0 0 0 20px;
+  }
+}
+
+/* Model */
+.welcome__model-circle{
+  position:relative;
+  background:url('../assets/images/Circle.svg') center / contain no-repeat ;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+
+/*   @media only screen and (max-width:1200px){
+    width:360px;
+    height:360px;
+  }
+
+  @media only screen and (max-width:768px){
+    width:200px;
+    height:200px;
+    top: -5px;
+    right: 0;
+  } */
+
+
+  .welcome__model-circle__img{
+    position:absolute;
+    top:0;
+    right:0;
+  }
+
+}
+
+
+  .welcome__note-set{
+    position:absolute; 
+    bottom: 30px;
+    left: -121px;
+    width:198px;
+
+    @media only screen and (max-width:768px){
+      width:120px;
+      bottom: 24px;
+      left: -70px;
+    }
+  }
+.welcome__model-container{
+  position:relative;
+}
+
+
+
+
+  .welcome__model-right{
+    padding-right:0 !important;
+  }
+
+  .welcome__left{
+
+    @media only screen and (max-width:1200px){
+      align-items:center;
+    }
+
+    @media only screen and (max-width:900px){
+      align-items:flex-end;
+    }
+
+    @media only screen and (max-width:768px){
+      align-items:flex-start;
+    }
+  }
+
+  .welcome__model-circle__img{
+
+    @media only screen and (max-width:768px){
+      width:200px;
+    }
+    
+  }
+
+  .welcome__model{
+
+    @media only screen and (max-width:1200px){
+      width:340px;
+    }
+
+    @media only screen and (max-width:768px){
+      width:280px;
+    }
+
+    @media only screen and (max-width:576px){
+      width:200px;
+    }
+  }

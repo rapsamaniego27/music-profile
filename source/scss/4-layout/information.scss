@@ -1,0 +1,37 @@
+.information__container{
+  min-height:400px;
+  background:var(--primary);
+}
+
+.information__skill-heading{
+  i{
+    font-size:48px;
+    display:inline;
+  }
+}
+
+
+.information__blurb{
+  min-height:160px;
+}
+
+.information__cmp{
+  .btn{
+    width: max-content !important;
+    max-width:80% !important;
+    margin: 0 auto;
+    display: block;
+    margin-top:20px;
+  }
+}
+
+.information__something{
+  .btn{
+   @media only screen and (max-width:768px){
+    width: max-content !important;
+    margin: 0 auto !important;
+    display: block;
+    margin-top:20px;
+   }
+  }
+}

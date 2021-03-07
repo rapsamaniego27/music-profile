@@ -1,0 +1,30 @@
+.cmp-image__landscape{
+  width:624px;
+  max-width:100%;
+  margin:0 auto;
+  height:auto;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 0px 5px 12px 0px rgba(0,0,0,0.75);
+  display:block;
+
+  /* @media only screen and (max-width:576px){
+    max-width:92%;
+  } */
+}
+
+.cmp-image__tube{
+  width:624px;
+  max-width:100%;
+  margin:0 auto;
+  height:180px;
+  height:auto;
+  border-radius: 16px;
+  object-fit: cover;
+  box-shadow: 0px 5px 12px 0px rgba(0,0,0,0.75);
+  display:block;
+
+ /*  @media only screen and (max-width:576px){
+    max-width:92%;
+  } */
+}
