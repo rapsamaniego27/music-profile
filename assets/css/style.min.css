@@ -14412,17 +14412,6 @@ footer {
   height: -moz-max-content;
   height: max-content;
   position: relative;
-  /*  @media only screen and (max-width:1200px){
-     height:391px;
-   }
-   @media only screen and (max-width:768px){
-     height:238px;
-   }
-
-   @media only screen and (max-width:576px){
-     max-height:434px;
-     height:100%;
-   } */
 }
 
 .welcome__heading {
@@ -14469,7 +14458,7 @@ footer {
 /* Model */
 .welcome__model-circle {
   position: relative;
-  background: url("../assets/images/Circle.svg") center/contain no-repeat;
+  background: url("../files/Circle.svg") center/contain no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14501,7 +14490,7 @@ footer {
   .welcome__note-set {
     width: 120px;
     bottom: 24px;
-    left: -70px;
+    left: -86px;
   }
 }
 
@@ -14642,7 +14631,7 @@ footer {
 }
 .form__fields input:focus, .form__fields textarea:focus, .form__fields select:focus, .form__fields option:focus {
   outline: 0 !important;
-  box-shadow: 0 0 0 2px transparent, 0 0 0 2px var(--accent);
+  box-shadow: 0 0 0 2px transparent, 0 0 0 2px var(--tertiary);
 }
 @media only screen and (max-width: 1200px) {
   .form__fields textarea {
