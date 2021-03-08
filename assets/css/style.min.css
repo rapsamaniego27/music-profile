@@ -14905,6 +14905,49 @@ footer {
   left: -16px;
 }
 
+/* Biography */
+.bio-section__main-topic {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.bio-section .bio-section__title {
+  color: var(--tertiary) !important;
+}
+.bio-section .bio-section__sub-topic__title {
+  color: var(--white) !important;
+}
+.bio-section .bio-section__description > p,
+.bio-section .bio-section__sub-topic__desc > p,
+.bio-section .bio-section__sub-topic__add-desc > p {
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  line-height: 1.875rem;
+}
+.bio-section .bio-section__description {
+  margin-top: 20px;
+}
+.bio-section .bio-section__sub-topic {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.bio-section .bio-section__sub-topic__gallery {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.bio-section .bio-section__sub-topic__gallery > * {
+  flex-basis: 30%;
+}
+@media only screen and (max-width: 1000px) {
+  .bio-section .bio-section__sub-topic__gallery {
+    justify-content: space-around;
+  }
+  .bio-section .bio-section__sub-topic__gallery > img {
+    margin-top: 20px;
+  }
+}
+
 .cbtn-success {
   background-color: #9FD356;
   color: #fff;
@@ -15167,6 +15210,7 @@ footer {
      object-fit: cover;
   box-shadow: 0px 5px 12px 0px rgba(0, 0, 0, 0.75);
   display: block;
+  border: 1px solid var(--white);
   /* @media only screen and (max-width:576px){
     max-width:92%;
   } */
@@ -15186,6 +15230,48 @@ footer {
   /*  @media only screen and (max-width:576px){
      max-width:92%;
    } */
+}
+
+.cmp-image__portrait {
+  width: 500px;
+  max-width: 100%;
+  margin: 0 auto;
+  height: 666px;
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  box-shadow: 0px 5px 12px 0px rgba(0, 0, 0, 0.75);
+  display: block;
+  border: 1px solid var(--white);
+  /* @media only screen and (max-width:576px){
+    max-width:92%;
+  } */
+}
+
+.cmp-image__gallery-landscape {
+  width: 400px;
+  max-width: 100%;
+  height: 215px;
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 100% 0;
+     object-position: 100% 0;
+  box-shadow: 0px 5px 12px 0px rgba(0, 0, 0, 0.75);
+  display: block;
+  border: 1px solid var(--white);
+}
+@media only screen and (max-width: 800px) {
+  .cmp-image__gallery-landscape {
+    width: 300px;
+    height: 161px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .cmp-image__gallery-landscape {
+    width: 400px;
+    height: 215px;
+  }
 }
 
 /* Latest Posts and Events */

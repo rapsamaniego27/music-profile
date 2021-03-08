@@ -4,6 +4,7 @@ backend:
 
 media_folder: "assets/files"
 
+# Basic setup for collections
 collections:
   - label: "Pages"
     name: "pages"

@@ -1,0 +1,52 @@
+/* Biography */
+
+.bio-section__main-topic{
+  margin-top:60px;
+  margin-bottom:60px;
+}
+
+.bio-section{
+  .bio-section__title{
+    color:var(--tertiary) !important;
+  }
+
+  .bio-section__sub-topic__title{
+    color:var(--white) !important;
+  }
+
+  .bio-section__description, 
+  .bio-section__sub-topic__desc,
+  .bio-section__sub-topic__add-desc{
+    >p{
+      font-size: clamp(1rem, 2vw, 1.25rem);
+      line-height:1.875rem;
+    }
+  }
+
+  .bio-section__description{
+    margin-top:20px;
+  }
+
+  .bio-section__sub-topic{
+    margin-top:20px;
+    margin-bottom:40px;
+  }
+
+  .bio-section__sub-topic__gallery{
+    display:flex;
+    margin-top:20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    >*{
+      flex-basis:30%;
+    }
+
+    @media only screen and (max-width:1000px){
+      justify-content: space-around;
+     >img{
+       margin-top:20px;
+     }
+    }
+  }
+
+}
