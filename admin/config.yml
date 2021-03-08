@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: https://github.com/rapsamaniego27/music-profile
+  repo: rapsamaniego27/music-profile
 
 media_folder: "assets/files"
 
