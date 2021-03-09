@@ -11,5 +11,7 @@
 
     .hero-banner__title, h1, h2{
       font-size:clamp(1.75rem, 4vw, 3rem) !important;
+      margin:0 30px;
+      text-align:center;
     }
 }

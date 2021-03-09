@@ -15414,6 +15414,8 @@ footer {
 }
 .hero-banner .hero-banner__title, .hero-banner h1, .hero-banner .h1, .hero-banner h2, .hero-banner .h2 {
   font-size: clamp(1.75rem, 4vw, 3rem) !important;
+  margin: 0 30px;
+  text-align: center;
 }
 
 .promo-card {
