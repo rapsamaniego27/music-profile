@@ -8,10 +8,28 @@
 .bio-section{
   .bio-section__title{
     color:var(--tertiary) !important;
+
+    @media only screen and (max-width:576px){
+      margin-left:20px;
+      margin-right:20px;
+      margin-top:20px;
+    }
   }
 
   .bio-section__sub-topic__title{
     color:var(--white) !important;
+
+    @media only screen and (max-width:576px){
+      margin-left:20px;
+      margin-right:20px;
+    }
+  }
+
+  .bio-section__sub-topic__add-desc{
+    @media only screen and (max-width:576px){
+      margin-left:20px;
+      margin-right:20px;
+    }
   }
 
   .bio-section__description, 
@@ -22,10 +40,24 @@
       line-height:1.875rem;
     }
   }
+  
+  .bio-section__sub-topic__desc{
+    @media only screen and (max-width:576px){
+      margin-left:20px;
+      margin-right:20px;
+    }
+  }
 
   .bio-section__description{
     margin-top:20px;
+    
+    @media only screen and (max-width:576px){
+      margin-left:20px;
+      margin-right:20px;
+    }
   }
+
+  
 
   .bio-section__sub-topic{
     margin-top:20px;
@@ -50,3 +82,36 @@
   }
 
 }
+
+.bio-section__sub-topic__img{
+  margin:0 30px 20px 0 !important;
+
+  @media only screen and (max-width:992px){
+    margin: 0 auto 20px auto !important;
+  }
+}
+
+
+/* Clearfix/float override */
+
+.bio-section__main-topic{
+    .float-md-end{
+        margin: 0 0 20px 30px !important;
+        
+         @media only screen and (max-width:768px){
+          margin: 0 auto 20px auto !important;
+        }
+    }
+
+    .float-md-start{
+        margin: 0 30px 20px 0 !important;
+        
+         @media only screen and (max-width:768px){
+          margin: 0 auto 20px auto !important;
+        }
+    }
+}
+
+
+    
+   

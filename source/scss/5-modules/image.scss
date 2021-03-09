@@ -9,9 +9,16 @@
   display:block;
   border: 1px solid var(--white);
 
-  /* @media only screen and (max-width:576px){
+
+
+  @media only screen and (max-width:1200px){
+    width:480px;
     max-width:92%;
-  } */
+  }
+
+  @media only screen and (max-width:992px){
+    width:624px;
+  }
 }
 
 .cmp-image__tube{
@@ -41,9 +48,17 @@
   display:block;
   border: 1px solid var(--white);
 
-  /* @media only screen and (max-width:576px){
+  @media only screen and (max-width:992px){
+    width:360px;
+    height:479px;
     max-width:92%;
-  } */
+  }
+
+  @media only screen and (max-width:768px){
+    width:300px;
+    height:399px;
+    max-width:92%;
+  }
 }
 
 .cmp-image__gallery-landscape{
