@@ -40,14 +40,18 @@
 
     @media only screen and (max-width:576px){
       margin-left:20px;
-      margin-right:20px;
+      margin-right:36px;
     }
   }
 
   .bio-section__sub-topic__add-desc{
+    
+    @media only screen and (max-width:768px){
+     margin-right:35px;
+    }
+    
     @media only screen and (max-width:576px){
-      margin-left:20px;
-      margin-right:20px;
+      margin-left:20px;  
     }
   }
 
@@ -61,18 +65,25 @@
   }
   
   .bio-section__sub-topic__desc{
+    @media only screen and (max-width:1366px){
+     margin-right:35px;
+    }
+
     @media only screen and (max-width:576px){
       margin-left:20px;
-      margin-right:20px;
     }
   }
 
   .bio-section__description{
     margin-top:20px;
+
+    @media only screen and (max-width:1366px){
+     margin-right:34px;
+    }
     
     @media only screen and (max-width:576px){
       margin-left:20px;
-      margin-right:20px;
+      margin-right:36px;
     }
   }
 

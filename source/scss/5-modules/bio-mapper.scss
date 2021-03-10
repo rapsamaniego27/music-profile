@@ -1,0 +1,76 @@
+/* Bio Mapper */
+
+.bio-mapper{
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    height:42vh;
+    max-height:60vh;
+
+    @media only screen and (max-width:576px){
+     height:30vh;
+    }
+    
+
+  .bio-mapper__list{
+    padding-left:0;
+    margin-bottom:0;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:100%;
+  }
+
+  .bio-mapper__item{
+    cursor:pointer;
+   
+    .bio-mapper__link{
+      --size: 80px;
+      --radius: 50%;
+
+      @media only screen and (max-width:768px){
+       --size:60px;
+      }
+
+      @media only screen and (max-width:576px){
+       --size:36px;
+      }
+
+      color:var(--white);
+      background:var(--accent);
+      display:inline-block;
+      position:relative;
+      border-top-left-radius: var(--radius);
+      border-bottom-left-radius: var(--radius);
+      transition: all 0.5s ease-in-out; 
+      width:var(--size);
+      height:var(--size);
+      box-shadow: -2px 3px 13px 3px rgba(0,0,0,0.42);
+
+      &:hover{
+        background:var(--primary);
+      }
+
+      >*{
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-30%, -50%);
+      }
+      
+      i{
+        font-size:clamp(1rem, 2.5vw, 1.5rem);
+      }
+    }
+  }
+
+}
+
+/* Bio Extras */
+
+.bio-mapper__item--active{
+  >a{
+    color:#ffe000 !important;
+  }
+}

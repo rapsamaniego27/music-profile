@@ -14946,13 +14946,17 @@ footer {
 @media only screen and (max-width: 576px) {
   .bio-section .bio-section__sub-topic__title {
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 36px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .bio-section .bio-section__sub-topic__add-desc {
+    margin-right: 35px;
   }
 }
 @media only screen and (max-width: 576px) {
   .bio-section .bio-section__sub-topic__add-desc {
     margin-left: 20px;
-    margin-right: 20px;
   }
 }
 .bio-section .bio-section__description > p,
@@ -14961,19 +14965,28 @@ footer {
   font-size: clamp(1rem, 2vw, 1.25rem);
   line-height: 1.875rem;
 }
+@media only screen and (max-width: 1366px) {
+  .bio-section .bio-section__sub-topic__desc {
+    margin-right: 35px;
+  }
+}
 @media only screen and (max-width: 576px) {
   .bio-section .bio-section__sub-topic__desc {
     margin-left: 20px;
-    margin-right: 20px;
   }
 }
 .bio-section .bio-section__description {
   margin-top: 20px;
 }
+@media only screen and (max-width: 1366px) {
+  .bio-section .bio-section__description {
+    margin-right: 34px;
+  }
+}
 @media only screen and (max-width: 576px) {
   .bio-section .bio-section__description {
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 36px;
   }
 }
 .bio-section .bio-section__sub-topic {
@@ -15289,9 +15302,9 @@ footer {
   display: block;
   border: 1px solid var(--white);
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1366px) {
   .cmp-image__landscape {
-    width: 480px;
+    width: 430px;
     max-width: 92%;
   }
 }
@@ -15452,6 +15465,73 @@ footer {
 }
 .promo-card .card-body {
   padding: 30px 10px !important;
+}
+
+/* Bio Mapper */
+.bio-mapper {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  height: 42vh;
+  max-height: 60vh;
+}
+@media only screen and (max-width: 576px) {
+  .bio-mapper {
+    height: 30vh;
+  }
+}
+.bio-mapper .bio-mapper__list {
+  padding-left: 0;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.bio-mapper .bio-mapper__item {
+  cursor: pointer;
+}
+.bio-mapper .bio-mapper__item .bio-mapper__link {
+  --size: 80px;
+  --radius: 50%;
+  color: var(--white);
+  background: var(--accent);
+  display: inline-block;
+  position: relative;
+  border-top-left-radius: var(--radius);
+  border-bottom-left-radius: var(--radius);
+  transition: all 0.5s ease-in-out;
+  width: var(--size);
+  height: var(--size);
+  box-shadow: -2px 3px 13px 3px rgba(0, 0, 0, 0.42);
+}
+@media only screen and (max-width: 768px) {
+  .bio-mapper .bio-mapper__item .bio-mapper__link {
+    --size:60px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .bio-mapper .bio-mapper__item .bio-mapper__link {
+    --size:36px;
+  }
+}
+.bio-mapper .bio-mapper__item .bio-mapper__link:hover {
+  background: var(--primary);
+}
+.bio-mapper .bio-mapper__item .bio-mapper__link > * {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-30%, -50%);
+}
+.bio-mapper .bio-mapper__item .bio-mapper__link i {
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
+}
+
+/* Bio Extras */
+.bio-mapper__item--active > a {
+  color: #ffe000 !important;
 }
 
 @media only screen and (max-width: 1366px) {
