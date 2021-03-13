@@ -207,48 +207,6 @@ class Menuet {
   }
 
 }
-class Scroll {
-  constructor() {
-
-  }
-
-  //Methods
-
-  smoothScroll(target, duration) {
-    //This Function gets the target Section and your desired duration
-    const targetted = document.querySelector(target);
-    const targetPosition = targetted.getBoundingClientRect().top - 100;
-
-    //Gets the window PageY off set and substract by target position
-    //to get the distance
-    const startPosition = window.pageYOffset;
-    const distance = targetPosition - startPosition;
-    let startTime = null;
-
-    function animation(currentTime) {
-      if (startTime === null) startTime = currentTime;
-      const timeElapsed = currentTime - startTime;
-      const run = ease(timeElapsed, startPosition, targetPosition, duration);
-
-      window.scrollTo(0, run);
-
-      if (timeElapsed < duration) requestAnimationFrame(animation);
-    }
-
-    function ease(t, b, c, d) {
-      t /= d / 2;
-      if (t < 1) return c / 2 * t * t * t + b;
-      t -= 2;
-      return c / 2 * (t * t * t + 2) + b;
-    }
-
-    requestAnimationFrame(animation);
-  }
-
-}
-
-
-
 
 window.addEventListener('DOMContentLoaded', () => {
   const infoSkills = document.querySelector('#infoSkills');
@@ -281,12 +239,11 @@ window.addEventListener('DOMContentLoaded', () => {
     const scroll = new Scroll();
   
     bioMapperBtns.forEach(btn => {
+      const id = btn.id;
       btn.addEventListener('click', (e) => {
-        const id = btn.id;
         e.preventDefault();
         scroll.smoothScroll(`.${id}`, 1000);
         console.log(id);
-        
         
         /* Remove former active class and apply to new one */
         const formerActiveBtn = document.querySelector('.bio-mapper__item--active');

@@ -29,12 +29,11 @@ window.addEventListener('DOMContentLoaded', () => {
     const scroll = new Scroll();
   
     bioMapperBtns.forEach(btn => {
+      const id = btn.id;
       btn.addEventListener('click', (e) => {
-        const id = btn.id;
         e.preventDefault();
         scroll.smoothScroll(`.${id}`, 1000);
         console.log(id);
-        
         
         /* Remove former active class and apply to new one */
         const formerActiveBtn = document.querySelector('.bio-mapper__item--active');

@@ -4,9 +4,11 @@
     <!-- Main Topic -->
     <div class="bio-section__main-topic clearfix">
       
-      {% if bio.section.image != '' %}
+      {% if bio.section.image %}
         <img src="{{site.baseurl}}{{bio.section.image}}" alt="Image" title="Image"
-          class="cmp-image__portrait float-none float-md-end bio-section__img">
+          class="cmp-image__portrait float-none bio-section__img 
+          {% if bio.section.alignment == 'right' %} float-md-end {% elsif bio.section.alignment == 'left' %} float-md-start {% endif %}">
+        
       {% endif %}
 
       <h2 class="bio-section__title">{{ bio.section.title }}</h2>

@@ -4,16 +4,13 @@ layout: default
 
 <div class="bio-mapper" id="bioMapper">
   <ul class="bio-mapper__list">
+    <!-- Loop for Navigation -->
     {% for bio in site.data.bio.bio-sections %}
     <li class="bio-mapper__item {% if forloop.index == 1 %}bio-mapper__item--active {% endif %}" id="{{bio.section.id}}">
       <a href="#" target="_blank" class="bio-mapper__link">{{bio.section.icon}}</a>
     </li>
     {% endfor %}
 
-    
-    <!-- <li class="bio-mapper__item">
-      <a href="#" target="_blank" class="bio-mapper__link"><i class="fas fa-users"></i></a>
-    </li> -->
   </ul>
 </div>
 
