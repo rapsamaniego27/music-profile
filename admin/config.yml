@@ -10,6 +10,7 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
+    # Homepage
     - label: "Home"
       name: "home"
       file: "_data/home.yml"
@@ -56,9 +57,37 @@ collections:
       - label: "Feature Right Link"
         name: "feature_right_link"
         widget: "string"
+    # Bio page
+    - label: "Bio"
+      name: "bio"
+      folder: "_bio-sections"
+      create: true
+      fields:
+      - label: "Blocks"
+        name: "blocks"
+        widget: "list"
+        required: false
+        fields:
+        - label: "alignment"
+          name: "alignment"
+          widget: "select"
+          options: ["one column", "two columns", "two columns reverse"]
+          default: ["one column"]
+        - label: "Content"
+          name: "content"
+          widget: "object"
+          required: false
+          fields: 
+          - label: Text (300 - 420 for 2 columns)
+            name: text
+            widget: markdown
+          - label: Image(280 x 194)
+            name: image
+            widget: image
+            required: false
       
 
-
+# Page Metas
   - label: "Metas"
     name: "metas"
     create: true
@@ -80,4 +109,5 @@ collections:
       name: "meta_image"
       widget: "image"
       required: false
-      
+
+
