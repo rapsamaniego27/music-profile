@@ -29,6 +29,9 @@ collections:
       - label: "Summary Image"
         name: "summary_image"
         widget: "image"
+      - label: "Summary Link"
+        name: "summary_link"
+        widget: "string"
       - label: "Feature Left Title"
         name: "feature_left_title"
         widget: "string"
@@ -38,6 +41,9 @@ collections:
       - label: "Feature Left Image (624 x 180)"
         name: "feature_left_image"
         widget: "image"
+      - label: "Feature Left Link"
+        name: "feature_left_link"
+        widget: "string"
       - label: "Feature Right Title"
         name: "feature_right_title"
         widget: "string"
@@ -47,6 +53,9 @@ collections:
       - label: "Feature Right Image (624 x 180)"
         name: "feature_right_image"
         widget: "image"
+      - label: "Feature Right Link"
+        name: "feature_right_link"
+        widget: "string"
       
 
 
