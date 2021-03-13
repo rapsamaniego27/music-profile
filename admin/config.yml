@@ -14,11 +14,11 @@ collections:
       name: "home"
       file: "_data/home.yml"
       fields:
-      - label: "Tagline"
-        name: "tagline"
+      - label: "Welcome Tagline"
+        name: "welcome_tagline"
         widget: "string"
-      - label: "Subtext"
-        name: "subtext"
+      - label: "Welcome Subtext"
+        name: "welcome_subtext"
         widget: "string"
 
 
