@@ -69,14 +69,14 @@ collections:
         - label: "Section Title"
           name: "title"
           widget: "string"
-        - label: "Description"
+        - label: "Section Description"
           name: "description"
           widget: "markdown"
-        - label: "Additional Description"
+        - label: "Additional Sec Description"
           name: add_description
           widget: markdown
           required: false
-        - label: Image (500 x 666)
+        - label: Section Image (500 x 666)
           name: image
           widget: image
           required: false
@@ -103,11 +103,11 @@ collections:
           - label: Subtopic Description
             name: description
             widget: markdown
-          - label: Image(666 x 374)
+          - label: Subtopic Image(666 x 374)
             name: image
             widget: image
             required: false
-          - label: Additional Subtopic Description
+          - label: Additional Sub Description
             name: add_description
             widget: markdown
             required: false
@@ -119,6 +119,10 @@ collections:
             - label: Gallery Image
               name: image
               widget: image
+              required: false
+            - label: Gallery Image Alt Text
+              name: alt
+              widget: string
               required: false
 
 
