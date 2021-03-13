@@ -22,24 +22,3 @@ collections:
       - widget: "string"
 
       
-  - label: "Metas"
-    name: "metas"
-    create: true
-    folder: "_metas"
-    fields:
-    - label: "Title"
-      name: "title"
-      widget: "string"
-    - label: "Meta Description"
-      name: "meta_description"
-      widget: "text"
-    - label: "Slug"
-      name: "slug"
-      widget: "string"
-    - label: "Permalink"
-      name: "permalink"
-      widget: "string"
-    - label: "Meta Image"
-      name: "meta_image"
-      widget: "image"
-      required: false
