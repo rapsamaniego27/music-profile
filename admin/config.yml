@@ -98,7 +98,7 @@ collections:
             widget: "select"
             options: ["right", "left"]
             default: ["right"]
-          - label: "Subtopics"
+          - label: "Subtopicss"
             name: "subtopics"
             widget: "list"
             required: false
