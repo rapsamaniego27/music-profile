@@ -61,16 +61,16 @@ collections:
       file: "_data/bio.yml"
       create: true
       fields:
-      - label: Section Blocks
-        name: section_block
-        widget: object
+      - label: "Biography Sections"
+        name: "bio-sections"
+        widget: "list"
         required: false
-        fields:
-        - label: "Biography Section"
+        fields: 
+        - label: "Section"
           name: "section"
-          widget: "list"
+          widget: object
           required: false
-          fields:
+          fields: 
           - label: "Section Title"
             name: "title"
             widget: "string"
@@ -129,6 +129,7 @@ collections:
                 name: image
                 widget: image
                 required: false
+        
             
 
 
