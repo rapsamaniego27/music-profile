@@ -10,7 +10,6 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-    # Homepage
     - label: "Home"
       name: "home"
       file: "_data/home.yml"
@@ -57,8 +56,7 @@ collections:
       - label: "Feature Right Link"
         name: "feature_right_link"
         widget: "string"
-    # Bio page
-    - label: "Bio"
+    - label: "Bio" #Bio
       name: "bio"
       folder: "_bio-sections"
       create: true
@@ -87,8 +85,8 @@ collections:
             required: false
       
 
-# Page Metas
-  - label: "Metas"
+
+  - label: "Metas" # Page Metas
     name: "metas"
     create: true
     folder: "_metas"
