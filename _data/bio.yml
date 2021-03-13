@@ -53,7 +53,7 @@ bio-sections:
         In 2017, I bought my first violin which I named Alice. Just when I thought that learning guitar is hard. The violin is harder. It's such a blind instrument you had to really start from the basics from forms and positions to applicable techniques. Luckily without bargaining, I was able to go through learning it with my experience with the guitar and by having a sound sensitive ear to guide me on what I need to press on the fingerboard.
       image: /assets/files/rap-violin.jpg
       id: bioInstruments
-      icon: <i class="fas fa-history"></i>
+      icon: <i class="fas fa-guitar"></i>
   - section:
       alignment: right
       title: Inspirations
@@ -83,7 +83,7 @@ bio-sections:
         mentor, he was also a life mentor. And we talked about anything from
         Gigs to Real life  situations and what I can do with them."
       image: /assets/files/herby.jpg
-      icon: <i class="fas fa-history"></i>
+      icon: <i class="far fa-lightbulb"></i>
       id: bioInspirations
       subtopics:
         - group:
