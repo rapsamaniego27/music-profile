@@ -116,14 +116,15 @@ collections:
             widget: list
             required: false
             fields: 
-            - label: Gallery Image
-              name: image
-              widget: image
-              required: false
             - label: Gallery Image Alt Text
               name: alt
               widget: string
               required: false
+            - label: Gallery Image
+              name: image
+              widget: image
+              required: false
+            
 
 
 
