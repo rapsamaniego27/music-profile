@@ -1,14 +1,23 @@
-welcome_tagline: Test Tagline
-welcome_subtext: Nothing subtext
+welcome_tagline: Sharing the gift of music to everyone!
+welcome_subtext: Guitarist | Violinist
+summary_title: Something About Me
+summary_description: >-
+  I am Rap and  have been playing the Guitar since 2007 and the Violin since
+  2017. I'm in a decent level of proficiency in my music, and I'm still
+  progressing my skills until now.
 
-summary_title: Test Summary
-summary_description: test Summary summary_description
-summary_image: 
+  I love Country, Punk and Rock N Roll music and an avid Green Day fan.
 
-feature_left_title: Feature Left Title
-feature_left_description: Feature Left Description
-feature_left_image: 
 
-feature_right_title: Featured Right Title
+  I am an expressive musician and loves to share my musical knowledge to people who are eager to learn as me. I
+summary_image: /assets/files/dual-instruments.jpg
+feature_left_title: A Leader of the Band
+feature_left_description: I currently lead a band called Folk Ridge which
+  specializes on Country, Folk and Rock n Roll music. It was a rough start but I
+  managed to get the group established and find commom people. I have a vision
+  to make the genres great again and introduce it to younglings and re-live the
+  music into the oldies.
+feature_left_image: /assets/files/leader.jpg
+feature_right_title: An Encouraging Teacher
 feature_right_description: Feature Right Description
-feature_right_image: 
+feature_right_image: /assets/files/teacher.jpg
