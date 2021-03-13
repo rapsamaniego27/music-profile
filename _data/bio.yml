@@ -231,3 +231,159 @@ bio-sections:
               & Garfunkel, Bread, Cat Stevens and several others were just all a
               treasure to listen to."
             image: /assets/files/inspiration-folk.jpg
+  - section:
+      alignment: right
+      title: Bands / Affiliations
+      description: "The most exciting part of playing music is having the opportunity
+        to play in a band. We all know that practicing is really important but
+        if you want to know how far you really progressed is by collaborating
+        with friends of the same interests. Testing ourselves to perform with
+        people and to know much of a team player we are.
+
+        <br><br>\r
+
+        \r
+
+        Being in a band is also like being in a family, you treat each
+        other, compliment each other and enjoy music together. Like any other
+        families, bands also undergo emotional situations that they have to
+        resolve as a group. In spite of this, it is still fun to do music as a
+        group."
+      icon: <i class="fas fa-users"></i>
+      id: bioBands
+      subtopics:
+        - group:
+            title: Janemist (2011 - 2015)
+            description: "Janemist was my first ever band. I was thrilled when I got to
+              watch my first ever Battle of the Bands competition in my 3rd year
+              of High School. This started the motivation for me to build my own
+              band as I was really fascinated to see people my age to be playing
+              music on stage.\ 
+
+              <br><br>\r
+
+              \r
+
+              Each and every member of Janemist was part of a band
+              at the time of the competition. When school year was over, I was
+              lucky enough to approach Zyril (Drummer) to invite him to form a
+              band and I was mind blown when I played with Genrei (Lead
+              Guitarist) for a jam session in his house.\ 
+
+              <br><br>\r
+
+              \r
+
+              As time went by we were growing and invited Darwin,
+              Jona, Gizette, Kisha and Emman to be part of the family."
+            image: /assets/files/band-janemist.jpg
+            add_description: We were crazy over Green Day, Blink 182 and Paramore and played
+              most of their songs in a small studio in Libertad, Mandaluyong. We
+              were young, alive and dreaming to be professional musicians
+              someday and we just kept on practicing until as we were ready for
+              each competitions or events we joined. They were my first love,
+              there's no such thing as forever but they always remain a special
+              place in my musical journey.
+        - group:
+            title: 29th of February (2015 - 2017)
+            description: "29th of February is a group lead by Milky (drummer) is an OPM,
+              Pop, Rock group that I have been noticing during my College days.
+              They were all energetic and passionate as I have observed and they
+              love doing what they do.
+
+              <br><br>\r
+
+              \r
+
+              I joined the group when the leader invited me to
+              take over one of their members. The highlight of my journey with
+              them was the weekly commitment to be in their band rehearsals. I
+              was so amazed how much dedication everyone shows for the
+              rehearsals which led us being part of the Top 3 Finalists in the
+              2015 Tiendesitas Sessionistas Competition, followed by being
+              Champions in a contest held at Trinity University.
+
+              <br><br>
+
+              \r
+
+              \r
+
+              After a year we continued on and participated in
+              Greenwich's Band Contest and another organized by Atmos Music
+              Society."
+            image: /assets/files/band-29th.jpg
+        - group:
+            title: Folk Ridge (2017 - Present)
+            description: "At some point, I was lost and overwhelmed of everything I was
+              facing during my time as a College student and as an emerging
+              musician. I was a little confused on what Musical style I wanted
+              to pursue in.
+
+              <br><br>
+
+              \r
+
+              \r
+
+              But then all those inspiration that built up from my
+              Uncles, it made me decide to go back to lead another group again
+              but this time I went from Rock to Country music to give myself a
+              little taste on the genre.
+
+              <br><br>\r
+
+              \r
+
+              I ended up liking it so much, and became so
+              dedicated I had to upskill myself. It took me 2 years to form Folk
+              Ridge, and another year for it to be strongly established.\r
+
+              \r\n"
+            image: /assets/files/band-folkridge.jpg
+            add_description: Country and Folk music used to be a thing in the 70s-80s,  the
+              time I started to form this kind of group made me realized how
+              Manila is overrun too much by Rock, Reggae, Pop music. Filipino
+              Millenials and Gen Zs often refer Country and Folk music as old
+              music on which is something sad for me to hear and never knew how
+              challenging and fun the musical style can be. I hope that with
+              this band, I hope to change their perception with this kind of
+              music and make Folk, Country and Rock N Roll be great again!
+            gallery:
+              - alt: Folk Ridge 1
+                image: /assets/files/band-folkridge2.jpg
+              - alt: Folk Ridge 2
+                image: /assets/files/band-folkridge4.jpg
+              - alt: Folk Ridge 3
+                image: /assets/files/band-folkridge3.jpg
+        - group:
+            title: Other Bands
+            description: "Other bands I'd also like to thank when I was a student are New
+              World, Pitch Street and Catalyst. I'd be honest their genres Hard
+              Rock and Pop were all different for me but I still enjoyed it.
+
+              <br><br>
+
+              \r
+
+              \r
+
+              I'm also a part time violinist for Yandelz Wedding
+              group on which it specializes on Wedding related events.
+
+              <br><br>\r
+
+              \r
+
+              and currently a part of an Indie-OPM group called
+              Slumberparty on which I'm also looking forward to. I'm excited to
+              see how far the band can go and the compositions that Zoe (band
+              leader) will show present to the group in the future."
+            image: /assets/files/other-bands-selfie.jpg
+            gallery:
+              - alt: Other Bands 1
+                image: /assets/files/other-bands-slumberparty.jpg
+              - alt: Other Bands 2
+                image: /assets/files/other-bands-yandelz.jpg
+              - alt: Other Bands 3
+                image: /assets/files/other-bands-new-world.jpg
