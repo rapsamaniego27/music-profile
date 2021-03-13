@@ -72,9 +72,18 @@ collections:
         - label: "Description"
           name: "description"
           widget: "markdown"
+        - label: "Additional Description"
+          name: add_description
+          widget: markdown
+          required: false
+        - label: Image (500 x 666)
+          name: image
+          widget: image
+          required: false
         - label: Icon (Fontawesome HTML)
           name: icon
           widget: "string"
+          required: false
         - label: "Javascript ID"
           name: id
           widget: "string"
@@ -88,14 +97,21 @@ collections:
           widget: "object"
           required: false
           fields: 
-          - label: Text (300 - 420 for 2 columns)
-            name: text
+          - label: Subtopic Title
+            name: title
+            widget: string
+          - label: Subtopic Description
+            name: description
             widget: markdown
-          - label: Image(280 x 194)
+          - label: Image(666 x 374)
             name: image
             widget: image
             required: false
-      
+          - label: Additional Subtopic Description
+            name: add_description
+            widget: markdown
+            required: false
+
 
 
   - label: "Metas" # Page Metas
