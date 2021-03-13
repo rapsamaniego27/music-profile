@@ -9,17 +9,16 @@ media_folder: "assets/files"
 collections:
   - name: "pages"
     label: "Pages"
-    folder: "_data"
     files:
     - label: "Home"
       name: "home"
       file: "_data/home.yml"
       fields:
-      - label: "Welcome Tagline"
-        name: "welcome_tagline"
+      - label: "Tagline"
+        name: "tagline"
         widget: "string"
-      - label: "Welcome Subtext"
-        name: "welcome_subtext"
+      - label: "Subtext"
+        name: "subtext"
         widget: "string"
 
 
