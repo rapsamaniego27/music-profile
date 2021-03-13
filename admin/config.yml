@@ -94,7 +94,7 @@ collections:
           default: ["right"]
         - label: "Subtopics"
           name: "subtopics"
-          widget: "object"
+          widget: "list"
           required: false
           fields: 
           - label: Subtopic Title
@@ -111,6 +111,15 @@ collections:
             name: add_description
             widget: markdown
             required: false
+          - label: Gallery
+            name: gallery
+            widget: list
+            required: false
+            fields: 
+            - label: Gallery Image
+              name: image
+              widget: image
+              required: false
 
 
 
