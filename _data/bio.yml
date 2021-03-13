@@ -1,1 +1,79 @@
-blocks: 
+blocks: null
+section:
+  - alignment: right
+    title: How It Started
+    description: >-
+      It all started in my theatre workshop days in Repertory Philippines back
+      in 2002. I was exposed to these Musicals and Broadway songs because of my
+      Mother who was also Theatre and Vocal coach at the time. I did shows like
+      the Lion King, Once on This Island, Mamma Mia and Thirteen the Musical,
+      just to name a few.
+
+
+      When I reached 12 years old, Christmas Day on 2007. My mother bought me a Blue Nylon guitar from RJ Music store. At first, I didn't know what to do with it because I had no background whatsoever. But then we visited my Uncle Manny in Manila to teach me the basic Chords (D, G, A, C,E). I couldn't see the sense of the chords until I heard him play guitar in front of me using the said chords. As far as I remember he was playing a Spanish tune.
+
+
+      Once I got to learn a few chords, I got so overjoyed and had to learn chords of songs I enjoy listening to. Just like any other beginner, I had to stop on one song because of it's complexity and had to choose an easier one. At some point I had to stop for months, it was an on and off experience for me learning the guitar as I only had one lesson from my Uncle. I can't say also to myself that I'm self taught, I still manage to meet up with my Uncles just to have one day of special lessons. So it's like 80% self taught and 20% from personal and online tutorials.
+
+
+      I am Rap and I hope you enjoy my stories and experiences as you scroll down this page.
+    image: /assets/files/rap-guitar.jpg
+    icon: <i class="fas fa-history"></i>
+    id: bioStarted
+    subtopics: []
+  - alignment: left
+    title: Instruments
+    description: >-
+      Guitar was my first ever instrument to learn which up to this day still
+      trying to improve myself with it. My first guitar was named NEON and spray
+      painted it with Neon Green, which I still regret. Almost every guitar
+      technique I've learned came from practicing with that guitar from
+      strumming, to plucking, to fingerpicking, to simple guitar picking.
+
+
+      I struggled to pick songs that was right for me and my guitar. I struggled with what techniques to master and had no direction whatsoever. But I still managed to play somewhat at a level I could jam with my former classmates in High School.
+
+
+      In 2016, I purchased my first career acoustic guitar called Crisanta. It wasn't too hard to press and wasn't so soft also that the tone could suffer. And every performance I join, Crisanta is always my go to Guitar to perform with.
+
+
+      In 2017, I bought my first violin which I named Alice. Just when I thought that learning guitar is hard. The violin is harder. It's such a blind instrument you had to really start from the basics from forms and positions to applicable techniques. Luckily without bargaining, I was able to go through learning it with my experience with the guitar and by having a sound sensitive ear to guide me on what I need to press on the fingerboard.
+    image: /assets/files/rap-violin.jpg
+    icon: <i class="fas fa-guitar"></i>
+    id: bioInstruments
+  - alignment: right
+    title: Inspirations
+    description: >-
+      When we say of inspiration, we think about the people who influenced us
+      the most. My first inspiration was my Uncle Manny who was also my first
+      guitar teacher back in 2007. He taught me all the basics I had to learn
+      but ever since he left for Hongkong, I never got to talk to him again not
+      until 2011 where I met him again to learn Major and Minor scales and the
+      CAGED system, demonstrating how Chords can be shaped in different
+      positions. In 2018, I managed to visit him again for Country Violin
+      lessons and one of the best things I've learned was the Hokum Bowing and
+      the Figure Eight for the "Orange Blossom Special". 
+
+
+      My Uncle Henry resides here in the Philippines, and he filled in the void what I lacked during my beginner days of learning guitar. In 2009 I learned my first fingerpicking song from him entitled "Dust in The Wind", from there I was able too woo people with it as millennials in that time wasn't learning much songs from the olden days.
+
+
+      My Uncle Herby who was also affiliated with my Uncle Manny in Hongkong taught me the Blues and the Advanced Fingerpicking styles which I incorporated into my technique. But he wasn't just an ordinary guitar mentor, he was also a life mentor. And we talked about anything from Gigs to Real life  situations and what I can do with them.
+    image: /assets/files/herby.jpg
+    icon: <i class="far fa-lightbulb"></i>
+    id: bioInspirations
+    subtopics:
+      - title: New Wave
+        description: >-
+          New Wave was the very first genre I fell in love with. I was
+          originally influenced by my Mom as I listened to Madonna, Cindy
+          Lauper, A-ha, The Cure, The Police, just to name a few. 
+
+
+          My Uncle Jojo was also crazy over New Wave music so I got some of his stuff from him and was jamming with him to play most 80s stuff. 
+
+
+          At the time, the game "Guitar Hero" was a thing and we had this version of the game that played to 80s tracks which got me more excited and motivated to learn guitar, despite the genre being keyboard focused, I was always feeling hype into listening to these type of music.
+        image: /assets/files/inspiration-new-wave.jpg
+        gallery:
+          - {}
