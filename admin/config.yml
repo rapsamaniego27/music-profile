@@ -58,7 +58,7 @@ collections:
         widget: "string"
     - label: "Bio" #Bio
       name: "bio"
-      folder: "_bio-sections"
+      file: "_data/bio.yml"
       create: true
       fields:
       - label: "Blocks"
