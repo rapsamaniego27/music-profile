@@ -20,15 +20,10 @@ bio-sections:
         <br><br>
 
         I am Rap and I hope you enjoy my stories and experiences as you scroll down this page.
-      image: ""
+      image: /assets/files/rap-guitar.jpg
       id: bioStarted
       icon: <i class="fas fa-history"></i>
-      add_description: |-
-        ```
-
-        ```
-
-        ![]()
+      add_description: ""
   - section:
       alignment: left
       title: Instruments
@@ -65,7 +60,9 @@ bio-sections:
         scales and the CAGED system, demonstrating how Chords can be shaped in
         different positions. In 2018, I managed to visit him again for Country
         Violin lessons and one of the best things I've learned was the Hokum
-        Bowing and the Figure Eight for the \"Orange Blossom Special\". \r
+        Bowing and the Figure Eight for the \"Orange Blossom Special\".\ 
+
+        <br><br>\r
 
         \r
 
@@ -73,7 +70,9 @@ bio-sections:
         the void what I lacked during my beginner days of learning guitar. In
         2009 I learned my first fingerpicking song from him entitled \"Dust in
         The Wind\", from there I was able too woo people with it as millennials
-        in that time wasn't learning much songs from the olden days.\r
+        in that time wasn't learning much songs from the olden days.
+
+        <br><br>\r
 
         \r
 
@@ -111,12 +110,54 @@ bio-sections:
               listening to these type of music."
             image: /assets/files/inspiration-new-wave.jpg
         - group:
+            title: Pop Punk
+            description: "Alternative and Punk music were the genres that unleashed my wild
+              side of music playing. I had a cousin named Erika who was part of
+              a rock band competing in Band Contests at the time as well as
+              doing Theatre.\ 
+
+              <br><br>\r
+
+              \r
+
+              During 2008, she brought her Electric Guitar and it
+              was my first time holding one. She taught me to play the Power
+              Chords and for a beginner like me, I was really happy to think
+              that it's easy since it's just the same shape for every chord in
+              different positions.
+
+              <br><br>
+
+              \r
+
+              \r
+
+              A classmate of mine Kenn, introduced me to such
+              bands like Boys Like Girls, The All American Rejects, Fall Out Boy
+              and Yellowcard. I was getting addicted to the point that I
+              explored more and got me to having Green Day and Blink182 as my
+              all time favorite bands.\ 
+
+              <br><br>
+
+              \r
+
+              \r
+
+              Because of the Pop Punk flame I had, I was motivated
+              to learn more Power Chord based songs."
+            image: /assets/files/inspiration-punk.jpg
+            add_description: ""
+            gallery: []
+        - group:
             title: Classical
             description: "Classical Music was more like a come and go genre for me as I only
               get to enjoy it occasionally. I would only get to play it when I
               feel like it, but the lack of techniques I possessed and the
               complexity of the music style always leads me to give up easily
-              and come back again when I feel like I'm ready to play it. \r
+              and come back again when I feel like I'm ready to play it.\ 
+
+              <br><br>\r
 
               \r
 
@@ -125,9 +166,7 @@ bio-sections:
               classical ones as well mostly from Bach and one of her favorite
               pieces \"Canon in D\" by Pachelbel.\ 
 
-              <br><br>
-
-              \r
+              <br><br>\r
 
               \r
 
@@ -171,10 +210,24 @@ bio-sections:
               Computer Science Degree in College. And the best thing I could do
               is learn the basics and appreciate where Beautiful music of today
               really came from."
-            gallery:
-              - alt: Gallery 1
-                image: /assets/files/band-folkridge2.jpg
-              - alt: Gallery 2
-                image: /assets/files/band-folkridge4.jpg
-              - alt: Gallery 3
-                image: /assets/files/band-folkridge2.jpg
+        - group:
+            title: Folk, Country and Rock N Roll
+            description: "2011 was  the most eventful year of my life, mixed with both sad
+              and happy moments. It is also the year when I first stepped foot
+              in Hong Kong to meet Uncle Manny and Uncle Herby.\r
+
+              \r
+
+              My mind was so naïve to think that I know a lot of
+              Music already not until I saw both my Uncles perform live Folk,
+              Country and Rock N Roll music. It was exhilarating, the music
+              style was entirely new to me, that I when I got home in Manila, I
+              knew I had to update my personal playlist and learn learn some of
+              the songs.\r
+
+              \r
+
+              Jim Croce, Eagles, The Beatles, Elvis Presley, Simon
+              & Garfunkel, Bread, Cat Stevens and several others were just all a
+              treasure to listen to."
+            image: /assets/files/inspiration-folk.jpg
