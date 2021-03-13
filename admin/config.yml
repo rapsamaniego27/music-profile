@@ -69,6 +69,7 @@ collections:
         - label: "Section"
           name: "section"
           widget: object
+          summary: '{{fields.title}}'
           required: false
           fields: 
           - label: "Section Title"

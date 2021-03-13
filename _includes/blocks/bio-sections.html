@@ -1,0 +1,61 @@
+{% for bio in site.data.bio.bio-sections %}
+  <!-- Row Bio Section -->
+  <div class="container bio-section bioStarted">
+    <!-- Main Topic -->
+    <div class="bio-section__main-topic clearfix">
+      <img src="{{site.baseurl}}{{bio.section.image}}" alt="Image" title="Image"
+        class="cmp-image__portrait float-none float-md-end bio-section__img">
+      <h2 class="bio-section__title">{{ bio.section.title }}</h2>
+      <div class="bio-section__description">
+       <p>
+          {{ bio.section.description }}
+       </p>
+      </div>
+    </div>
+  
+    <!-- Sub Topic -->
+    <div class="bio-section__sub-topic">
+      <h3 class="bio-section__sub-topic__title">Janemist (2011 - 2015)</h3>
+      <div class="clearfix mt-30">
+  
+        <img src="{{site.baseurl}}/assets/files/band-janemist.jpg" alt="Image" title="Image"
+          class="cmp-image__landscape float-none float-lg-start bio-section__sub-topic__img">
+  
+        <div class="bio-section__sub-topic__desc">
+          <p>Janemist was my first ever band. I was thrilled when I got to watch my first ever Battle of the Bands
+            competition in my 3rd year of High School. This started the motivation for me to build my own band as I was
+            really fascinated to see people my age to be playing music on stage.
+            <br><br>
+            Each and every member of Janemist was part of a band at the time of the competition. When school year was
+            over, I was lucky enough to approach Zyril (Drummer) to invite him to form a band and I was mind blown when I
+            played with Genrei (Lead Guitarist) for a jam session in his house.
+            <br><br>
+            As time went by we were growing and invited Darwin, Jona, Gizette, Kisha and Emman to be part of the family.
+          </p>
+        </div>
+      </div>
+      <div class="bio-section__sub-topic__add-desc">
+        <p>
+          We were crazy over Green Day, Blink 182 and Paramore and played most of their songs in a small studio in
+          Libertad,
+          Mandaluyong. We were young, alive and dreaming to be professional musicians someday and we just kept on
+          practicing
+          until as we were ready for each competitions or events we joined. They were my first love, there's no such thing
+          as
+          forever but they always remain a special place in my musical journey.
+        </p>
+      </div>
+      <div class="bio-section__sub-topic__gallery">
+        <img src="{{site.baseurl}}/assets/files/band-folkridge2.jpg" alt="Gallery Image" title="Gallery Image"
+          class="cmp-image__gallery-landscape">
+        <img src="{{site.baseurl}}/assets/files/band-folkridge2.jpg" alt="Gallery Image" title="Gallery Image"
+          class="cmp-image__gallery-landscape">
+        <img src="{{site.baseurl}}/assets/files/band-folkridge2.jpg" alt="Gallery Image" title="Gallery Image"
+          class="cmp-image__gallery-landscape">
+      </div>
+    </div>
+  
+  </div>
+  <!-- End Bio Section -->
+{% endfor %}
+
