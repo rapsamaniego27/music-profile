@@ -61,69 +61,74 @@ collections:
       file: "_data/bio.yml"
       create: true
       fields:
-      - label: "Biography Section"
-        name: "section"
-        widget: "list"
+      - label: Section Blocks
+        name: section_block
+        widget: object
         required: false
         fields:
-        - label: "Section Title"
-          name: "title"
-          widget: "string"
-        - label: "Section Description"
-          name: "description"
-          widget: "markdown"
-        - label: "Additional Sec Description"
-          name: add_description
-          widget: markdown
-          required: false
-        - label: Section Image (500 x 666)
-          name: image
-          widget: image
-          required: false
-        - label: Icon (Fontawesome HTML)
-          name: icon
-          widget: "string"
-          required: false
-        - label: "Javascript ID"
-          name: id
-          widget: "string"
-        - label: "Alignment of Image"
-          name: "alignment"
-          widget: "select"
-          options: ["right", "left"]
-          default: ["right"]
-        - label: "Subtopics"
-          name: "subtopics"
+        - label: "Biography Section"
+          name: "section"
           widget: "list"
           required: false
-          fields: 
-          - label: Subtopic Title
-            name: title
-            widget: string
-          - label: Subtopic Description
-            name: description
-            widget: markdown
-          - label: Subtopic Image(666 x 374)
-            name: image
-            widget: image
-            required: false
-          - label: Additional Sub Description
+          fields:
+          - label: "Section Title"
+            name: "title"
+            widget: "string"
+          - label: "Section Description"
+            name: "description"
+            widget: "markdown"
+          - label: "Additional Sec Description"
             name: add_description
             widget: markdown
             required: false
-          - label: Gallery
-            name: gallery
-            widget: list
+          - label: Section Image (500 x 666)
+            name: image
+            widget: image
+            required: false
+          - label: Icon (Fontawesome HTML)
+            name: icon
+            widget: "string"
+            required: false
+          - label: "Javascript ID"
+            name: id
+            widget: "string"
+          - label: "Alignment of Image"
+            name: "alignment"
+            widget: "select"
+            options: ["right", "left"]
+            default: ["right"]
+          - label: "Subtopics"
+            name: "subtopics"
+            widget: "list"
             required: false
             fields: 
-            - label: Gallery Image Alt Text
-              name: alt
+            - label: Subtopic Title
+              name: title
               widget: string
-              required: false
-            - label: Gallery Image
+            - label: Subtopic Description
+              name: description
+              widget: markdown
+            - label: Subtopic Image(666 x 374)
               name: image
               widget: image
               required: false
+            - label: Additional Sub Description
+              name: add_description
+              widget: markdown
+              required: false
+            - label: Gallery
+              name: gallery
+              widget: list
+              required: false
+              fields: 
+              - label: Gallery Image Alt Text
+                name: alt
+                widget: string
+                required: false
+              - label: Gallery Image
+                name: image
+                widget: image
+                required: false
             
 
 
