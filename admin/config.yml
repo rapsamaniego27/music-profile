@@ -69,12 +69,12 @@ collections:
         - label: "Section"
           name: "section"
           widget: object
-          summary: '{{fields.title}}'
+          summary: 'section'
           required: false
           fields: 
-          - label: "Section Title"
+          - {label: "Section Title"
             name: "title"
-            widget: "string"
+            widget: "string"}
           - label: "Section Description"
             name: "description"
             widget: "markdown"
@@ -103,7 +103,12 @@ collections:
             widget: "list"
             required: false
             fields: 
-            - label: Subtopic Title
+            - label: "group"
+              name: group
+              widget: object
+              required: false
+              fields: 
+              - label: Subtopic Title
               name: title
               widget: string
             - label: Subtopic Description
@@ -125,7 +130,6 @@ collections:
               - label: Gallery Image Alt Text
                 name: alt
                 widget: string
-                required: false
               - label: Gallery Image
                 name: image
                 widget: image

@@ -3,8 +3,12 @@
   <div class="container bio-section bioStarted">
     <!-- Main Topic -->
     <div class="bio-section__main-topic clearfix">
-      <img src="{{site.baseurl}}{{bio.section.image}}" alt="Image" title="Image"
-        class="cmp-image__portrait float-none float-md-end bio-section__img">
+      
+      {% if bio.section.image != '' %}
+        <img src="{{site.baseurl}}{{bio.section.image}}" alt="Image" title="Image"
+          class="cmp-image__portrait float-none float-md-end bio-section__img">
+      {% endif %}
+
       <h2 class="bio-section__title">{{ bio.section.title }}</h2>
       <div class="bio-section__description">
        <p>
