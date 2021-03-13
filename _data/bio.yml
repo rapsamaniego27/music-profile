@@ -20,7 +20,7 @@ bio-sections:
         <br><br>
 
         I am Rap and I hope you enjoy my stories and experiences as you scroll down this page.
-      image: /assets/files/rap-guitar.jpg
+      image: ""
       id: bioStarted
       icon: <i class="fas fa-history"></i>
       add_description: |-
