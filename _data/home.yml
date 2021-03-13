@@ -1,2 +1,14 @@
 welcome_tagline: Test Tagline
 welcome_subtext: Nothing subtext
+
+summary_title: Test Summary
+summary_description: test Summary summary_description
+summary_image: 
+
+feature_left_title: Feature Left Title
+feature_left_description: Feature Left Description
+feature_left_image: 
+
+feature_right_title: Featured Right Title
+feature_right_description: Feature Right Description
+feature_right_image: 
