@@ -4,15 +4,13 @@ layout: default
 
 <div class="bio-mapper" id="bioMapper">
   <ul class="bio-mapper__list">
-    <li class="bio-mapper__item bio-mapper__item--active" id="bioStarted">
-      <a href="#" target="_blank" class="bio-mapper__link"><i class="fas fa-history"></i></a>
+    {% for bio in site.data.bio.bio-sections %}
+    <li class="bio-mapper__item {% if forloop.index == 1 %}bio-mapper__item--active {% endif %}" id="{{bio.section.id}}">
+      <a href="#" target="_blank" class="bio-mapper__link">{{bio.section.icon}}</a>
     </li>
-    <li class="bio-mapper__item" id="bioInstruments">
-      <a href="#" target="_blank" class="bio-mapper__link"><i class="fas fa-guitar"></i></a>
-    </li>
-    <li class="bio-mapper__item" id="bioInspirations">
-      <a href="#" target="_blank" class="bio-mapper__link"><i class="far fa-lightbulb"></i></a>
-    </li>
+    {% endfor %}
+
+    
     <!-- <li class="bio-mapper__item">
       <a href="#" target="_blank" class="bio-mapper__link"><i class="fas fa-users"></i></a>
     </li> -->
