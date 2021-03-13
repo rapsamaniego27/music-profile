@@ -72,8 +72,8 @@ collections:
           summary: '{{fields.title}}'
           required: false
           fields: 
-          - {label: "Section Title"
-            name: "title"
+          - {label: "Section Title",
+            name: "title",
             widget: "string"}
           - label: "Section Description"
             name: "description"
