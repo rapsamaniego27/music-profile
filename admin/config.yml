@@ -69,7 +69,7 @@ collections:
         - label: "Section"
           name: "section"
           widget: object
-          summary: 'section'
+          summary: '{{fields.title}}'
           required: false
           fields: 
           - {label: "Section Title"
@@ -106,34 +106,35 @@ collections:
             - label: "group"
               name: group
               widget: object
+              summary: '{{fields.title}}'
               required: false
               fields: 
               - label: Subtopic Title
-              name: title
-              widget: string
-            - label: Subtopic Description
-              name: description
-              widget: markdown
-            - label: Subtopic Image(666 x 374)
-              name: image
-              widget: image
-              required: false
-            - label: Additional Sub Description
-              name: add_description
-              widget: markdown
-              required: false
-            - label: Gallery
-              name: gallery
-              widget: list
-              required: false
-              fields: 
-              - label: Gallery Image Alt Text
-                name: alt
+                name: title
                 widget: string
-              - label: Gallery Image
+              - label: Subtopic Description
+                name: description
+                widget: markdown
+              - label: Subtopic Image(666 x 374)
                 name: image
                 widget: image
                 required: false
+              - label: Additional Sub Description
+                name: add_description
+                widget: markdown
+                required: false
+              - label: Gallery
+                name: gallery
+                widget: list
+                required: false
+                fields: 
+                - label: Gallery Image Alt Text
+                  name: alt
+                  widget: string
+                - label: Gallery Image
+                  name: image
+                  widget: image
+                  required: false
         
             
 
