@@ -176,3 +176,5 @@ bio-sections:
                 image: /assets/files/band-folkridge2.jpg
               - alt: Gallery 2
                 image: /assets/files/band-folkridge4.jpg
+              - alt: Gallery 3
+                image: /assets/files/band-folkridge2.jpg
