@@ -8,6 +8,7 @@ media_folder: "assets/files"
 collections:
   - name: "pages"
   - label: "Pages"
+  - create: true
   - files:
     - label: "Home"
     - name: "home"
@@ -19,6 +20,8 @@ collections:
       - label: "Welcome Subtext"
       - name: "welcome_subtext"
       - widget: "string"
+
+      
   - label: "Metas"
     name: "metas"
     create: true
