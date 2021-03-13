@@ -30,26 +30,24 @@ bio-sections:
       alignment: left
       title: Instruments
       description: >-
-        **Guitar** was my first ever instrument to learn which up to this day
-        still trying to improve myself with it. My first guitar was named NEON
-        and spray painted it with Neon Green, which I still regret. Almost every
-        guitar technique I've learned came from practicing with that guitar from
-        strumming, to plucking, to fingerpicking, to simple guitar picking.
+        <strong>Guitar</strong> was my first ever instrument to learn which up
+        to this day still trying to improve myself with it. My first guitar was
+        named NEON and spray painted it with Neon Green, which I still regret.
+        Almost every guitar technique I've learned came from practicing with
+        that guitar from strumming, to plucking, to fingerpicking, to simple
+        guitar picking.
 
+        <br><br>
 
-        I [struggled](https://www.youtube.com/) to pick songs that was right for me and my guitar. I struggled with what techniques to master and had no direction whatsoever. But I still managed to play somewhat at a level I could jam with my former classmates in High School.
+        I <a href="#" target="_blank">struggled</a>  to pick songs that was right for me and my guitar. I struggled with what techniques to master and had no direction whatsoever. But I still managed to play somewhat at a level I could jam with my former classmates in High School.
 
+        <br><br>
 
         In *2016*, I purchased my first career acoustic guitar called Crisanta. It wasn't too hard to press and wasn't so soft also that the tone could suffer. And every performance I join, Crisanta is always my go to Guitar to perform with.
 
+        <br><br>
 
         In 2017, I bought my first violin which I named Alice. Just when I thought that learning guitar is hard. The violin is harder. It's such a blind instrument you had to really start from the basics from forms and positions to applicable techniques. Luckily without bargaining, I was able to go through learning it with my experience with the guitar and by having a sound sensitive ear to guide me on what I need to press on the fingerboard.
-
-
-        * Test
-
-        * Test\
-          Test
       image: /assets/files/rap-violin.jpg
       id: bioInstruments
       icon: <i class="fas fa-history"></i>
