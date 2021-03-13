@@ -61,18 +61,30 @@ collections:
       file: "_data/bio.yml"
       create: true
       fields:
-      - label: "Blocks"
-        name: "blocks"
+      - label: "Biography Section"
+        name: "section"
         widget: "list"
         required: false
         fields:
-        - label: "alignment"
+        - label: "Section Title"
+          name: "title"
+          widget: "string"
+        - label: "Description"
+          name: "description"
+          widget: "markdown"
+        - label: Icon (Fontawesome HTML)
+          name: icon
+          widget: "string"
+        - label: "Javascript ID"
+          name: id
+          widget: "string"
+        - label: "Alignment of Image"
           name: "alignment"
           widget: "select"
-          options: ["one column", "two columns", "two columns reverse"]
-          default: ["one column"]
-        - label: "Content"
-          name: "content"
+          options: ["right", "left"]
+          default: ["right"]
+        - label: "Subtopics"
+          name: "subtopics"
           widget: "object"
           required: false
           fields: 
