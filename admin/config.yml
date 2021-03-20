@@ -197,7 +197,25 @@ collections:
           name: item
           widget: text
           required: false
-        
+    - label: "Contact"
+      name: contact
+      file: "_data/contact.yml"   
+      fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Description
+        name: description
+        widget: text
+      - label: Phone Number
+        name: phone-number
+        widget: string
+      - label: E-mail
+        name: email
+        widget: string
+      - label: Address
+        name: address
+        widget: text
 
             
 
