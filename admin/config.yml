@@ -63,7 +63,7 @@ collections:
       fields:
       - label: Banner
         name: banner
-        widget: list
+        widget: object
         required: false
         fields:
         - label: Banner Image
