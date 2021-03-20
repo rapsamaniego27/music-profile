@@ -235,9 +235,9 @@ collections:
       widget: string
     - label: Content
       name: content
-      widget: markdown
-    - label: Excerpt
-      name: excerpt
+      widget: text
+    - label: Short Description
+      name: desc
       widget: text
     - label: Banner Image (814 x 312)
       name: banner
