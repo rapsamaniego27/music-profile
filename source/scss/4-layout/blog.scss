@@ -37,6 +37,10 @@
     width: 88%;
     color: var(--primary);
 
+    @media only screen and (max-width: 768px){
+      width:94%;
+    }
+
     &:focus{
      outline: 0;
      box-shadow: 0 0 0 2px transparent, 0 0 0 3px var(--accent);
@@ -49,9 +53,13 @@
     border-radius: 50%;
     height: 50px;
     position: absolute;
-    right: 34px;
+    right: 30px;
     top: 50%;
     transform: translateY(-50%);
+
+    @media only screen and (max-width:768px){
+      right:10px;
+    }
 }
 
 .custom-form{
