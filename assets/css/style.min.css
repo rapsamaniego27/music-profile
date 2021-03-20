@@ -14865,6 +14865,7 @@ footer {
 .contact-info__details {
   flex: 1 0 auto;
   margin-top: 1rem;
+  width: 100%;
 }
 
 .contact-info__footer {

@@ -4,22 +4,21 @@
     <div class="col-sm-12 col-md-6 col-xl-6 col-xxl-5">
       <div class="contact-info__container background-tertiary">
         <div class="contact-info__intro">
-          <h3 class="hex-primary">Contact Information</h3>
-          <p class="hex-primary">Inquiring for a special arrangement? Or just want to
-            say HI? Feel free to leave a message</p>
+          <h3 class="hex-primary">{{ site.data.contact.title }}</h3>
+          <p class="hex-primary">{{ site.data.contact.description }}</p>
         </div>
         <div class="contact-info__details">
           <div class="contact-info__details-row">
             <i class="fas fa-phone-alt"></i>
-            <p class="hex-dark">+63-945-317-8169</p>
+            <p class="hex-dark">{{ site.data.contact.phone-number }}</p>
           </div>
           <div class="contact-info__details-row">
             <i class="fas fa-envelope"></i>
-            <p class="hex-dark">music.rapsamaniego@gmail.com</p>
+            <p class="hex-dark">{{ site.data.contact.email }}</p>
           </div>
           <div class="contact-info__details-row">
             <i class="fas fa-map-marker-alt"></i>
-            <p class="hex-dark">2 Ford street (phase 3c), Filinvest East Homes, Antipolo City</p>
+            <p class="hex-dark">{{ site.data.contact.address }}</p>
           </div>
         </div>
 
