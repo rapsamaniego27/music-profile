@@ -235,23 +235,7 @@ collections:
       widget: string
     - label: Content
       name: content
-      widget: text
-    - label: Short Description
-      name: desc
-      widget: text
-    - label: Banner Image (814 x 312)
-      name: banner
-      widget: image
-      required: false
-    - label: Publish Date
-      name: date
-      widget: datetime
-    - label: Categories
-      name: category
-      widget: list
-      default: "Rap Esteva"
-      required: false
-    
+      widget: markdown
 
     
   
