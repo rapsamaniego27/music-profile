@@ -225,7 +225,7 @@ collections:
       widget: "image"
       required: false
   - label: "Posts"
-    name: posts
+    name: blog
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     folder: "_posts"
