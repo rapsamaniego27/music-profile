@@ -15119,6 +15119,7 @@ footer {
 }
 
 .post-title {
+  font-size: clamp(1.75rem, 4vw, 3rem) !important;
   margin-top: 40px;
   margin-bottom: 0;
 }
@@ -15138,6 +15139,12 @@ footer {
 
 .post-authors {
   color: var(--tertiary);
+}
+@media only screen and (max-width: 768px) {
+  .post-authors::before {
+    content: "\a";
+    white-space: pre;
+  }
 }
 
 .post-category {
@@ -15187,7 +15194,7 @@ footer {
 }
 @media only screen and (max-width: 768px) {
   .post-search__btn {
-    right: 20px;
+    right: 10px;
   }
 }
 

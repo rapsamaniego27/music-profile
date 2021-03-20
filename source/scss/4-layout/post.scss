@@ -9,6 +9,7 @@
 }
 
 .post-title{
+  font-size: clamp(1.75rem, 4vw, 3rem) !important;
   margin-top:40px;
   margin-bottom:0;
 }
@@ -27,6 +28,13 @@
 
 .post-authors{
   color:var(--tertiary);
+
+  @media only screen and (max-width:768px){
+    &::before{
+      content: "\a";
+      white-space: pre;
+    }
+  }
 }
 
 .post-category{
@@ -75,7 +83,7 @@
     transform: translateY(-50%);
 
     @media only screen and (max-width:768px){
-      right:20px;
+      right:10px;
     }
 }
 

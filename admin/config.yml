@@ -61,6 +61,19 @@ collections:
       file: "_data/bio.yml"
       create: true
       fields:
+      - label: Banner
+        name: banner
+        widget: list
+        required: false
+        fields:
+        - label: Banner Image
+          name: banner-image
+          widget: image
+          required: false
+        - label: Tagline
+          name: tagline
+          widget: string
+          required: false
       - label: "Biography Sections"
         name: "bio-sections"
         widget: "list"
