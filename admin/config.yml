@@ -148,7 +148,57 @@ collections:
                   name: image
                   widget: image
                   required: false
+    - label: "Lessons"
+      name: "lessons"
+      file: "_data/lessons.yml"
+      fields: 
+      - label: Banner
+        name: banner
+        widget: object
+        fields:
+        - label: Image
+          name: image
+          widget: image
+          required: false
+        - label: Tagline
+          name: tagline
+          widget: string
+          required: false
+      - label: Introduction
+        name: intro
+        widget: object
+        fields:
+        - label: Title
+          name: title
+          widget: string
+          required: false
+        - label: Content
+          name: content
+          widget: text
+          required: false
+      - label: Theory, Technique and Application
+        name: tta
+        widget: object
+        fields:
+        - label: Title
+          name: title
+          widget: string
+          required: false
+        - label: Content
+          name: content
+          widget: text
+          required: false
+      - label: Inclusions
+        name: Inclusions
+        widget: list
+        required: false
+        fields: 
+        - label: Item
+          name: item
+          widget: text
+          required: false
         
+
             
 
 
