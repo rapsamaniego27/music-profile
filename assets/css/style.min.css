@@ -15107,6 +15107,177 @@ footer {
   width: 80%;
 }
 
+.post-sidebar {
+  padding: 30px 20px;
+  border-radius: 16px;
+  box-shadow: 0px 5px 12px 0px rgba(0, 0, 0, 0.75);
+}
+@media only screen and (max-width: 768px) {
+  .post-sidebar {
+    margin-top: 30px;
+  }
+}
+
+.post-title {
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.post-image {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0px 5px 12px 0px rgba(0, 0, 0, 0.75);
+}
+
+.post-content {
+  margin-top: 10px;
+}
+
+.post-authors {
+  color: var(--tertiary);
+}
+
+.post-category {
+  color: var(--white) !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .post-others {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .post-others {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.post-search {
+  border-radius: 16px;
+  box-sizing: border-box;
+  border: none;
+  padding: 8px 44px 8px 12px;
+  width: 100%;
+  color: var(--primary);
+}
+@media only screen and (max-width: 768px) {
+  .post-search {
+    width: 94%;
+  }
+}
+.post-search:focus {
+  outline: 0;
+  box-shadow: 0 0 0 2px transparent, 0 0 0 3px var(--accent);
+}
+
+.post-search__btn {
+  border: none;
+  width: 50px;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  right: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media only screen and (max-width: 768px) {
+  .post-search__btn {
+    right: 20px;
+  }
+}
+
+.post-form {
+  position: relative;
+  width: 100%;
+}
+
+/* Sidebar */
+@media only screen and (max-width: 768px) {
+  .sidebar-categories__container {
+    width: 30%;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .sidebar-categories__container {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .recent-posts__container {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .recent-posts__container {
+    width: 100%;
+  }
+}
+
+.sidebar-categories__list, .sidebar-posts__list {
+  width: 96%;
+  margin: 0 auto;
+}
+.sidebar-categories__list .sidebar-category, .sidebar-categories__list .sidebar-post, .sidebar-posts__list .sidebar-category, .sidebar-posts__list .sidebar-post {
+  position: relative;
+  padding: 12px 0 0 12px;
+}
+.sidebar-categories__list .sidebar-category::after, .sidebar-categories__list .sidebar-post::after, .sidebar-posts__list .sidebar-category::after, .sidebar-posts__list .sidebar-post::after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: var(--accent);
+  border-radius: 50%;
+  position: absolute;
+  top: 16px;
+  left: -10px;
+}
+.sidebar-categories__list .sidebar-category .sidebar-category__link, .sidebar-categories__list .sidebar-category .sidebar-post__link, .sidebar-categories__list .sidebar-post .sidebar-category__link, .sidebar-categories__list .sidebar-post .sidebar-post__link, .sidebar-posts__list .sidebar-category .sidebar-category__link, .sidebar-posts__list .sidebar-category .sidebar-post__link, .sidebar-posts__list .sidebar-post .sidebar-category__link, .sidebar-posts__list .sidebar-post .sidebar-post__link {
+  color: var(--white);
+}
+.sidebar-categories__list .sidebar-category .sidebar-category__link:hover, .sidebar-categories__list .sidebar-category .sidebar-post__link:hover, .sidebar-categories__list .sidebar-post .sidebar-category__link:hover, .sidebar-categories__list .sidebar-post .sidebar-post__link:hover, .sidebar-posts__list .sidebar-category .sidebar-category__link:hover, .sidebar-posts__list .sidebar-category .sidebar-post__link:hover, .sidebar-posts__list .sidebar-post .sidebar-category__link:hover, .sidebar-posts__list .sidebar-post .sidebar-post__link:hover {
+  text-decoration: underline;
+}
+
+.btn-sidebar {
+  margin: 40px auto 10px auto;
+  display: block;
+}
+
+.post-categories {
+  font-size: 1.125rem;
+  margin-top: 20px;
+}
+
+.post-category, post-authors {
+  font-weight: var(--weight-normal);
+}
+
+.post-category:not(:last-of-type):after,
+.author:not(:last-of-type):after {
+  content: ",";
+}
+
+/* Additional Post Content */
+.post-content__additional-text {
+  margin-top: 20px;
+}
+
+.post-content__additional-image {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0px 5px 12px 0px rgba(0, 0, 0, 0.75);
+}
+
 .cbtn-success {
   background-color: #9FD356;
   color: #fff;
