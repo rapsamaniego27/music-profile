@@ -236,7 +236,17 @@ collections:
     - label: Content
       name: content
       widget: markdown
-
+    - label: Excerpt
+      name: excerpt
+      widget: text
+    - label: Banner Image (814 x 312)
+      name: banner
+      widget: image
+      required: false
+    - label: Publish Date
+      name: date
+      widget: datetime
+    
     
   
     
