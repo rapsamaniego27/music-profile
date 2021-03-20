@@ -246,7 +246,37 @@ collections:
     - label: Publish Date
       name: date
       widget: datetime
-    
+    - label: Categories
+      name: category
+      widget: list
+      required: false
+    - label: Authors
+      name: authors
+      widget: list
+      fields: 
+      - label: name
+        name: name
+        default: "Rap Esteva"
+        widget: string
+    - label: Additional content
+      name: additional
+      widget: list
+      required: false
+      fields: 
+      - label: Block
+        name: block
+        widget: object
+        required: false
+        fields: 
+        - label: Additional Image (814 x any height)
+          name: image
+          widget: add-image
+          required: false
+        - label: Additional Content
+          name: add-content
+          widget: text
+          required: false
+
     
   
     
