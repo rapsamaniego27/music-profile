@@ -1,3 +1,6 @@
+banner:
+  banner-image: /assets/files/banner-lesson.jpg
+  tagline: I'm Rap and this is my Musical Journey!
 bio-sections:
   - section:
       alignment: right
