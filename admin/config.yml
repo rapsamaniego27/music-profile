@@ -320,6 +320,9 @@ collections:
     - label: Slug
       name: slug
       widget: string
+    - label: Permalink (e.g. /music/)
+      name: permalink
+      widget: string
     - label: Pagination
       name: pagination
       widget: object
@@ -328,14 +331,14 @@ collections:
         name: enabled
         widget: boolean
         default: true
-      - label: Category
+      - label: Category (e.g. Music)
         name: category
         widget: string
       - label: Permalink
         name: permalink
-        widget: string
-        default: /
-      - label: Collection
+        widget: hidden
+        default: /page:num/
+      - label: Collection 
         name: collection
         widget: string
         default: posts
