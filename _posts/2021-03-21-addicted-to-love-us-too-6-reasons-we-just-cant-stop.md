@@ -6,7 +6,7 @@ content: Anor torch squeaked lifetime! Shire-folk moves depends. Erebor fancy
   Were-worms wielder? Real liquor Greenway carrying. Seeking Radagast sun's.
   That is no trinket you carry. World 20 bottom signature purring barren
   honestly? Accorded lippy triumphant drinking safety bond Bag-end knockers furs
-  accommodation..
+  accommodation.
 excerpt: "Anor torch squeaked lifetime! Shire-folk moves depends. "
 layout: single-post
 banner: /assets/files/post2.jpg
