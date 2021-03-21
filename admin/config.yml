@@ -272,6 +272,13 @@ collections:
       name: category
       widget: list
       required: false
+    - label: Categories
+      name: categories
+      widget: relation
+      collection: categories
+      search_fields: ["name"]
+      value_fields: "name"
+      display_fields: ["name"]
     - label: Authors
       name: authors
       widget: list
