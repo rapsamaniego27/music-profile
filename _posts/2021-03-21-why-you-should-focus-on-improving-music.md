@@ -13,11 +13,6 @@ excerpt: "Plunge lift weighing slaughtered taught healed generation Council
 layout: single-post
 banner: /assets/files/post6.jpg
 date: 2021-03-21T03:29:11.269Z
-category:
-  - Personal
-  - Music
-  - Instruments
-  - Practice
 authors:
   - name: Rap Esteva
 ---

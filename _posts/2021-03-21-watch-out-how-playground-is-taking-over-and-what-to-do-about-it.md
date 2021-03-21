@@ -11,10 +11,6 @@ excerpt: You're raw accommodation secrecy rallying carried Gaffer's stint
 layout: single-post
 banner: /assets/files/post6.jpg
 date: 2021-03-21T03:50:11.073Z
-category:
-  - Practice
-  - Instruments
-  - Family
 authors:
   - name: Rap Esteva
 ---

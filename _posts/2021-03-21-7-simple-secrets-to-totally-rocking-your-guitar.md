@@ -12,10 +12,6 @@ excerpt: Water treasury here beyond 111th Ligulas.
 layout: single-post
 banner: /assets/files/post6.jpg
 date: 2021-03-21T03:45:44.899Z
-category:
-  - Instruments
-  - Practice
-  - Music
 authors:
   - name: Rap Esteva
 ---

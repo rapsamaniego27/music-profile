@@ -13,11 +13,6 @@ excerpt: Rejoin knows bitterness dominate lowly dur-rugnu wane weary perils
 layout: single-post
 banner: /assets/files/post1.jpg
 date: 2021-03-21T03:41:07.580Z
-category:
-  - Personal
-  - Instruments
-  - Gig
-  - Practice
 authors:
   - name: Rap Esteva
 ---

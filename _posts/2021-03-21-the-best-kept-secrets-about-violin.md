@@ -17,11 +17,6 @@ excerpt: "Trailing Gimli haunted. Teatime southern brave fealty heads drawn
 layout: single-post
 banner: /assets/files/post1.jpg
 date: 2021-03-21T03:46:44.583Z
-category:
-  - Music
-  - Instruments
-  - Gig
-  - Family
 authors:
   - name: Rap Esteva
   - name: Levi Ackerman

@@ -12,9 +12,6 @@ excerpt: "Barge leg describe reflection butter slip doors ntil cross Wood-elves 
 layout: single-post
 banner: /assets/files/post2.jpg
 date: 2021-03-21T04:18:12.250Z
-category:
-  - Instruments
-  - Gigs
 authors:
   - name: Rap Esteva
 ---

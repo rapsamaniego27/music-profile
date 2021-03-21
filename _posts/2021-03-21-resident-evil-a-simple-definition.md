@@ -18,8 +18,6 @@ excerpt: "Plunge lift weighing slaughtered taught healed generation Council
 layout: single-post
 banner: /assets/files/post1.jpg
 date: 2021-03-21T05:53:15.929Z
-category:
-  - Family
 categories:
   - Family
   - Practice
