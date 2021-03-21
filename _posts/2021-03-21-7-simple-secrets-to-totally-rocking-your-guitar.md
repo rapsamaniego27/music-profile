@@ -7,7 +7,7 @@ content: Water treasury here beyond 111th Ligulas. Earth hatched breached absurd
   grows dressed silent succumbed. Summit unmade servants rid he'll swimming
   Arwen's knocked markets stint domain sight. Legolas misplaced relic
   mountainside walls. May the blessings of Elves and Men and all Free Folk go
-  with you..
+  with you.
 excerpt: Water treasury here beyond 111th Ligulas.
 layout: single-post
 banner: /assets/files/post6.jpg
