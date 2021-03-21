@@ -6,10 +6,10 @@ content: Trailing Gimli haunted. Teatime southern brave fealty heads drawn
   provisions loosened! It's some form of Elvish. I can't read it. Absurd warrior
   Luthien creamy. Trick send claimed begin attached gate liked delivery band
   Lórien irregular 111. Treasures sage Gondolin. Hear wield prove lordly Garulf
-  therein sliced.
-layout: single-post
+  therein sliced..
 excerpt: "Trailing Gimli haunted. Teatime southern brave fealty heads drawn
   follows Shire's. "
+layout: single-post
 banner: /assets/files/post1.jpg
 date: 2021-03-21T03:46:44.583Z
 category:
