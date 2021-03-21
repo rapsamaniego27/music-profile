@@ -11,6 +11,11 @@ excerpt: "One Ring sitting following succeed? Flaming milk burning treachery
 layout: single-post
 banner: /assets/files/post2.jpg
 date: 2021-03-21T03:34:54.462Z
+categories:
+  - Music
+  - Personal
+  - Instruments
+  - Gigs
 authors:
   - name: Rap Esteva
 ---
