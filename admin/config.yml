@@ -268,10 +268,6 @@ collections:
     - label: Publish Date
       name: date
       widget: datetime
-    - label: Category
-      name: category
-      widget: list
-      required: false
     - label: Categories
       name: categories
       widget: relation
