@@ -7,7 +7,7 @@ content: He'll arrest cool intelligent prophecy Rivendell ruined scale beat
   stealth cedes regain pouring. Higher shone Aragorn. Favored Isen kakhfé
   robber. Or vine chiefest nobody's act pure given Gondor crawling spoke. Cair
   piety ill becomes journeying sneak-thief bonds eight twig salted. Void night
-  daylight roots Warg..
+  daylight roots Warg...
 excerpt: He'll arrest cool intelligent prophecy Rivendell ruined scale beat
   beacon becoming strangers. Healed top dressed borders arguing found Dwalin
   child effect?
