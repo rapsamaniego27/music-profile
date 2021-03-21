@@ -302,10 +302,15 @@ collections:
     name: "categories"
     create: true
     folder: "_categories-list"
+    file: "categories-list"
     fields: 
-    - label: Name
-      name: name
-      widget: string
+    - label: Item
+      name: item
+      widget: object
+      fields: 
+      - label: Name
+        name: name
+        widget: string
       
     
   
