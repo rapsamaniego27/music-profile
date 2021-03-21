@@ -277,7 +277,7 @@ collections:
       widget: relation
       collection: categories
       search_fields: ["item.name"]
-      value_fields: "item.name"
+      value_field: "item.name"
       display_fields: ["item.name"]
     - label: Authors
       name: authors
