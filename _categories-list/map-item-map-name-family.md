@@ -1,4 +1,3 @@
 ---
-item:
-  name: Family
+name: Family
 ---

@@ -1,4 +1,3 @@
 ---
-item:
-  name: Music
+name: Music
 ---
