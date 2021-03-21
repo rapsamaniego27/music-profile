@@ -279,7 +279,6 @@ collections:
       search_fields: ["name"]
       value_fields: "name"
       display_fields: ["name"]
-      options_length: 20
       required: false
     - label: Authors
       name: authors
