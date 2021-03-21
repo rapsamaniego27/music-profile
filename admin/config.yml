@@ -273,7 +273,7 @@ collections:
       widget: list
       required: false
     - label: Categories
-      name: categories
+      name: categories-list
       widget: relation
       collection: categories
       search_fields: ["name"]
