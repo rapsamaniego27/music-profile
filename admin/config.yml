@@ -279,6 +279,7 @@ collections:
       search_fields: ["name"]
       value_field: "name"
       display_fields: ["name"]
+      multiple: true
     - label: Authors
       name: authors
       widget: list
