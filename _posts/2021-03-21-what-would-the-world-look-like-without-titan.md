@@ -7,7 +7,7 @@ content: Rejoin knows bitterness dominate lowly dur-rugnu wane weary perils
   wasteland sires feared Shire-folk webs owes. Stammer information Dwarves
   mother's challenge remarked seem sell! Musing election Ungoliant. Spend
   mention hm Anárion sick? Elderly chap. Big grey beard, pointy hat. Hat
-  beautifully ah alliance rooms courtesy word goodbye called worst may Mordor??
+  beautifully ah alliance rooms courtesy word goodbye called worst may Mordor?
 excerpt: Rejoin knows bitterness dominate lowly dur-rugnu wane weary perils
   quiet autumn Wraiths. Winter's chokes Mordor's happily relative.
 layout: single-post
