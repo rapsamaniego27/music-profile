@@ -1,5 +1,5 @@
 <div class="container blog-container">
-  <h1 class="text-center hex-tertiary mt-30">Blogs</h1>
+  <h1 class="text-center hex-tertiary mt-30">Blog</h1>
   <p class="text-center ml-20 mr-20">
     From mundane to significant topics, you are welcome to explore my innermost thoughts and feelings. Feel free to
     discover
@@ -7,21 +7,25 @@
   </p>
 </div>
 
+
+
+{% assign page_url = page.url %}
+
 <!-- Row Categories -->
 <div class="container blog-container mt-30">
   <div class="blog-categories__container row background-primary">
     <div class="col-md-6">
       <h4 class="hex-white pl-20">Categories:</h4>
       <ul class="category-list d-flex justify-content-around flex-wrap mt-20">
-        <li class="category-item "><a href="#" target="_blank" class="category-link">All</a></li>
-        <li class="category-item"><a href="#" target="_blank" class="category-link">Music</a></li>
-        <li class="category-item "><a href="{{ site.baseurl }}/blog/genres" target="_blank" class="category-link">Genres</a></li>
-        <li class="category-item"><a href="#" target="_blank" class="category-link">Gigs</a></li>
-        <li class="category-item"><a href="#" target="_blank" class="category-link">Family</a></li>
-        <li class="category-item"><a href="#" target="_blank" class="category-link">Love</a></li>
-        <li class="category-item"><a href="#" target="_blank" class="category-link">Instruments</a></li>
-        <li class="category-item"><a href="#" target="_blank" class="category-link">Personal</a></li>
-        <li class="category-item"><a href="#" target="_blank" class="category-link">Practice</a></li>
+        <li class="category-item {% if page.slug == 'all' %}category-item--active{% endif %}"><a href="{{ site.baseurl }}/blog/" class="category-link">All</a></li>
+        <li class="category-item {% if page_url contains 'blog/music/' %}category-item--active{% endif %}"><a href="{{ site.baseurl }}/blog/music/" class="category-link">Music</a></li>
+        <li class="category-item {% if page_url contains 'blog/genres/' %}category-item--active{% endif %}"><a href="{{ site.baseurl }}/blog/genres/" class="category-link">Genres</a></li>
+        <li class="category-item {% if page_url contains 'blog/gigs/' %}category-item--active{% endif %}"><a href="{{ site.baseurl }}/blog/gigs/" class="category-link">Gigs</a></li>
+        <li class="category-item {% if page_url contains 'blog/family/' %}category-item--active{% endif %}"><a href="{{ site.baseurl }}/blog/family/" class="category-link">Family</a></li>
+        <li class="category-item {% if page_url contains 'blog/love/' %}category-item--active{% endif %}"><a href="{{ site.baseurl }}/blog/love/" class="category-link">Love</a></li>
+        <li class="category-item {% if page_url contains 'blog/instruments/' %}category-item--active{% endif %}"><a href="{{ site.baseurl }}/blog/instruments/" class="category-link">Instruments</a></li>
+        <li class="category-item {% if page_url contains 'blog/personal/' %}category-item--active{% endif %}"><a href="{{ site.baseurl }}/blog/personal/" class="category-link">Personal</a></li>
+        <li class="category-item {% if page_url contains 'blog/practice/' %}category-item--active{% endif %}"><a href="{{ site.baseurl }}/blog/practice/" class="category-link">Practice</a></li>
       </ul>
     </div>
     <div class="col-md-6 d-flex justify-content-center align-items-center">
@@ -33,5 +37,7 @@
       </form>
     </div>
   </div>
-  <p class="blog-results mt-20 ml-30">10 results found</p>
+
+  
+  <p class="blog-results mt-20 ml-30">{{ paginator.total_posts }} results found</p>
 </div>

@@ -11,7 +11,7 @@
     {% if paginator.page_trail %}
     {% for trail in paginator.page_trail %}
     <li {% if page.url==trail.path %}class="pager--selected" {% endif %}>
-      <a href="{{ trail.path | prepend: site.baseurl | replace: '//', '/' | remove: " index.html" }}"
+      <a href="{{ trail.path | prepend: site.baseurl | replace: '//', '/' | remove: 'index.html' }}"
         title="{{trail.title}}">{{ trail.num }}</a>
     </li>
     {% endfor %}
@@ -19,7 +19,7 @@
   
     {% if paginator.next_page %}
     <li class="next pager__arrow-nav">
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' | remove: " index.html"}}">Next <i
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' | remove: 'index.html'}}">Next <i
           class="fas fa-arrow-right"></i></a>
     </li>
     {% endif %}

@@ -1,11 +1,10 @@
 ---
-name: Genres
-layout: categories
 title: Genres
-slug: genres
-permalink: /genres/
-pagination:
+layout: categories
+permalink: /blog/genres/
+pagination: 
   enabled: true
   category: Genres
+  permalink: /page:num/
   collection: posts
 ---
