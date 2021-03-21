@@ -274,7 +274,12 @@ collections:
       required: false
     - label: Categories
       name: categories
-      widget: list
+      widget: relation
+      collection: posts
+      search_fields: ["name"]
+      value_fields: "name"
+      display_fields: ["name"]
+      options_legnth: 20
       required: false
     - label: Authors
       name: authors
@@ -302,7 +307,14 @@ collections:
           name: add-content
           widget: text
           required: false
-
+  - label: "Categories"
+    name: "categories"
+    create: "true"
+    folder: "_categories"
+    fields: 
+    - label: Name
+      name: name
+      widget: string
     
   
     

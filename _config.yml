@@ -10,4 +10,5 @@ permalink: /blog/:title
 collections:
   - metas
   - bio-sections
+  - categories
 
