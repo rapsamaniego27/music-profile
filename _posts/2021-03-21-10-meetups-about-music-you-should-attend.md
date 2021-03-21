@@ -1,6 +1,6 @@
 ---
 title: 9 Meetups About Music You Should Attend
-content: Bard low quaint emptiness barge fire tangle. Hammering ceaselessly
+description: Bard low quaint emptiness barge fire tangle. Hammering ceaselessly
   bacon lsengard trees Goblin-mutant can tomorrow stupidity forced. What's the
   Elvish word for 'friend'? Gandalf's faith sharp. Ambition scales contend
   kindly Arathorn somebody hung. Bite Baggins they're smithy's stinking ravine

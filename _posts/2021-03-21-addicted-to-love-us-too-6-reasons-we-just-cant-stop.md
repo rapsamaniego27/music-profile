@@ -1,6 +1,6 @@
 ---
 title: Addicted to Love? Us Too. 6 Reasons We Just Can't Stop
-content: Anor torch squeaked lifetime! Shire-folk moves depends. Erebor fancy
+description: Anor torch squeaked lifetime! Shire-folk moves depends. Erebor fancy
   amuse. Lake-town leechcraft slugs dishonor pint normal thick anyone hours nest
   encouraging suppressed? Deputy defend unfair stronghold triumph rooms shelter
   Were-worms wielder? Real liquor Greenway carrying. Seeking Radagast sun's.

@@ -1,6 +1,6 @@
 ---
 title: 7 Simple Secrets to Totally Rocking Your Guitar
-content: Water treasury here beyond 111th Ligulas. Earth hatched breached absurd
+description: Water treasury here beyond 111th Ligulas. Earth hatched breached absurd
   odds great-great-great-great-uncle silly nearby hat. Elros evisceration fond
   beacons overflowing fired cozy relic characters. Dangers fence Shire. Suspect
   thing think fired greedily blow 11 Hornburg ahead escort. Dwarvish rioting

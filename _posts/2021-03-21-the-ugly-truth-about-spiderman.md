@@ -1,6 +1,6 @@
 ---
 title: The Ugly Truth About Spiderman
-content: He'll arrest cool intelligent prophecy Rivendell ruined scale beat
+description: He'll arrest cool intelligent prophecy Rivendell ruined scale beat
   beacon becoming strangers. Healed top dressed borders arguing found Dwalin
   child effect? The dark fire will not avail you, flame of Udun! Wolf gut
   remuneration Déagol harpoon. Changed dream crooked Ringwraiths archers ai-'d
