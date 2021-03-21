@@ -252,7 +252,7 @@ collections:
       name: title
       widget: string
     - label: Content
-      name: body
+      name: description
       widget: markdown
     - label: Excerpt
       name: excerpt
