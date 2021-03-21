@@ -15827,6 +15827,7 @@ footer {
 }
 .blog-card .blog-card__desc {
   color: var(--white);
+  font-size: 15px;
 }
 .blog-card .blog-card__date {
   font-size: 14px;
