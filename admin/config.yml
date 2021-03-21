@@ -310,6 +310,36 @@ collections:
     - label: Name
       name: name
       widget: string
+    - label: layout
+      name: layout
+      widget: string
+      default: categories
+    - label: Title
+      name: title
+      widget: string
+    - label: Slug
+      name: slug
+      widget: string
+    - label: Pagination
+      name: pagination
+      widget: object
+      fields: 
+      - label: Enabled
+        name: enabled
+        widget: boolean
+        default: true
+      - label: Category
+        name: category
+        widget: string
+      - label: Permalink
+        name: permalink
+        widget: string
+        default: /
+      - label: Collection
+        name: collection
+        widget: string
+        default: posts
+    
       
       
     

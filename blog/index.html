@@ -1,11 +1,6 @@
 ---
-layout: default
+layout: blog
+pagination: 
+  enabled: true
+  collection: posts
 ---
-{% include snippets/categories.html %}
-
-<div class="container blog-container blog-items__container mt-30">
-
-{% for post in site.posts %}
-  {% include snippets/blog-card.html %}
-{% endfor %}
-</div>

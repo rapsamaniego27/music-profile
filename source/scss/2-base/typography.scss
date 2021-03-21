@@ -37,7 +37,8 @@ $text-elements: (
     weight:var(--weight-bold)
   ),
   'p':(
-    size:1rem,
+    size:1.1125rem,
+    mobile-size:1rem,
     weight:var(--weight-normal)
   ),
   '.head1':(

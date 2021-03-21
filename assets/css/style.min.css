@@ -11026,9 +11026,14 @@ h6, .h6 {
 
 /* The element */
 p {
-  font-size: 1rem;
+  font-size: 1.1125rem;
   font-weight: var(--weight-normal);
   /* Checks if it has mobile size property */
+}
+@media only screen and (max-width: 840px) {
+  p {
+    font-size: 1rem;
+  }
 }
 
 /* The element */
@@ -15136,6 +15141,7 @@ footer {
 
 .post-content {
   margin-top: 10px;
+  line-height: 2rem;
 }
 
 .post-authors {
@@ -15274,6 +15280,7 @@ footer {
 /* Additional Post Content */
 .post-content__additional-text {
   margin-top: 20px;
+  line-height: 2rem;
 }
 
 .post-content__additional-image {
@@ -15852,6 +15859,41 @@ footer {
   .blog-items__container {
     grid-template-columns: 1fr;
   }
+}
+
+/* Pagination */
+.pager {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 400px;
+  max-width: 100%;
+  margin: 40px auto;
+}
+.pager li:hover {
+  color: var(--accent) !important;
+}
+.pager li a {
+  color: var(--white) !important;
+  font-weight: bold;
+}
+.pager .pager--selected {
+  border-radius: 50%;
+  width: 34px;
+  height: 30px;
+  background: var(--accent);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pager .pager--selected a {
+  color: #fff !important;
+}
+
+.pager-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media only screen and (max-width: 1366px) {

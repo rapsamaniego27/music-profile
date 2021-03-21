@@ -13,9 +13,9 @@
     <div class="col-md-6">
       <h4 class="hex-white pl-20">Categories:</h4>
       <ul class="category-list d-flex justify-content-around flex-wrap mt-20">
-        <li class="category-item category-item--active"><a href="#" target="_blank" class="category-link">All</a></li>
+        <li class="category-item {% if page.url = '/blog/' %}category-item--active {% endif %}"><a href="#" target="_blank" class="category-link">All</a></li>
         <li class="category-item"><a href="#" target="_blank" class="category-link">Music</a></li>
-        <li class="category-item"><a href="#" target="_blank" class="category-link">Genres</a></li>
+        <li class="category-item {% if page.url = '/genres/' %} category-item--active {% endif %}"><a href="{{ site.baseurl }}/blog/genres" target="_blank" class="category-link">Genres</a></li>
         <li class="category-item"><a href="#" target="_blank" class="category-link">Gigs</a></li>
         <li class="category-item"><a href="#" target="_blank" class="category-link">Family</a></li>
         <li class="category-item"><a href="#" target="_blank" class="category-link">Love</a></li>
