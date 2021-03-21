@@ -7,6 +7,7 @@ content: Trailing Gimli haunted. Teatime southern brave fealty heads drawn
   Luthien creamy. Trick send claimed begin attached gate liked delivery band
   Lórien irregular 111. Treasures sage Gondolin. Hear wield prove lordly Garulf
   therein sliced.
+layout: single-post
 excerpt: "Trailing Gimli haunted. Teatime southern brave fealty heads drawn
   follows Shire's. "
 banner: /assets/files/post1.jpg

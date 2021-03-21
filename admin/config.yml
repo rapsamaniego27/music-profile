@@ -257,6 +257,10 @@ collections:
     - label: Excerpt
       name: excerpt
       widget: text
+    - label: Layout
+      name: layout
+      widget: hidden
+      default: single-post
     - label: Banner Image (814 x 312)
       name: banner
       widget: image

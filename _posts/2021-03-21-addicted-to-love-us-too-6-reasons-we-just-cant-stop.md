@@ -7,6 +7,7 @@ content: Anor torch squeaked lifetime! Shire-folk moves depends. Erebor fancy
   That is no trinket you carry. World 20 bottom signature purring barren
   honestly? Accorded lippy triumphant drinking safety bond Bag-end knockers furs
   accommodation.
+layout: single-post
 excerpt: "Anor torch squeaked lifetime! Shire-folk moves depends. "
 banner: /assets/files/post2.jpg
 date: 2021-03-21T03:44:32.525Z

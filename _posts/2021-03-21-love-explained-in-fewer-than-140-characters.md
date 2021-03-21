@@ -6,6 +6,7 @@ content: Blessings plunge nameless Easterlings. Spears Elfs afters wrong milk
   enters beard victorious hundreds. Men desolation might've follows feelings
   characters mention Gandalf's crumbles worthy storming. Bru-ra-hroom
   well-earned yearns choose boar.
+layout: single-post
 excerpt: "Blessings plunge nameless Easterlings. Spears Elfs afters wrong milk
   ill-tempered balanced. "
 banner: /assets/files/post6.jpg

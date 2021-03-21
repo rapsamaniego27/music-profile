@@ -6,6 +6,7 @@ content: One Ring sitting following succeed? Flaming milk burning treachery
   Test vest Arwen's. Arrives faster Balin spills forgiven. Beast oaken Dwarf
   summoning sell. Something gave skulking stuffed closest Girion. Strengthened
   tombs woken asleep given Gandalf the Grey ones hardest promise used purge.
+layout: single-post
 excerpt: "One Ring sitting following succeed? Flaming milk burning treachery
   minute Halflings 12 claws. Been Noldorin pursued difficult. "
 banner: /assets/files/post2.jpg

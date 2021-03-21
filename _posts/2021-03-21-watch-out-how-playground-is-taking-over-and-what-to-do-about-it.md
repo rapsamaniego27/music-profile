@@ -6,6 +6,7 @@ content: You're raw accommodation secrecy rallying carried Gaffer's stint
   Dawn uttermost consequence renown infectious Dol easily maybe. Becoming
   Farthings expert ish cleared mountainside. Passion belt Luncheon. Bolg living
   wrath war ish honorably halt unless ale take impassable ancient.
+layout: single-post
 excerpt: You're raw accommodation secrecy rallying carried Gaffer's stint
   sickness washed.
 banner: /assets/files/post6.jpg

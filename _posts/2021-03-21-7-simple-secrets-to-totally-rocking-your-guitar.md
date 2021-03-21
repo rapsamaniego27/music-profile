@@ -8,6 +8,7 @@ content: Water treasury here beyond 111th Ligulas. Earth hatched breached absurd
   Arwen's knocked markets stint domain sight. Legolas misplaced relic
   mountainside walls. May the blessings of Elves and Men and all Free Folk go
   with you.
+layout: single-post
 excerpt: Water treasury here beyond 111th Ligulas.
 banner: /assets/files/post6.jpg
 date: 2021-03-21T03:45:44.899Z

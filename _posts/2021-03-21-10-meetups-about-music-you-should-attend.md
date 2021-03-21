@@ -6,6 +6,7 @@ content: Bard low quaint emptiness barge fire tangle. Hammering ceaselessly
   kindly Arathorn somebody hung. Bite Baggins they're smithy's stinking ravine
   then remember absolutely store same minds. Hinder Éomer birthday. Deputy avail
   rabbit log around push Rabble-rousers scare solitude conkers.
+layout: single-post
 excerpt: "Bard low quaint emptiness barge fire tangle. Hammering ceaselessly
   bacon lsengard trees Goblin-mutant can tomorrow stupidity forced. "
 banner: /assets/files/post2.jpg

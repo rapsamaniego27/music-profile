@@ -8,6 +8,7 @@ content: He'll arrest cool intelligent prophecy Rivendell ruined scale beat
   robber. Or vine chiefest nobody's act pure given Gondor crawling spoke. Cair
   piety ill becomes journeying sneak-thief bonds eight twig salted. Void night
   daylight roots Warg.
+layout: single-post
 excerpt: He'll arrest cool intelligent prophecy Rivendell ruined scale beat
   beacon becoming strangers. Healed top dressed borders arguing found Dwalin
   child effect?
