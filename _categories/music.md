@@ -1,3 +1,3 @@
 ---
-name: music
+name: Music
 ---
