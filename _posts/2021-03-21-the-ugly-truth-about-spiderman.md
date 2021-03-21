@@ -14,6 +14,10 @@ excerpt: He'll arrest cool intelligent prophecy Rivendell ruined scale beat
 layout: single-post
 banner: /assets/files/post1.jpg
 date: 2021-03-21T03:36:27.466Z
+categories:
+  - Personal
+  - Family
+  - Music
 authors:
   - name: Rap Esteva
 ---
