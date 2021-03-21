@@ -301,11 +301,12 @@ collections:
   - label: "Categories"
     name: "categories"
     create: true
-    folder: "_categories"
+    folder: "_categories-list"
     fields: 
     - label: Name
       name: name
       widget: string
+      
     
   
     
