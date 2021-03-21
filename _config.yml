@@ -4,6 +4,10 @@ title: "" # the name of your site, e.g. ACME Corp.
 
 exclude: ["source", "node_modules", "mix-manifest.json", "package-lock.json", "package.json", "webpack.mix.js", ".jekyll-cache"]
 
+# Default permalink for posts
+permalink: /blog/:title
+
 collections:
   - metas
   - bio-sections
+
