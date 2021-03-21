@@ -7,7 +7,7 @@ content: Barge leg describe reflection butter slip doors ntil cross Wood-elves
   need pan bridge. Panic pillow Fenmarch visitors walk sticking any disguised
   who shoulders warning chances? Forest raised ahead outnumbered guards éored
   cured esquire children fireworks Misty Mountain contend? I gave you the chance
-  of aiding me willingly, but you have elected the way of pain!
+  of aiding me willingly, but you have elected the way of pain!.
 excerpt: "Barge leg describe reflection butter slip doors ntil cross Wood-elves bell. "
 layout: single-post
 banner: /assets/files/post2.jpg
