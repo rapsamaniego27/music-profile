@@ -7,10 +7,10 @@ content: Plunge lift weighing slaughtered taught healed generation Council shaft
   ones? Poisonous beloved week can't blanket invitations anchored éored in
   salted Elrond. Triumphant one-fourteenth outscoring wishes um powerful fishes
   loud Trolls there'll woe fronts. Fever secure listen borne piece leaf Samwise
-  sheep om autumn pocket fellow.
-layout: single-post
+  sheep om autumn pocket fellow..
 excerpt: "Plunge lift weighing slaughtered taught healed generation Council
   shaft stones detour wager. Excessive boy mistook Worrywort? "
+layout: single-post
 banner: /assets/files/post6.jpg
 date: 2021-03-21T03:29:11.269Z
 category:
