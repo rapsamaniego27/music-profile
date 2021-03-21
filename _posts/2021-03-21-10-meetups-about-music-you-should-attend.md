@@ -14,6 +14,9 @@ date: 2021-03-20T08:38:34.441Z
 category:
   - Music
   - Genre
+categories-list:
+  - Music
+  - Genres
 authors:
   - name: Rap Esteva
 ---
