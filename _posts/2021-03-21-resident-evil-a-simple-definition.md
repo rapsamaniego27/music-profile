@@ -20,6 +20,9 @@ banner: /assets/files/post1.jpg
 date: 2021-03-21T05:53:15.929Z
 category:
   - Family
+categories:
+  - Family
+  - Practice
 authors:
   - name: Rap Esteva
 ---
