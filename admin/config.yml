@@ -295,8 +295,8 @@ collections:
         required: false
         fields: 
         - label: Additional Image (814 x any height)
-          name: image
-          widget: add-image
+          name: add-image
+          widget: image
           required: false
         - label: Additional Content
           name: add-content
