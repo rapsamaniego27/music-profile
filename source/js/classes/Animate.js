@@ -10,9 +10,9 @@ class Animate {
         trigger: 'infoSkills',
         toggleActions: "restart none none none"
       },
-      y: -120,
+      y: -80,
       opacity: 0,
-      duration: 1
+      duration: 0.5
     });
   }
 
@@ -22,10 +22,11 @@ class Animate {
         trigger: 'latest-posts__container',
         toggleActions: "restart none none none"
       },
-      y: -120,
+      y: -100,
       opacity: 0,
-      duration: 1, 
-      stagger: 0.6
+      duration: 0.6, 
+      stagger: 0.6,
+      delay: 1
     });
   }
   
@@ -53,7 +54,7 @@ class Animate {
 
     TweenLite.defaultEase = Bounce.out;
 
-    tlMove.from(noteElements, 1, { y: -12, ease: Bounce.out, stagger:0.5})
+    tlMove.from(noteElements, 1, { y: -15, ease: Bounce.out, stagger:0.5})
           .from(noteElements, 1, { y: 0, ease: Bounce.out, stagger:0.5});
     
     tlMove.timeScale(3);
