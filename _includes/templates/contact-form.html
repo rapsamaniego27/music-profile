@@ -52,7 +52,12 @@
         <div class="container form__container container__flex">
           <div class="form__fields col-lg7 col-sm12">
             <form action="POST" data-netlify="true" class="form">
-
+              {% if site.data.note.content != '' %}
+              <div class="help-warning hex-tertiary mb-20">
+                <strong>Note: </strong>
+                <p>{{ site.data.note.content }}</p>
+              </div>
+              {% endif %}
               <div class="form__two-col">
                 <div class="form-group form-input__name">
                   <label for="name">Name:</label>
