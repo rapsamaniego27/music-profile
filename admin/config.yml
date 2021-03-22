@@ -197,6 +197,10 @@ collections:
           name: item
           widget: text
           required: false
+      - label: CTA
+        name: cta
+        widget: text
+        required: false
     - label: "Contact"
       name: contact
       file: "_data/contact.yml"   
@@ -216,10 +220,24 @@ collections:
       - label: Address
         name: address
         widget: text
-
-            
-
-
+    - label: "Blog"
+      name: blog
+      file: "_data/blog.yml"
+      fields: 
+      - label: Title
+        name: title
+        widget: string
+      - label: Description
+        name: description
+        widget: text  
+    - label: "Note"
+      name: note
+      file: "_data/note.yml"
+      fields: 
+      - label: Note Content
+        name: content
+        widget: text
+        required: false
 
   - label: "Metas" # Page Metas
     name: "metas"
