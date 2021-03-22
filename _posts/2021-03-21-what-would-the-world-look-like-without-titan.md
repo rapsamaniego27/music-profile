@@ -12,7 +12,12 @@ excerpt: Rejoin knows bitterness dominate lowly dur-rugnu wane weary perils
   quiet autumn Wraiths. Winter's chokes Mordor's happily relative.
 layout: single-post
 banner: /assets/files/post1.jpg
-date: 2021-03-21T03:41:07.580Z
+date: 2020-12-26T03:41:07.580Z
+categories:
+  - Gigs
+  - Instruments
+  - Love
+  - Personal
 authors:
   - name: Rap Esteva
 ---
