@@ -15,5 +15,5 @@ social:
     icon: <i class="fab fa-twitter"></i>
   - isLocal: true
     media: Website
-    link: http://rapesteva.com/
+    link: "{{ site.baseurl }}/bio/"
     icon: <i class="fas fa-globe"></i>
