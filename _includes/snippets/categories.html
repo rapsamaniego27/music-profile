@@ -24,15 +24,21 @@
         <li class="category-item {% if page_url contains 'blog/instruments/' %}category-item--active{% endif %}"><a href="{{ site.baseurl }}/blog/instruments/" class="category-link">Instruments</a></li>
         <li class="category-item {% if page_url contains 'blog/personal/' %}category-item--active{% endif %}"><a href="{{ site.baseurl }}/blog/personal/" class="category-link">Personal</a></li>
         <li class="category-item {% if page_url contains 'blog/practice/' %}category-item--active{% endif %}"><a href="{{ site.baseurl }}/blog/practice/" class="category-link">Practice</a></li>
+        <li class="category-item {% if page_url contains 'blog/guest/' %}category-item--active{% endif %}"><a href="{{ site.baseurl }}/blog/guest/" class="category-link">Guest</a></li>
       </ul>
     </div>
-    <div class="col-md-6 d-flex justify-content-center align-items-center">
+    <div class="col-md-6 d-flex justify-content-center align-items-center flex-column">
       <form class="custom-form">
         <input type="text" class="custom-search" placeholder="Search for a post ...">
         <button type="submit" class="custom-search__btn background-accent hex-white">
           <i class="fas fa-search custom-search__icon"></i>
         </button>
       </form>
+      <div class="d-flex justify-content-around mt-10">
+        <a href="{{ site.baseurl }}/blog/oldest/" class="category-filter__item {% if page.slug == 'oldest' %}hex-tertiary{% endif %}">Oldest</a>
+        <a href="{{ site.baseurl }}/blog/asc/" class="category-filter__item {% if page.slug == 'asc' %}hex-tertiary{% endif %}">Alpha Ascending</a>
+        <a href="{{ site.baseurl }}/blog/desc/" class="category-filter__item {% if page.slug == 'desc' %}hex-tertiary{% endif %}">Alpha Descending</a>
+      </div>
     </div>
   </div>
 

@@ -15114,6 +15114,14 @@ footer {
   width: 80%;
 }
 
+.category-filter__item {
+  padding: 5px 10px 0 10px;
+  color: #fff;
+}
+.category-filter__item:hover {
+  color: #fff;
+}
+
 .post-sidebar {
   padding: 30px 20px;
   border-radius: 16px;
