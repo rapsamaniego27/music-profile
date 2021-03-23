@@ -231,11 +231,11 @@ collections:
         - label: Link
           name: link
           widget: string
-        - label: Local or Custom Url
+        - label: isLocal
           hint: Determines if local or custom url
           name: isLocal
           widget: boolean
-          default: true
+          default: false
         - label: Icon
           hint: Font Awesome Tags only
           name: icon

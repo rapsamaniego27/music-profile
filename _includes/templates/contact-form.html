@@ -24,21 +24,17 @@
 
         <div class="contact-info__footer d-flex">
           <ul class="social-media">
-            <li class="social-media__item">
-              <a href="#" target="_blank" class="social-media__link">
-                <i class="fab fa-instagram"></i>
-              </a>
-            </li>
-            <li class="social-media__item">
-              <a href="#" target="_blank" class="social-media__link">
-                <i class="fab fa-twitter"></i>
-              </a>
-            </li>
-            <li class="social-media__item">
-              <a href="#" target="_blank" class="social-media__link">
-                <i class="fas fa-globe"></i>
-              </a>
-            </li>
+            {% for connect in site.data.contact.social %}
+              <li class="social-media__item">
+                {% if connect.isLocal == true %}
+                  <a href="{{site.baseurl}}/{{ connect.link }}" target="_blank" class="social-media__link"></a>
+                {% else %}
+                  <a href="{{ connect.link }}" target="_blank" class="social-media__link"></a>
+                {% endif %}
+                  {{connect.icon}}
+                </a>
+              </li>
+            {% endfor  %}
           </ul>
 
           <img src="{{site.baseurl}}/assets/files/contact.svg" alt="Contact Image" title="Contact Image" class="contact-svg">

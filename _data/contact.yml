@@ -5,11 +5,11 @@ phone-number: "6469330"
 email: folkridgeband@gmail.com
 address: 776 San Rafael St. Mandaluyong City
 social:
-  - isLocal: true
+  - isLocal: false
     media: Instagram
     link: https://www.instagram.com/rapunk27/
     icon: <i class="fab fa-instagram"></i>
-  - isLocal: true
+  - isLocal: false
     media: Twitter
     link: https://twitter.com/rapunk27
     icon: <i class="fab fa-twitter"></i>
