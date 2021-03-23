@@ -15,5 +15,5 @@ social:
     icon: <i class="fab fa-twitter"></i>
   - isLocal: true
     media: Website
-    link: "{{ site.baseurl }}/bio/"
+    link: /bio/
     icon: <i class="fas fa-globe"></i>
