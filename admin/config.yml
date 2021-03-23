@@ -238,7 +238,7 @@ collections:
           widget: boolean
           default: false
         - label: Icon
-          hint: Font Awesome Tags you can get at https://fontawesome.com/
+          hint: Font Awesome Tags you can get at <a href="https://fontawesome.com/" target="_blank">https://fontawesome.com/</a>
           name: icon
           widget: string
     - label: "Blog"
@@ -261,7 +261,7 @@ collections:
         required: false
     - label: "Defaults"
       name: defaults
-      file: "_site/defaults.yml"
+      file: "_data/defaults.yml"
       fields:
       - label: Socials
         name: socials
@@ -281,7 +281,7 @@ collections:
           widget: boolean
           default: false
         - label: Icon
-          hint: Font Awesome Tags you can get at https://fontawesome.com/
+          hint: Font Awesome Tags you can get at <a href="https://fontawesome.com/" target="_blank">https://fontawesome.com/</a>
           name: icon
           widget: string
   - label: "Metas" # Page Metas
