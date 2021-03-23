@@ -13,7 +13,7 @@ social:
     media: Twitter
     link: https://twitter.com/rapunk27
     icon: <i class="fab fa-twitter"></i>
-  - isLocal: true
+  - isLocal: false
     media: Website
-    link: /bio/
+    link: http://rapesteva.com/
     icon: <i class="fas fa-globe"></i>
