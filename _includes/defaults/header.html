@@ -48,10 +48,16 @@
           <div class="header__social-media col d-flex align-items-center justify-content-end d-none d-md-flex">
             <ul class="social-media">
               {% for social in site.data.defaults.socials %}
-                <li class="social-media__item">
-                  <a href="#" target="_blank" class="social-media__link">
-                    <i class="fab fa-instagram"></i>
-                  </a>
+              <li class="social-media__item">
+                {% if social.isLocal %}
+                <a href="{{site.baseurl}}{{ social.link }}" target="_blank" class="social-media__link">
+                  {{social.icon}}
+                </a>
+                {% else %}
+                <a href="{{ social.link }}" target="_blank" class="social-media__link">
+                  {{social.icon}}
+                </a>
+                {% endif %}
                 </li>
               {% endfor %}
 
