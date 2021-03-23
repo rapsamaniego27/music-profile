@@ -231,13 +231,14 @@ collections:
         - label: Link
           name: link
           widget: string
+          hint: e.g. /blog/ or https://facebook.com
         - label: isLocal
-          hint: Determines if local or custom url
+          hint: Setting it true will treat Links as relative urls e.g. /blog/
           name: isLocal
           widget: boolean
           default: false
         - label: Icon
-          hint: Font Awesome Tags only
+          hint: Font Awesome Tags you can get at https://fontawesome.com/
           name: icon
           widget: string
     - label: "Blog"
@@ -258,7 +259,31 @@ collections:
         name: content
         widget: text
         required: false
-
+    - label: "Defaults"
+      name: defaults
+      file: "_site/defaults.yml"
+      fields:
+      - label: Socials
+        name: socials
+        widget: list
+        fields:
+        - label: Media
+          name: media
+          widget: string
+          required: false
+        - label: Link
+          name: link
+          widget: string
+          hint: e.g. /blog/ or https://facebook.com
+        - label: isLocal
+          hint: Setting it true will treat Links as relative urls e.g. /blog/
+          name: isLocal
+          widget: boolean
+          default: false
+        - label: Icon
+          hint: Font Awesome Tags you can get at https://fontawesome.com/
+          name: icon
+          widget: string
   - label: "Metas" # Page Metas
     name: "metas"
     create: true
