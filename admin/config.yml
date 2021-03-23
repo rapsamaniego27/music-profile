@@ -220,6 +220,26 @@ collections:
       - label: Address
         name: address
         widget: text
+      - label: Social
+        name: social
+        widget: list
+        fields:
+        - label: Media
+          name: media
+          widget: string
+          required: false
+        - label: Link
+          name: link
+          widget: string
+        - label: Local or Custom Url
+          hint: Determines if local or custom url
+          name: isLocal
+          widget: boolean
+          default: true
+        - label: Icon
+          hint: Font Awesome Tags only
+          name: icon
+          widget: string
     - label: "Blog"
       name: blog
       file: "_data/blog.yml"
