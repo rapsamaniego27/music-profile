@@ -4,3 +4,16 @@ description: Inquiring for a special arrangement? Or just want to say HI? Feel
 phone-number: "6469330"
 email: folkridgeband@gmail.com
 address: 776 San Rafael St. Mandaluyong City
+social:
+  - isLocal: true
+    media: Instagram
+    link: https://www.instagram.com/rapunk27/
+    icon: <i class="fab fa-instagram"></i>
+  - isLocal: true
+    media: Twitter
+    link: https://twitter.com/rapunk27
+    icon: <i class="fab fa-twitter"></i>
+  - isLocal: true
+    media: Website
+    link: http://rapesteva.com/
+    icon: <i class="fas fa-globe"></i>
