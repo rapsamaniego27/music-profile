@@ -1,12 +1,12 @@
 ---
 title: Genres
+name: Guest
+slug: guest
+permalink: /categories/guest/
 layout: categories
-permalink: /blog/genres/
 pagination:
   enabled: true
   category: Genres
   permalink: /page:num/
   collection: posts
-name: Guest
-slug: guest
 ---
