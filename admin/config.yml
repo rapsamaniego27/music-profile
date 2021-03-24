@@ -376,3 +376,10 @@ collections:
     - label: Slug
       name: slug
       widget: string
+    - label: Permalink
+      name: permalink
+      widget: string
+    - label: Layout
+      name: layout
+      widget: hidden
+      default: sidebar-categories
