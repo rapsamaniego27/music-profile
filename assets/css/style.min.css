@@ -14220,6 +14220,14 @@ p {
   }
 }
 
+/* List Group */
+.blog-list-group {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+}
+
 /* @import '3-framework/wrappers.scss';
 @import '3-framework/layout.scss';  */
 body {
@@ -15246,24 +15254,26 @@ footer {
   width: 96%;
   margin: 0 auto;
 }
-.sidebar-categories__list .sidebar-category, .sidebar-categories__list .sidebar-post, .sidebar-posts__list .sidebar-category, .sidebar-posts__list .sidebar-post {
+
+.sidebar-category__item, .sidebar-post {
   position: relative;
   padding: 12px 0 0 12px;
 }
-.sidebar-categories__list .sidebar-category::after, .sidebar-categories__list .sidebar-post::after, .sidebar-posts__list .sidebar-category::after, .sidebar-posts__list .sidebar-post::after {
+.sidebar-category__item::after, .sidebar-post::after {
   content: "";
   width: 12px;
   height: 12px;
-  background: var(--accent);
+  background: var(--accent) !important;
   border-radius: 50%;
   position: absolute;
   top: 16px;
   left: -10px;
 }
-.sidebar-categories__list .sidebar-category .sidebar-category__link, .sidebar-categories__list .sidebar-category .sidebar-post__link, .sidebar-categories__list .sidebar-post .sidebar-category__link, .sidebar-categories__list .sidebar-post .sidebar-post__link, .sidebar-posts__list .sidebar-category .sidebar-category__link, .sidebar-posts__list .sidebar-category .sidebar-post__link, .sidebar-posts__list .sidebar-post .sidebar-category__link, .sidebar-posts__list .sidebar-post .sidebar-post__link {
-  color: var(--white);
+
+.sidebar-category__link, .sidebar-post__link {
+  color: var(--white) !important;
 }
-.sidebar-categories__list .sidebar-category .sidebar-category__link:hover, .sidebar-categories__list .sidebar-category .sidebar-post__link:hover, .sidebar-categories__list .sidebar-post .sidebar-category__link:hover, .sidebar-categories__list .sidebar-post .sidebar-post__link:hover, .sidebar-posts__list .sidebar-category .sidebar-category__link:hover, .sidebar-posts__list .sidebar-category .sidebar-post__link:hover, .sidebar-posts__list .sidebar-post .sidebar-category__link:hover, .sidebar-posts__list .sidebar-post .sidebar-post__link:hover {
+.sidebar-category__link:hover, .sidebar-post__link:hover {
   text-decoration: underline;
 }
 

@@ -125,7 +125,10 @@
  width:96%;
  margin:0 auto;
 
- .sidebar-category, .sidebar-post{
+ 
+}
+
+.sidebar-category__item, .sidebar-post{
  position:relative;
  padding:12px 0 0 12px;
 
@@ -133,22 +136,23 @@
   content:'';
   width:12px;
   height:12px;
-  background:var(--accent);
+  background:var(--accent) !important;
   border-radius: 50%;
   position:absolute;
   top:16px;
   left:-10px;
  }
 
- .sidebar-category__link, .sidebar-post__link{
-  color:var(--white);
+ 
+}
+
+.sidebar-category__link, .sidebar-post__link{
+  color:var(--white) !important;
 
   &:hover{
    text-decoration: underline;
   }
  }
-}
-}
 
 .btn-sidebar{
     margin: 40px auto 10px auto;

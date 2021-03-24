@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+
+<div class="container blog-container mt-40">
+  <h4 class="hex-tertiary"> Category: {{page.name}} </h4>
+  <a href="{{ site.baseurl }}/blog" class="hex-gray mt-20"><strong><i class="fas fa-arrow-left"></i> &nbsp; Back to
+    Blog</strong></a>
+
+</div>
+<div class="container blog-container mt-20 mb-20">
+
+  <ul class="list-group blog-list-group">
+    {% for post in site.posts %}
+      {% if post.categories contains page.name %}
+        <li class="list-group-item background-primary">
+          <a href="{{ post.url }}"  class="hex-white">{{ post.title }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+</div>
+{% include snippets/pagination.html %}

@@ -8,10 +8,15 @@ exclude: ["source", "node_modules", "mix-manifest.json", "package-lock.json", "p
 permalink: /post/:title
 
 collections:
-  - metas
-  - bio-sections
-  - categories
-
+  metas:
+  bio-sections:
+  categories:
+    permalink: /categories/:name/
+    output: true
+    pagination: 
+      enabled: true
+      collection: posts
+      permalink: /page:num/
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
 # The values here represent the defaults if nothing is set

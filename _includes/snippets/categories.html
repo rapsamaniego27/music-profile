@@ -43,5 +43,7 @@
   </div>
 
   
-  <p class="blog-results mt-20 ml-30">{{ paginator.total_posts }} results found</p>
+  {% if paginator.total_posts %}
+    <p class="blog-results mt-20 ml-30">{{ paginator.total_posts }} results found</p>
+  {% endif %}
 </div>

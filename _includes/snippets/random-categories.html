@@ -2,9 +2,9 @@
 
 <script type="text/javascript">
 
-  var postsHREF = [{% for category in site.data.categories %}"{{site.baseurl}}{{category.link}}"{% unless forloop.last %}, {% endunless %} {% endfor %}];
+  var postsHREF = [{% for category in site.categories %}"{{site.baseurl}}{{category.url}}"{% unless forloop.last %}, {% endunless %} {% endfor %}];
 
-  var postsTitle = [{% for category in site.data.categories %}"{{ category.name }}"{% unless forloop.last %}, {% endunless %} {% endfor %}];
+  var postsTitle = [{% for category in site.categories %}"{{ category.name }}"{% unless forloop.last %}, {% endunless %} {% endfor %}];
 
 </script>
 
@@ -12,7 +12,7 @@
 
   var randomIndexUsed = [];
   var counter = 0;
-  var numberOfCategories = 4;
+  var numberOfCategories = 5;
 
   while (counter < numberOfCategories) {
     var randomIndex;
@@ -27,22 +27,22 @@
 
       if (counter == (numberOfCategories - 1)) {
         const ui = `
-     <li class="sidebar-category__item">
-       <a href="${catHREF}" class="sidebar-category__link">
-        ${catName}
-       </a>
-     </li>
-    `;
+          <li class="sidebar-category__item">
+            <a href="${catHREF}" class="sidebar-category__link">
+              ${catName}
+            </a>
+          </li>
+        `;
         document.write(`${ui}`);
       }
       else {
         const ui = `
-     <li class="sidebar-category__item">
-       <a href="${catHREF}" class="sidebar-category__link">
-        ${catName}
-       </a>
-     </li>
-    `;
+        <li class="sidebar-category__item">
+          <a href="${catHREF}" class="sidebar-category__link">
+            ${catName}
+          </a>
+        </li>
+       `;
 
         document.write(`${ui}`);
       }
