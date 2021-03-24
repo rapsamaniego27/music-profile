@@ -379,6 +379,8 @@ collections:
     - label: Permalink
       name: permalink
       widget: string
+      hint: Value should be /categories/:name of category/
+      default: /categories/:slug
     - label: Layout
       name: layout
       widget: hidden
