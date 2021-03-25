@@ -15258,16 +15258,17 @@ footer {
 .sidebar-category__item, .sidebar-post {
   position: relative;
   padding: 12px 0 0 12px;
+  line-height: 21px;
 }
 .sidebar-category__item::after, .sidebar-post::after {
   content: "";
-  width: 12px;
-  height: 12px;
+  width: 10px;
+  height: 10px;
   background: var(--accent) !important;
   border-radius: 50%;
   position: absolute;
-  top: 16px;
-  left: -10px;
+  top: 17px;
+  left: -4px;
 }
 
 .sidebar-category__link, .sidebar-post__link {
