@@ -383,7 +383,7 @@ collections:
       name: name
       widget: string
     - label: Title
-      name: name
+      name: title
       widget: string
       default: Blog | 
       hint: For SEO e.g. Blog | Love
@@ -415,7 +415,7 @@ collections:
       name: name
       widget: string
     - label: Title
-      name: name
+      name: title
       widget: string
       default: Blog | 
       hint: For SEO e.g. Blog | Love
