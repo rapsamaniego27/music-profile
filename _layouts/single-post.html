@@ -18,11 +18,19 @@ layout: default
           </p>
           <p class="post-categories hex-white text-center"><strong>Categories:</strong>
             {% for category in page.categories %}
-              <span class="post-category">{{category}}</span>
+              <a href="{{site.baseurl}}/categories/{{category}}/" class="post-category" target="_blank">{{category}}</a>
             {% endfor %}
           </p>
-          <a href="{{ site.baseurl }}/blog" class="hex-tertiary"><strong><i class="fas fa-arrow-left"></i> &nbsp; Back to
-              Blog</strong></a>
+
+          <div class="d-flex justify-content-between flex-wrap-reverse mt-30">
+            <a href="{{ site.baseurl }}/blog" class="hex-tertiary mt-20"><strong><i class="fas fa-arrow-left"></i> &nbsp; Back to
+                Blog</strong></a>
+            <small class="post-tags hex-white text-left mt-20"><strong>Tags:</strong>
+              {% for tag in page.tags %}
+                <a href="{{site.baseurl}}/tags/{{tag}}/" class="post-tag" target="_blank">{{tag}}</a>
+              {% endfor %}
+            </small>
+          </div>
         </div>
 
         <p class="post-content">
@@ -91,22 +99,7 @@ layout: default
           <div class="sidebar-tags__container mt-40">
             <h5 class="sidebar-title hex-white">Tags:</h5>
             <ul class="sidebar-tags__list">
-          
-              <small><a href="#" class="badge background-accent">Guitar</a></small>
-              <small><a href="#" class="badge background-accent">Violin</a></small>
-              <small><a href="#" class="badge background-accent">Bar</a></small>
-              <small><a href="#" class="badge background-accent">Guitar</a></small>
-              <small><a href="#" class="badge background-accent">Violin</a></small>
-              <small><a href="#" class="badge background-accent">Bar</a></small>
-              <small><a href="#" class="badge background-accent">Guitar</a></small>
-              <small><a href="#" class="badge background-accent">Violin</a></small>
-              <small><a href="#" class="badge background-accent">Bar</a></small>
-              <small><a href="#" class="badge background-accent">Guitar</a></small>
-              <small><a href="#" class="badge background-accent">Violin</a></small>
-              <small><a href="#" class="badge background-accent">Bar</a></small>
-              <small><a href="#" class="badge background-accent">Guitar</a></small>
-              <small><a href="#" class="badge background-accent">Violin</a></small>
-              <small><a href="#" class="badge background-accent">Bar</a></small>
+              {% include snippets/random-tags.html %}
             </ul>
           </div>
         </div>

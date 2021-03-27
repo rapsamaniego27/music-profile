@@ -163,15 +163,33 @@
 
 .post-categories{
   font-size:1.125rem;
-  margin-top:20px;
+  margin-top:0;
 }
 
-.post-category, post-authors{
+.post-details{
+  margin-bottom:0;
+}
+
+.post-tags{
+  display:block;
+  font-size:1rem;
+}
+
+.post-category, .post-authors{
   
   font-weight:var(--weight-normal);
 }
+
+.post-category,
+.post-tag{
+  color:var(--white);
+  &:hover{
+    color:var(--tertiary);
+  }
+}
 .post-category:not(:last-of-type),
-.author:not(:last-of-type){
+.author:not(:last-of-type),
+.post-tag:not(:last-of-type){
   &:after{
     content:',';
   }

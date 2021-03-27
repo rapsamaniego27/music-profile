@@ -347,6 +347,7 @@ collections:
       value_field: "name"
       display_fields: ["name"]
       multiple: true
+      required: false
     - label: Authors
       name: authors
       widget: list
@@ -408,7 +409,7 @@ collections:
       name: permalink
       widget: string
       hint: Value should be /tags/:name of category/
-      default: /tags/:slug
+      default: /tags/namehere/
     - label: Layout
       name: layout
       widget: hidden

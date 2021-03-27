@@ -13,7 +13,7 @@ layout: default
 
   <ul class="list-group blog-list-group">
     {% for post in site.posts %}
-      {% if post.categories contains page.name %}
+      {% if post.tags contains page.name %}
       <li class="list-group-item background-primary">
         <a href="{{ post.url }}" class="hex-tertiary">{{ post.title }}</a>
         <br>

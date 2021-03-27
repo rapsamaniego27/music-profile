@@ -15285,15 +15285,34 @@ footer {
 
 .post-categories {
   font-size: 1.125rem;
-  margin-top: 20px;
+  margin-top: 0;
 }
 
-.post-category, post-authors {
+.post-details {
+  margin-bottom: 0;
+}
+
+.post-tags {
+  display: block;
+  font-size: 1rem;
+}
+
+.post-category, .post-authors {
   font-weight: var(--weight-normal);
 }
 
+.post-category,
+.post-tag {
+  color: var(--white);
+}
+.post-category:hover,
+.post-tag:hover {
+  color: var(--tertiary);
+}
+
 .post-category:not(:last-of-type):after,
-.author:not(:last-of-type):after {
+.author:not(:last-of-type):after,
+.post-tag:not(:last-of-type):after {
   content: ",";
 }
 
