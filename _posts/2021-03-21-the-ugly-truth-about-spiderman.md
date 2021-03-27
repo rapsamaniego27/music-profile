@@ -12,7 +12,7 @@ excerpt: He'll arrest cool intelligent prophecy Rivendell ruined scale beat
   beacon becoming strangers. Healed top dressed borders arguing found Dwalin
   child effect?
 layout: single-post
-banner: /assets/files/post1.jpg
+image: /assets/files/post1.jpg
 date: 2021-02-18T03:36:27.466Z
 categories:
   - Personal

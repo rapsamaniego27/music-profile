@@ -9,7 +9,7 @@ description: Anor torch squeaked lifetime! Shire-folk moves depends. Erebor
   Bag-end knockers furs accommodation..
 excerpt: "Anor torch squeaked lifetime! Shire-folk moves depends. "
 layout: single-post
-banner: /assets/files/post2.jpg
+image: /assets/files/post2.jpg
 date: 2021-01-11T03:44:32.525Z
 categories:
   - Instruments

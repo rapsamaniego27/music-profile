@@ -1,6 +1,6 @@
 ---
 name: Music
-title: Blog | Music
+content: Blog | Music
 slug: music
 permalink: /categories/music/
 layout: sidebar-categories

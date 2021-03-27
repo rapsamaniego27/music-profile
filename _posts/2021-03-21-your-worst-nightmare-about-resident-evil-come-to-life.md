@@ -10,7 +10,7 @@ description: Barge leg describe reflection butter slip doors ntil cross
   you the chance of aiding me willingly, but you have elected the way of pain!.
 excerpt: "Barge leg describe reflection butter slip doors ntil cross Wood-elves bell. "
 layout: single-post
-banner: /assets/files/post2.jpg
+image: /assets/files/post2.jpg
 date: 2021-02-20T04:18:12.250Z
 categories:
   - Music

@@ -7,6 +7,14 @@ exclude: ["source", "node_modules", "mix-manifest.json", "package-lock.json", "p
 # Default permalink for posts
 permalink: /blog/:title/
 
+defaults:
+  -
+    scope:
+      path: ""      # empty string for all files
+      type: posts   # limit to posts
+    values:
+      is_post: true # automatically set is_post=true for all posts
+
 collections:
   metas:
   bio-sections:

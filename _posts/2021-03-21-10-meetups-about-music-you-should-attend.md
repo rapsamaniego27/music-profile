@@ -9,7 +9,7 @@ description: Bard low quaint emptiness barge fire tangle. Hammering ceaselessly
 excerpt: "Bard low quaint emptiness barge fire tangle. Hammering ceaselessly
   bacon lsengard trees Goblin-mutant can tomorrow stupidity forced. "
 layout: single-post
-banner: /assets/files/post2.jpg
+image: /assets/files/post2.jpg
 date: 2020-12-09T08:38:34.441Z
 categories:
   - Gigs

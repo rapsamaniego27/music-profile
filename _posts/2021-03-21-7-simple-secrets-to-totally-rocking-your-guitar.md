@@ -10,7 +10,7 @@ description: Water treasury here beyond 111th Ligulas. Earth hatched breached
   with you..
 excerpt: Water treasury here beyond 111th Ligulas.
 layout: single-post
-banner: /assets/files/post6.jpg
+image: /assets/files/post6.jpg
 date: 2021-01-31T03:45:44.899Z
 categories:
   - Music

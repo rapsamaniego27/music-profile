@@ -9,7 +9,7 @@ description: Morninged turns Oakenshield path 10000. Stuffed rejoin shoulders
 excerpt: "Morninged turns Oakenshield path 10000. Stuffed rejoin shoulders still
   impatient Mordor's safety woodlands. "
 layout: single-post
-banner: /assets/files/post1.jpg
+image: /assets/files/post1.jpg
 date: 2021-03-24T03:37:22.850Z
 categories:
   - Custom

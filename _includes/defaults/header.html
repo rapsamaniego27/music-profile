@@ -6,12 +6,39 @@
   {% assign page_url = page.url | remove: 'index.html'%}
   {% assign seo = site.metas | where:"permalink", page_url | first %}
 
+  <!-- Var Title -->
   {% if seo.title %}
     {% assign meta_title = seo.title %}
   {% else %}
     {% assign meta_title = page.title %}
   {% endif %}
 
+  <!-- Var Description -->
+  {% if seo.description %}
+    {% assign meta_description = seo.description %}
+  {% elsif page.is_post %} 
+    {% assign meta_description = page.excerpt %}
+  {% else %}
+    {% assign meta_description = page.description %}
+  {% endif %}
+
+  <!-- Var Image -->
+  {% if seo.image %}
+    {% assign meta_image = seo.image %}
+  {% else %}
+    {% assign meta_image = page.image %}
+  {% endif %}
+
+  
+  <!-- Var Image Size -->
+  <!-- Note: Make sure to set is_post in the defaults under config.yml -->
+  {% if page.is_post %}
+    {% assign meta_image_width = '782' %}
+    {% assign meta_image_height = '300' %}
+  {% else %}
+    {% assign meta_image_width = '1200' %}
+    {% assign meta_image_height = '630' %}
+  {% endif %}
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,24 +47,25 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="title" content="{{ site.title }} - {{ meta_title }}">
-  <meta name="description" content="{{ seo.meta_description | strip_html}}">
+  <meta name="description" content="{{ meta_description | strip_html}}">
   <meta name="author" content="{{site.title}}">
   
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ site.url }}{{ page.url | remove: 'index.html'}}" />
   <meta property="og:title" content="{{ site.title }} - {{ meta_title }}">
-  <meta property="og:description" content="{{ seo.meta_description | strip_html}}">
+  <meta property="og:description" content="{{ meta_description | strip_html}}">
   
   <!-- Meta Image -->
-  <meta property="og:image" content="{{site.url}}{{ seo.meta_image }}" />
-  <meta property="og:image:secure_url" content="{{ meta_image }}" />
+  {% if meta_image %}
+  <meta property="og:image" content="{{site.url}}{{ meta_image }}" />
+  <meta property="og:image:secure_url" content="{{site.url}}{{ meta_image }}" />
   <meta property="og:image:type" content="image/jpeg" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-  <meta property="og:image:alt" content="{{ seo.meta_description | strip_html}}" />
+  <meta property="og:image:width" content="{{meta_image_width}}" />
+  <meta property="og:image:height" content="{{meta_image_height}}" />
+  <meta property="og:image:alt" content="{{ meta_description | strip_html}}" />
+  {% endif %}
 
-
-  <title>{{site.title}} - {{seo.meta_description}} {{page_url}} </title>
+  <title>{{site.title}} - {{ meta_title }} | {{meta_description}} </title>
 
   <!-- Row Styles -->
   <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.min.css">

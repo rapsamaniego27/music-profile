@@ -11,7 +11,7 @@ description: Rejoin knows bitterness dominate lowly dur-rugnu wane weary perils
 excerpt: Rejoin knows bitterness dominate lowly dur-rugnu wane weary perils
   quiet autumn Wraiths. Winter's chokes Mordor's happily relative.
 layout: single-post
-banner: /assets/files/post1.jpg
+image: /assets/files/post1.jpg
 date: 2020-12-26T03:41:07.580Z
 categories:
   - Gigs

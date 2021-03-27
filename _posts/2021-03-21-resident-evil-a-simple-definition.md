@@ -16,7 +16,7 @@ description: >-
 excerpt: "Plunge lift weighing slaughtered taught healed generation Council
   shaft stones detour wager. "
 layout: single-post
-banner: /assets/files/post1.jpg
+image: /assets/files/post1.jpg
 date: 2020-07-16T05:53:15.929Z
 categories:
   - Family

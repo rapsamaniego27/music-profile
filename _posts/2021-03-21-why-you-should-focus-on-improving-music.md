@@ -11,7 +11,7 @@ description: Plunge lift weighing slaughtered taught healed generation Council
 excerpt: "Plunge lift weighing slaughtered taught healed generation Council
   shaft stones detour wager. Excessive boy mistook Worrywort? "
 layout: single-post
-banner: /assets/files/post6.jpg
+image: /assets/files/post6.jpg
 date: 2021-01-07T03:29:11.269Z
 categories:
   - Family

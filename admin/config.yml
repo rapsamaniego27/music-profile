@@ -293,7 +293,7 @@ collections:
       name: "title"
       widget: "string"
     - label: "Meta Description"
-      name: "meta_description"
+      name: "description"
       widget: "text"
     - label: "Slug"
       name: "slug"
@@ -302,7 +302,7 @@ collections:
       name: "permalink"
       widget: "string"
     - label: "Meta Image"
-      name: "meta_image"
+      name: "image"
       widget: "image"
       required: false
   - label: "Posts"
@@ -325,7 +325,7 @@ collections:
       widget: hidden
       default: single-post
     - label: Banner Image (814 x 312)
-      name: banner
+      name: image
       widget: image
       required: false
     - label: Publish Date
