@@ -21,6 +21,10 @@ categories:
   - Personal
   - Love
   - Genres
+tags:
+  - Guitar
+  - Rock N Roll
+  - Folk
 authors:
   - name: Rap Esteva
   - name: Levi Ackerman
