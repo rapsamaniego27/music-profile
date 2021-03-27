@@ -16,6 +16,10 @@ categories:
   - Personal
   - Instruments
   - Gigs
+tags:
+  - Rock
+  - Country
+  - Guitar
 authors:
   - name: Rap Esteva
 ---
