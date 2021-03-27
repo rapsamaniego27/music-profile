@@ -22,6 +22,9 @@ categories:
   - Practice
   - Gigs
   - Instruments
+tags:
+  - Violin
+  - Punk
 authors:
   - name: Rap Esteva
 ---
