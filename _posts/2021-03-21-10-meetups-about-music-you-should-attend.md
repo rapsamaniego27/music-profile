@@ -17,6 +17,11 @@ categories:
   - Practice
   - Instruments
   - Family
+tags:
+  - Rock
+  - Rock N Roll
+  - Guitar
+  - Folk
 authors:
   - name: Rap Esteva
 ---
