@@ -382,6 +382,12 @@ collections:
     - label: Name
       name: name
       widget: string
+    - label: Title
+      name: name
+      widget: string
+      default: Blog | 
+      hint: For SEO e.g. Blog | Love
+      required: false
     - label: Slug
       name: slug
       widget: string
@@ -394,6 +400,12 @@ collections:
       name: layout
       widget: hidden
       default: sidebar-categories
+    - label: Description
+      name: description
+      widget: text
+      default: Blogs for the category  
+      hint: For SEO e.g. Blog for the category 
+      required: false
   - label: "Tags"
     name: "tags"
     create: true
@@ -402,6 +414,12 @@ collections:
     - label: Name
       name: name
       widget: string
+    - label: Title
+      name: name
+      widget: string
+      default: Blog | 
+      hint: For SEO e.g. Blog | Love
+      required: false
     - label: Slug
       name: slug
       widget: string
@@ -410,6 +428,12 @@ collections:
       widget: string
       hint: Value should be /tags/:name of category/
       default: /tags/namehere/
+    - label: Description
+      name: description
+      widget: text
+      default: Blog tagged as
+      hint: For SEO e.g. Blogs tagged as Guitar
+      required: false
     - label: Layout
       name: layout
       widget: hidden
