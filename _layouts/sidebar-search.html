@@ -1,0 +1,76 @@
+---
+layout: default
+---
+
+
+<div class="container blog-container mt-40">
+  <h3 class="hex-tertiary"> Search for a post: </h3>
+  <a href="{{ site.baseurl }}/blog" class="hex-gray mt-20"><strong><i class="fas fa-arrow-left"></i> &nbsp; Back to Blog</strong></a>
+
+</div>
+<div class="container blog-container mt-20 mb-20">
+  <form class="post-form">
+    <input type="text" class="post-search" placeholder="Search for a post ..." value="" id="searchInput">
+    <button type="submit" class="post-search__btn background-accent hex-white" disabled>
+      <i class="fas fa-search post-search__icon"></i>
+    </button>
+  </form>
+  <ul class="list-group blog-list-group mt-30" id="resultsContainer">
+    
+  </ul>
+
+</div>
+
+
+
+<!-- Plugin Script for Search Results -->
+<script src="{{site.baseurl}}/assets/js/search-sidebar.js" type="text/javascript"></script>
+
+<script>
+  window.addEventListener('DOMContentLoaded', ()=> {
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const value = urlParams.get('val');
+    const resultsContainer = document.getElementById('resultsContainer');
+    const searchInput = document.getElementById('searchInput');
+
+    searchInput.value = value;
+
+    fetch('{{site.baseurl}}/search.json')
+      .then(response => response.json())
+      .then(json => {
+        let results = ``;
+
+        json.forEach(post => {
+          /* Define variable and make it lower case */
+          const title = post.title.toLowerCase();
+
+          /* Checks if the param value is included in the title */
+          if (title.includes(value)) {
+            const template = `
+          <li class="list-group-item background-primary">
+              <a href="{{site.baseurl}}${post.url}" class="hex-tertiary">${post.title}</a>
+              <br>
+               <small>${post.date}</small>
+            </li>   
+        `;
+
+            results += template;
+          }
+
+
+        });
+
+        resultsContainer.innerHTML = results;
+      })
+      .catch(err => console.log(err));
+  });
+</script>
+
+
+
+
+
+
+
+{% include snippets/pagination.html %}

@@ -18,6 +18,13 @@ mix.options({
 mix.combine([
     'source/js/classes/*',
     'source/js/components/*',
-    'source/js/misc/*',
-    'source/js/vendors/*'
+    'source/js/misc/*'
 ], 'assets/js/app.js');
+
+mix.combine([
+    'source/js/search/*'
+], 'assets/js/search.js');
+
+mix.combine([
+    'source/js/search-sidebar/*'
+], 'assets/js/search-sidebar.js');

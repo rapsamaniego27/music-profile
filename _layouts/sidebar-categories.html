@@ -15,7 +15,9 @@ layout: default
     {% for post in site.posts %}
       {% if post.categories contains page.name %}
         <li class="list-group-item background-primary">
-          <a href="{{ post.url }}"  class="hex-white">{{ post.title }}</a>
+          <a href="{{ post.url }}"  class="hex-tertiary">{{ post.title }}</a>
+          <br>
+          <small>{{ post.date | date: '%B %-d, %Y'}}</small>
         </li>
       {% endif %}
     {% endfor %}

@@ -346,6 +346,3 @@ const menuet = new Menuet({
 function isInPage(node) {
   return (node === document.body) ? false : document.body.contains(node);
 }
-
-// require ('bootstrap');
-

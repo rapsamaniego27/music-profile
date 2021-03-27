@@ -29,8 +29,8 @@
     </div>
     <div class="col-md-6 d-flex justify-content-center align-items-center flex-column">
       <form class="custom-form">
-        <input type="text" class="custom-search" placeholder="Search for a post ...">
-        <button type="submit" class="custom-search__btn background-accent hex-white">
+        <input type="text" class="custom-search" placeholder="Search for a post ..." id="search-input">
+        <button type="submit" class="custom-search__btn background-accent hex-white" disabled>
           <i class="fas fa-search custom-search__icon"></i>
         </button>
       </form>
@@ -44,6 +44,6 @@
 
   
   {% if paginator.total_posts %}
-    <p class="blog-results mt-20 ml-30">{{ paginator.total_posts }} results found</p>
+    <p class="blog-results mt-20 ml-30" id="blogResults">{{ paginator.total_posts }} results found</p>
   {% endif %}
 </div>
