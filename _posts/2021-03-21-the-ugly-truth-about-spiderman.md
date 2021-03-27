@@ -18,6 +18,9 @@ categories:
   - Personal
   - Family
   - Music
+tags:
+  - Violin
+  - Punk
 authors:
   - name: Rap Esteva
 additional:
