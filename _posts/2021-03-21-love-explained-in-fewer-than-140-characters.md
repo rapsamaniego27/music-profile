@@ -16,6 +16,10 @@ categories:
   - Love
   - Genres
   - Gigs
+tags:
+  - Violin
+  - Punk
+  - Folk
 authors:
   - name: Rap Esteva
 ---
