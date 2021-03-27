@@ -14,6 +14,12 @@ date: 2021-01-11T03:44:32.525Z
 categories:
   - Instruments
   - Personal
+tags:
+  - Piano
+  - Rock
+  - Rock N Roll
+  - Country
+  - Violin
 authors:
   - name: Rap Esteva
 ---
