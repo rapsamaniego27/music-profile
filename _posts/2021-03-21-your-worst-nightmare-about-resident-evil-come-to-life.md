@@ -16,6 +16,10 @@ categories:
   - Music
   - Personal
   - Love
+tags:
+  - Violin
+  - Folk
+  - Country
 authors:
   - name: Rap Esteva
 ---
