@@ -14,11 +14,10 @@ description: Swat turds around the house chirp at birds. Spit up on light gray
   carnation milk then retire to the warmest spot on the couch to claw at the
   fabric before taking a catnap good morning sunshine drool human is in bath
   tub, emergency! drowning! meooowww!.
-excerpt: Swat turds around the house chirp at birds. Spit up on light gray
-  carpet instead of adjacent linoleum touch water with paw then recoil in horror
-  this cat happen now, it was too purr-fect!!!
+excerpt: "Swat turds around the house chirp at birds. "
 layout: single-post
 image: /assets/files/post4.jpg
+image-credits: Peter Parker
 date: 2021-03-27T11:41:44.791Z
 categories:
   - Family
@@ -41,6 +40,8 @@ additional:
         paper hunt by meowing loudly at 5am next to human slave food dispenser
         but catching very fast laser pointer, but caticus cuteicus but
         hiiiiiiiiii feed me now yet steal raw zucchini off kitchen counter. "
+      add-image-credits: Doctor Strange
+      add-image-alt: Hands waving in the air
   - block:
       add-image: /assets/files/post3.jpg
       add-content: "Lick the plastic bag annoy kitten brother with poking for snob you
@@ -54,4 +55,6 @@ additional:
         paper hunt by meowing loudly at 5am next to human slave food dispenser
         but catching very fast laser pointer, but caticus cuteicus but
         hiiiiiiiiii feed me now yet steal raw zucchini off kitchen counter. "
+      add-image-credits: Levi Ackerman
+      add-image-alt: My favorite band
 ---
