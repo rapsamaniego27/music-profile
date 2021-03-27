@@ -13,6 +13,15 @@ banner: /assets/files/post6.jpg
 date: 2021-03-24T03:37:22.850Z
 categories:
   - Custom
+tags:
+  - Guitar
+  - Folk
+  - Piano
+  - Punk
+  - Rock
+  - Country
+  - Violin
+  - Rock N Roll
 authors:
   - name: Rap Esteva
 additional:
