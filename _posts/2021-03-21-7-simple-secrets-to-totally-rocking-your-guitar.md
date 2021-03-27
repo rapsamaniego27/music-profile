@@ -16,6 +16,9 @@ categories:
   - Music
   - Genres
   - Love
+tags:
+  - Violin
+  - Rock
 authors:
   - name: Rap Esteva
 ---
