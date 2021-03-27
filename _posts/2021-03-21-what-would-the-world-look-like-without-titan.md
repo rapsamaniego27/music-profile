@@ -18,6 +18,9 @@ categories:
   - Instruments
   - Love
   - Personal
+tags:
+  - Folk
+  - Rock
 authors:
   - name: Rap Esteva
 ---
