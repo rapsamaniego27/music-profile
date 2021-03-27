@@ -339,6 +339,14 @@ collections:
       value_field: "name"
       display_fields: ["name"]
       multiple: true
+    - label: Tags
+      name: tags
+      widget: relation
+      collection: tags
+      search_fields: ["name"]
+      value_fields: "name"
+      display_fields: ["name"]
+      multiple: true
     - label: Authors
       name: authors
       widget: list
@@ -385,3 +393,25 @@ collections:
       name: layout
       widget: hidden
       default: sidebar-categories
+  - label: "Tags"
+    name: "tags"
+    create: true
+    folder: "_tags"
+    fields: 
+    - label: Name
+      name: name
+      widget: string
+    - label: Slug
+      name: slug
+      widget: string
+    - label: Permalink
+      name: permalink
+      widget: string
+      hint: Value should be /tags/:name of category/
+      default: /tags/:slug
+    - label: Layout
+      name: layout
+      widget: hidden
+      default: sidebar-tags
+
+

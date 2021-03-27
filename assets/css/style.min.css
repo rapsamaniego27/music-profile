@@ -15313,6 +15313,19 @@ footer {
   box-shadow: 0px 5px 12px 0px rgba(0, 0, 0, 0.75);
 }
 
+/* Tags */
+.sidebar-tags__list {
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.sidebar-tags__list small, .sidebar-tags__list .small {
+  padding: 6px 4px;
+}
+.sidebar-tags__list small a:hover, .sidebar-tags__list .small a:hover {
+  color: var(--tertiary);
+}
+
 .cbtn-success {
   background-color: #9FD356;
   color: #fff;
