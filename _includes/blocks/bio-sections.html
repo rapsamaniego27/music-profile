@@ -5,7 +5,7 @@
     <div class="bio-section__main-topic clearfix">
       
       {% if bio.section.image %}
-        <img src="{{site.baseurl}}{{bio.section.image}}" alt="Image" title="Image"
+        <img src="{{site.baseurl}}{{bio.section.image}}" alt="{{site.owner}} - {{bio.section.title}}" title="{{site.owner}} - {{bio.section.title}}"
           class="cmp-image__portrait float-none bio-section__img 
           {% if bio.section.alignment == 'right' %} float-md-end {% elsif bio.section.alignment == 'left' %} float-md-start {% endif %}" loading="lazy">
         
@@ -26,7 +26,7 @@
       <div class="clearfix mt-30">
     
         {% if subtopic.group.image != '' %}
-          <img src="{{site.baseurl}}{{subtopic.group.image}}" alt="Image" title="Image"
+          <img src="{{site.baseurl}}{{subtopic.group.image}}" alt="{{site.owner}} - {{ subtopic.group.title }}" title="{{site.owner}} - {{ subtopic.group.title }}"
             class="cmp-image__landscape float-none float-lg-start bio-section__sub-topic__img" loading="lazy">
         {% endif %}    
         <div class="bio-section__sub-topic__desc">
@@ -48,7 +48,7 @@
       <!-- Gallery Images -->
       <div class="bio-section__sub-topic__gallery">
         {% for gallery in subtopic.group.gallery %}
-          <img src="{{site.baseurl}}{{gallery.image}}" alt="{{gallery.alt}}" title="{{gallery.alt}}" class="cmp-image__gallery-landscape" loading="lazy">
+          <img src="{{site.baseurl}}{{gallery.image}}" alt="{{site.owner}} - {{gallery.alt}}" title="{{site.owner}} - {{gallery.alt}}" class="cmp-image__gallery-landscape" loading="lazy">
         {% endfor %}
         </div>
       {% endif %}
