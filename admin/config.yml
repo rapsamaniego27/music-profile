@@ -292,9 +292,11 @@ collections:
     - label: "Title"
       name: "title"
       widget: "string"
+      pattern: ['^.{,60}$', "Can't exceed 60 characters"]
     - label: "Meta Description"
       name: "description"
       widget: "text"
+      pattern: ['^.{,170}$', "Can't exceed 170 characters"]
     - label: "Slug"
       name: "slug"
       widget: "string"
@@ -320,6 +322,7 @@ collections:
     - label: Excerpt
       name: excerpt
       widget: text
+      pattern: ['^.{,170}$', "Can't exceed 170 characters"]
     - label: Layout
       name: layout
       widget: hidden
@@ -327,6 +330,10 @@ collections:
     - label: Banner Image (814 x 312)
       name: image
       widget: image
+      required: false
+    - label: Banner Image Credits
+      name: image-credits
+      widget: string
       required: false
     - label: Publish Date
       name: date
@@ -369,6 +376,14 @@ collections:
         - label: Additional Image (814 x any height)
           name: add-image
           widget: image
+          required: false
+        - label: Additional Image Credits
+          name: add-image-credits
+          widget: string
+          required: false
+        - label: Additional Image Alt
+          name: add-image-alt
+          widget: string
           required: false
         - label: Additional Content
           name: add-content

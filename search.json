@@ -6,7 +6,7 @@
       "title": "{{ post.title | escape }}",
       "url": "{{ site.baseurl }}{{ post.url }}",
       "date": "{{ post.date | date: '%B %-d, %Y'}}",
-      "banner": "{{ post.banner }}",
+      "banner": "{{ post.image }}",
       "excerpt" : "{{ post.excerpt }}"
     } 
     {% unless forloop.last %},{% endunless %}

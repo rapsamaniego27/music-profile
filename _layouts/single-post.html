@@ -7,6 +7,7 @@ layout: default
     <div class="col-lg-9 col-md-8 col-xs-12 post-section">
       <div class="post-main">
         <img src="{{site.baseurl}}{{page.image}}" alt="{{ page.title }}" title="{{ page.title }}" class="post-image" loading="lazy">
+        <small class="post-image__author hex-gray">photo by: Rap Esteva</small>
         <div class="post-heading">
           <h1 class="post-title hex-tertiary text-center">{{ page.title }}</h1>
           <p class="post-details text-center">Published on {{ page.date | date: "%B %-d,  %Y" }} by
@@ -41,6 +42,7 @@ layout: default
         {% for additional in page.additional %}
           <div class="post-content__additional">
             <img src="{{site.baseurl}}{{ additional.block.add-image }}" alt="Image" title="Image" class="post-content__additional-image" loading="lazy">
+            <small class="post-image__author hex-gray">photo by: Rap Esteva</small>
             <p class="post-content__additional-text">
               {{ additional.block.add-content }}
             </p>
