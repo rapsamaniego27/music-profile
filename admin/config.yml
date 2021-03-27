@@ -292,11 +292,11 @@ collections:
     - label: "Title"
       name: "title"
       widget: "string"
-      pattern: ['^.{,60}$', "Can't exceed 60 characters"]
+      pattern: ['^.{20,60}$', "Must be between 20-60 characters"]
     - label: "Meta Description"
       name: "description"
       widget: "text"
-      pattern: ['^.{,170}$', "Can't exceed 170 characters"]
+      pattern: ['^.{20,170}$', "Must be between 20-170 characters"]
     - label: "Slug"
       name: "slug"
       widget: "string"
@@ -322,7 +322,7 @@ collections:
     - label: Excerpt
       name: excerpt
       widget: text
-      pattern: ['^.{,170}$', "Can't exceed 170 characters"]
+      pattern: ['^.{20,180}$', "Must be between 20-180 characters"]
     - label: Layout
       name: layout
       widget: hidden
