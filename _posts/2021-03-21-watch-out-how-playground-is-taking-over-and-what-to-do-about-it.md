@@ -16,6 +16,9 @@ categories:
   - Practice
   - Music
   - Gigs
+tags:
+  - Piano
+  - Guitar
 authors:
   - name: Rap Esteva
 ---
