@@ -10,7 +10,7 @@ let template = `<div class="blog-card hex-dark">
     <p class="blog-card__desc">{excerpt}
     </p>
 
-    <a href="{url}" class="blog-card__link hex-tertiary">Read more <i class="fas fa-arrow-right"></i></a>
+    <a href="{url}" class="blog-card__link hex-tertiary" title="{title}" >Read more <i class="fas fa-arrow-right"></i></a>
   </div>
 </div>`;
 
