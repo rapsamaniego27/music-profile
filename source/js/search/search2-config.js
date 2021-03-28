@@ -1,6 +1,6 @@
 /* Search Config */
 let template = `<div class="blog-card hex-dark">
-  <img src="{{site.baseurl}}{banner}" alt="Blog | {title}" title="Blog | {title}" class="blog-card__image">
+  <img src="{image}" alt="Blog | {title}" title="Blog | {title}" class="blog-card__image">
   <div class="blog-card__content">
     <div class="blog-card__heading">
       <h6 class="blog-card__date hex-gray">{date}</h6>
