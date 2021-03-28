@@ -26,6 +26,8 @@ tags:
   - Guitar
 authors:
   - name: Rap Esteva
+  - name: Levi Ackerman
+  - name: Peter Parker
 additional:
   - block:
       add-image: /assets/files/post1.jpg
