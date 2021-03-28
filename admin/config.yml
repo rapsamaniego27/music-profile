@@ -322,7 +322,6 @@ collections:
     - label: Excerpt
       name: excerpt
       widget: text
-      pattern: ['^.{20,180}$', "Must be between 20-180 characters"]
     - label: Layout
       name: layout
       widget: hidden

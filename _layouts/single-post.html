@@ -6,8 +6,12 @@ layout: default
   <div class="row">
     <div class="col-lg-9 col-md-8 col-xs-12 post-section">
       <div class="post-main">
-        <img src="{{site.baseurl}}{{page.image}}" alt="{{ page.title }}" title="{{ page.title }}" class="post-image" loading="lazy">
-        <small class="post-image__author hex-gray">photo by: Rap Esteva</small>
+        <img src="{{site.baseurl}}{{page.image}}" alt="{{ page.title }}" title="{{ page.title }}" class="post-image" loading="lazy">  
+
+        {% if page.image-credits %}
+          <small class="post-image__author hex-gray">photo by: {{ page.image-credits }}</small>
+        {% endif %}
+
         <div class="post-heading">
           <h1 class="post-title hex-tertiary text-center">{{ page.title }}</h1>
           <p class="post-details text-center">Published on {{ page.date | date: "%B %-d,  %Y" }} by
@@ -41,8 +45,12 @@ layout: default
 
         {% for additional in page.additional %}
           <div class="post-content__additional">
-            <img src="{{site.baseurl}}{{ additional.block.add-image }}" alt="Image" title="Image" class="post-content__additional-image" loading="lazy">
-            <small class="post-image__author hex-gray">photo by: Rap Esteva</small>
+            <img src="{{site.baseurl}}{{ additional.block.add-image }}" alt="{{additional.block.add-image-alt}}" title="{{additional.block.add-image-alt}}" class="post-content__additional-image" loading="lazy">
+           
+            {% if additional.block.add-image-credits %}
+              <small class="post-image__author hex-gray">photo by: {{additional.block.add-image-credits}}</small>
+            {% endif %}
+
             <p class="post-content__additional-text">
               {{ additional.block.add-content }}
             </p>
