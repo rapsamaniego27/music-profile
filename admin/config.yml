@@ -288,6 +288,14 @@ collections:
       name: "site-info"
       file: "_data/site-info.yml"
       fields:
+      - label: Page Title
+        name: title
+        widget: string
+        required: false
+      - label: Page Description
+        name: description
+        widget: text
+        required: false
       - label: Technologies Used
         name: technologies
         widget: list

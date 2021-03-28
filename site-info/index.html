@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<!-- Got this loop from the Pages Collection -->
+{% assign seo = site.pages | where:"permalink", page.url | first %}
+
+<div class="container site-info__container mb-60">
+  <h1 class="page-title hex-primary mt-30">Site Title</h1>
+  <p class="hex-dark page-description pt-20">
+    Site Description
+  </p>
+
+  <h2 class="credits-title">Technologies used: </h2>
+  <ul class="credits-list pt-20">
+
+    {% for technology in site.data.main.technologies %}
+    <li class="credits-list-item">{{ technology }}</li>
+    {% endfor %}
+  </ul>
+
+  <h2 class="credits-title">Special thanks to: </h2>
+  <ul class="credits-list pt-20">
+
+    {% for collaborator in site.data.main.collaborators %}
+    <li class="credits-list-item">
+      <a href="{% if collaborator.content.website %}{{collaborator.content.website}}{% else %}#{% endif %}"
+        target="_blank" class="credits-link hex-dark" name="{{ collaborator.content.name }}"
+        title="{{ collaborator.content.name }}">
+        {{ collaborator.content.name }} &nbsp;
+        {% if collaborator.content.website %}
+        <i class="fas fa-external-link-alt hex-accent"></i>
+        {% endif %}
+      </a>
+    </li>
+    {% endfor %}
+
+  </ul>
+
+</div>
