@@ -56,10 +56,17 @@ class Menuet {
   open() {
     this.openTrigger.addEventListener('click', (e) => {
       e.preventDefault();
+      const menuItems = document.querySelectorAll('.menu-item');
 
       this.gsapTimeline.play();
       document.querySelector('body').classList.add('menu--hide');
       this.closeTrigger.classList.remove('menu--disable');
+
+
+      menuItems.forEach(item => {
+        item.firstElementChild.classList.remove('pointer-events-none');
+      });
+
 
     }, false);
   }
@@ -67,10 +74,15 @@ class Menuet {
   close() {
     this.closeTrigger.addEventListener('click', (e) => {
       e.preventDefault();
+      const menuItems = document.querySelectorAll('.menu-item');
 
       this.gsapTimeline.reverse(.5);
       document.querySelector('body').classList.remove('menu--hide');
       this.closeTrigger.classList.add('menu--disable');
+      
+      menuItems.forEach(item => {
+        item.firstElementChild.classList.add('pointer-events-none');
+      });
 
     });
   }

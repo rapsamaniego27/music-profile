@@ -11338,6 +11338,10 @@ p {
           animation: show-element 2s;
 }
 
+.pointer-events-none {
+  pointer-events: none;
+}
+
 /* @import '3-framework/breakpoint.scss';
 @import '3-framework/grid.scss';*/
 .mt-1 {
