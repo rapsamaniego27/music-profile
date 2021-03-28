@@ -7,7 +7,7 @@ layout: default
     <!-- Loop for Navigation -->
     {% for bio in site.data.bio.bio-sections %}
     <li class="bio-mapper__item {% if forloop.index == 1 %}bio-mapper__item--active {% endif %}" id="{{bio.section.id}}">
-      <a href="#" target="_blank" class="bio-mapper__link">{{bio.section.icon}}</a>
+      <a href="#" target="_blank" class="bio-mapper__link" title="{{bio.section.title}}">{{bio.section.icon}}</a>
     </li>
     {% endfor %}
 

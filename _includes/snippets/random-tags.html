@@ -28,7 +28,7 @@
       if (counter == (numberOfTags - 1)) {
         const ui = `
           <small>
-            <a href="${tagHREF}" class="badge background-accent">${tagName}</a>
+            <a href="${tagHREF}" class="badge background-accent" title="${tagName}">${tagName}</a>
           </small>
         `;
         document.write(`${ui}`);
@@ -36,7 +36,7 @@
       else {
         const ui = `
          <small>
-            <a href="${tagHREF}" class="badge background-accent">${tagName}</a>
+            <a href="${tagHREF}" class="badge background-accent" title="${tagName}">${tagName}</a>
           </small>
        `;
 

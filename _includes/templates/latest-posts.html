@@ -16,12 +16,12 @@
               {{ post.excerpt }}
             </p>
       
-            <a href="{{ post.url }}" target="_blank" class="card-link text-end hex-white text-decoration-underline d-block">Read
+            <a href="{{ post.url }}" target="_blank" class="card-link text-end hex-white text-decoration-underline d-block" title="{{ post.title }}">Read
               more</a>
           </div>
         </div>
       </div>
     {% endfor %}
   </div>
-  <a href="{{ site.baseurl }}/blog/" class="btn cbtn-accent d-block text-center mx-auto mt-20">See More</a>
+  <a href="{{ site.baseurl }}/blog/" class="btn cbtn-accent d-block text-center mx-auto mt-20" title="Blog">See More</a>
 </div>

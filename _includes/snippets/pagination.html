@@ -3,7 +3,7 @@
   <ul class="pager">
     {% if paginator.previous_page %}
     <li class="previous pager__arrow-nav">
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' | remove: " index.html"}}"><i
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' | remove: 'index.html'}}" title="Back"><i
           class="fas fa-arrow-left"></i> Back</a>
     </li>
     {% endif %}
@@ -19,7 +19,7 @@
   
     {% if paginator.next_page %}
     <li class="next pager__arrow-nav">
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' | remove: 'index.html'}}">Next <i
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' | remove: 'index.html'}}" title="Next">Next <i
           class="fas fa-arrow-right"></i></a>
     </li>
     {% endif %}

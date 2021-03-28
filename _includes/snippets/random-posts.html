@@ -28,7 +28,7 @@
       if (counter == (numberOfPosts - 1)) {
         const ui = `
      <li class="sidebar-post">
-       <a href="${postHREF}" target="_blank" class="sidebar-post__link">
+       <a href="${postHREF}" class="sidebar-post__link" title="${postTitle}">
          ${postTitle}
        </a>
      </li>
@@ -38,7 +38,7 @@
       else {
         const ui = `
       <li class="sidebar-post">
-        <a href="${postHREF}" target="_blank" class="sidebar-post__link">
+        <a href="${postHREF}" class="sidebar-post__link" title="${postTitle}">
           ${postTitle}
         </a>
       </li>

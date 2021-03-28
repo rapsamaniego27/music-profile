@@ -27,11 +27,11 @@
             {% for connect in site.data.contact.social %}
               <li class="social-media__item">
                 {% if connect.isLocal %}
-                  <a href="{{site.baseurl}}{{ connect.link }}" target="_blank" class="social-media__link">
+                  <a href="{{site.baseurl}}{{ connect.link }}" target="_blank" class="social-media__link" title="{{connect.media}}">
                      {{connect.icon}} 
                   </a>
                 {% else %}
-                  <a href="{{ connect.link }}" target="_blank" class="social-media__link">
+                  <a href="{{ connect.link }}" target="_blank" class="social-media__link" title="{{connect.media}}">
                      {{connect.icon}} 
                   </a>
                 {% endif %}

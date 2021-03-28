@@ -82,7 +82,7 @@
         <div class="row">
           <!-- Logo here -->
           <div class="header__logo__container col d-flex align-items-center">
-            <a href="{{site.baseurl}}/" class="header__logo-link">
+            <a href="{{site.baseurl}}/" class="header__logo-link" title="Home Page">
               <h3 class="hex-white">Rap Esteva</h3>
             </a>
           </div>
@@ -90,10 +90,10 @@
           <!-- Nav -->
           <nav class="col d-none d-md-block">
             <ul class="nav__list d-inline-flex justify-content-around align-self-center">
-              <li class="nav__item {% if page.url == '/' %} nav__item--active {% endif %}"><a href="{{site.baseurl}}/" class="nav__link">Home</a></li>
-              <li class="nav__item {% if page.url == '/bio/' %} nav__item--active {% endif %}"><a href="{{site.baseurl}}/bio/" class="nav__link">Bio</a></li>
-              <li class="nav__item {% if page.url == '/blog/' %} nav__item--active {% endif %}"><a href="{{site.baseurl}}/blog/" class="nav__link">Blog</a></li>
-              <li class="nav__item {% if page.url == '/lessons/' %} nav__item--active {% endif %}"><a href="{{site.baseurl}}/lessons/" class="nav__link">Lessons</a></li>
+              <li class="nav__item {% if page_url == '/' %} nav__item--active {% endif %}"><a href="{{site.baseurl}}/" class="nav__link" title="Home Page">Home</a></li>
+              <li class="nav__item {% if page_url == '/bio/' %} nav__item--active {% endif %}"><a href="{{site.baseurl}}/bio/" class="nav__link" title="Biography Page">Bio</a></li>
+              <li class="nav__item {% if page_url == '/blog/' %} nav__item--active {% endif %}"><a href="{{site.baseurl}}/blog/" class="nav__link" title="Blog Page">Blog</a></li>
+              <li class="nav__item {% if page_url == '/lessons/' %} nav__item--active {% endif %}"><a href="{{site.baseurl}}/lessons/" class="nav__link" title="Lessons Page">Lessons</a></li>
             </ul>
           </nav>
 
@@ -102,11 +102,11 @@
               {% for social in site.data.defaults.socials %}
               <li class="social-media__item">
                 {% if social.isLocal %}
-                <a href="{{site.baseurl}}{{ social.link }}" target="_blank" class="social-media__link">
+                <a href="{{site.baseurl}}{{ social.link }}" target="_blank" class="social-media__link" title="{{social.media}}">
                   {{social.icon}}
                 </a>
                 {% else %}
-                <a href="{{ social.link }}" target="_blank" class="social-media__link">
+                <a href="{{ social.link }}" target="_blank" class="social-media__link" title="{{social.media}}">
                   {{social.icon}}
                 </a>
                 {% endif %}
@@ -117,8 +117,8 @@
           </div>
 
           <a href="#" target="_blank"
-            class="menu__bento-link col d-flex justify-content-end align-items-center d-md-none" id="menuOpen">
-            <img src="{{site.baseurl}}/assets/files/bento-menu.svg" alt="Bento" title="Bento" class="menu-bento">
+            class="menu__bento-link col d-flex justify-content-end align-items-center d-md-none" id="menuOpen" title="Bento Menu">
+            <img src="{{site.baseurl}}/assets/files/bento-menu.svg" alt="Bento Menu" title="Bento Menu" class="menu-bento">
           </a>
         </div>
       </div>
