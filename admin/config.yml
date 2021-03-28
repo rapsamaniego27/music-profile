@@ -317,11 +317,11 @@ collections:
     - label: "Title"
       name: "title"
       widget: "string"
-      pattern: ['^.{20,60}$', "Must be between 20-60 characters"]
+      hint: "Recommendation: Must not go beyond 60 characters."
     - label: "Meta Description"
       name: "description"
       widget: "text"
-      pattern: ['^.{20,170}$', "Must be between 20-170 characters"]
+      hint: "Recommendation: Must not go beyond 170 characters." 
     - label: "Slug"
       name: "slug"
       widget: "string"
