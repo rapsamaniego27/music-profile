@@ -4,27 +4,27 @@ layout: default
 <!-- Got this loop from the Pages Collection -->
 {% assign seo = site.pages | where:"permalink", page.url | first %}
 
-<div class="container site-info__container mb-60">
-  <h1 class="page-title hex-primary mt-30">Site Title</h1>
-  <p class="hex-dark page-description pt-20">
-    Site Description
+<div class="container mb-60 mt-40">
+  <h1 class="page-title hex-accent text-center mt-30">{{ site.data.site-info.title }}</h1>
+  <p class="page-description pt-20 text-center">
+    {{ site.data.site-info.description }}
   </p>
 
-  <h2 class="credits-title">Technologies used: </h2>
+  <h2 class="credits-title hex-tertiary mt-30">Technologies used: </h2>
   <ul class="credits-list pt-20">
 
-    {% for technology in site.data.main.technologies %}
+    {% for technology in site.data.site-info.technologies %}
     <li class="credits-list-item">{{ technology }}</li>
     {% endfor %}
   </ul>
 
-  <h2 class="credits-title">Special thanks to: </h2>
+  <h2 class="credits-title hex-tertiary">Special thanks to: </h2>
   <ul class="credits-list pt-20">
 
-    {% for collaborator in site.data.main.collaborators %}
+    {% for collaborator in site.data.site-info.collaborators %}
     <li class="credits-list-item">
       <a href="{% if collaborator.content.website %}{{collaborator.content.website}}{% else %}#{% endif %}"
-        target="_blank" class="credits-link hex-dark" name="{{ collaborator.content.name }}"
+        target="_blank" class="credits-link" name="{{ collaborator.content.name }}"
         title="{{ collaborator.content.name }}">
         {{ collaborator.content.name }} &nbsp;
         {% if collaborator.content.website %}

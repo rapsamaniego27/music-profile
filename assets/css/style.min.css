@@ -15356,7 +15356,7 @@ footer {
 
 .credits-title {
   text-align: center;
-  margin: 40px 20px 0 20px;
+  margin: 60px 20px 0 20px;
 }
 
 .credits-list {
@@ -15369,9 +15369,12 @@ footer {
   gap: 10px;
 }
 .credits-list .credits-list-item {
-  color: var(--dark);
+  color: var(--white);
 }
 
+.credits-link {
+  color: var(--white) !important;
+}
 .credits-link:hover {
   color: var(--accent) !important;
 }

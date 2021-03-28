@@ -1,6 +1,6 @@
 .credits-title{
  text-align: center;
- margin: 40px 20px 0 20px;
+ margin: 60px 20px 0 20px;
 }
 
 .credits-list{
@@ -13,11 +13,12 @@
  gap:10px;
  
  .credits-list-item{
-  color: var(--dark);
+  color: var(--white);
  }
 }
 
 .credits-link{
+  color: var(--white) !important;
  &:hover{
   color:var(--accent) !important;
  }
