@@ -1,28 +1,24 @@
 banner:
   banner-image: /assets/files/banner-biography.jpg
-  tagline: I'm Rap and this is my Musical Journey!
+  tagline: Welcome to my Musical Journey!
 bio-sections:
   - section:
       alignment: right
       title: How It Started
       description: >-
-        It all started in my theatre workshop days in Repertory Philippines back
-        in 2002. I was exposed to these Musicals and Broadway songs because of
-        my Mother who was also Theatre and Vocal coach at the time. I did shows
-        like the Lion King, Once on This Island, Mamma Mia and Thirteen the
-        Musical, just to name a few.
+        It all started during my theatre workshop days in Repertory Philippines
+        back in 2002. I was exposed to these Musicals and Broadway songs because
+        of my mother who was also a Theatre and Vocal coach at the time. I did
+        shows like the Lion King, Once on This Island, Mamma Mia and Thirteen
+        the Musical, to name just a few.
 
         <br><br>
 
-        When I reached 12 years old, Christmas Day on 2007. My mother bought me a Blue Nylon guitar from RJ Music store. At first, I didn't know what to do with it because I had no background whatsoever. But then we visited my Uncle Manny in Manila to teach me the basic Chords (D, G, A, C,E). I couldn't see the sense of the chords until I heard him play guitar in front of me using the said chords. As far as I remember he was playing a Spanish tune.
+        When I was 12, my mom bought me a Blue Nylon guitar from RJ Music store as a Christmas present.  My Uncle Manny in Manila taught me the basic Chords (D, G, A, C,E). I couldn't see the sense of the chords then until I heard him play the guitar in front of me using the said chords. As far as I remember he was playing a Spanish tune.
 
         <br><br>
 
-        Once I got to learn a few chords, I got so overjoyed and had to learn chords of songs I enjoy listening to. Just like any other beginner, I had to stop on one song because of it's complexity and had to choose an easier one. At some point I had to stop for months, it was an on and off experience for me learning the guitar as I only had one lesson from my Uncle. I can't say also to myself that I'm self taught, I still manage to meet up with my Uncles just to have one day of special lessons. So it's like 80% self taught and 20% from personal and online tutorials.
-
-        <br><br>
-
-        I am Rap and I hope you enjoy my stories and experiences as you scroll down this page.
+        Once I got to learn a few chords, I got so overjoyed and had to learn chords of songs I've been listening to. Just like any other beginner, I had to stop on one song because of its complexity and had to choose an easier one. At some point I had to stop for months; it was on and off experience for me learning the guitar as I only had initial lesson from my Uncle. I couldn't say also to myself that I was self taught, albeit managed to meet up with my Uncles just to have one day of special lessons. So it was like 80% self taught and 20% from personal and online tutorials.
       image: /assets/files/rap-guitar.jpg
       id: bioStarted
       icon: <i class="fas fa-history"></i>
@@ -31,86 +27,69 @@ bio-sections:
       alignment: left
       title: Instruments
       description: >-
-        <strong>Guitar</strong> was my first ever instrument to learn which up
-        to this day still trying to improve myself with it. My first guitar was
-        named NEON and spray painted it with Neon Green, which I still regret.
-        Almost every guitar technique I've learned came from practicing with
-        that guitar from strumming, to plucking, to fingerpicking, to simple
-        guitar picking.
+        Guitar was my first ever instrument I've learned to play, albeit, still
+        trying to achieve a mastery of it. I even named it NEON. Almost every
+        guitar technique I've learned came from practicing with NEON; from
+        strumming, plucking, fingerpicking, to simple guitar picking.
 
         <br><br>
 
-        I <a href="#" target="_blank">struggled</a>  to pick songs that was right for me and my guitar. I struggled with what techniques to master and had no direction whatsoever. But I still managed to play somewhat at a level I could jam with my former classmates in High School.
+        I struggled  to pick songs that was right for me and my guitar. At first, my effort seemed going nowhere but I still managed to play somewhat at a level I could jam with my former classmates in high school.
 
         <br><br>
 
-        In *2016*, I purchased my first career acoustic guitar called Crisanta. It wasn't too hard to press and wasn't so soft also that the tone could suffer. And every performance I join, Crisanta is always my go to Guitar to perform with.
+        In *2016*, I purchased my first career acoustic guitar and named her Crisanta. It was neither too hard to press nor too soft that the tone could suffer. And every performance I joined in, Crisanta was always my go Guitar.
 
         <br><br>
 
-        In 2017, I bought my first violin which I named Alice. Just when I thought that learning guitar is hard. The violin is harder. It's such a blind instrument you had to really start from the basics from forms and positions to applicable techniques. Luckily without bargaining, I was able to go through learning it with my experience with the guitar and by having a sound sensitive ear to guide me on what I need to press on the fingerboard.
+        In 2017, I bought my first violin which I named Alice. It was then I thought that learning guitar was hard until I realized that violin was harder. It was such a blind instrument you had to really start from the basics: from forms and positions to applicable techniques. Luckily without bargaining, I was able to go through learning it thru my experience with the guitar and by having a sound sensitive ear to guide me on what I need to press on the fingerboard.
       image: /assets/files/rap-violin.jpg
       id: bioInstruments
       icon: <i class="fas fa-guitar"></i>
   - section:
       alignment: right
       title: Inspirations
-      description: "When we say of inspiration, we think about the people who
-        influenced us the most. My first inspiration was my Uncle Manny who was
-        also my first guitar teacher back in 2007. He taught me all the basics I
-        had to learn but ever since he left for Hongkong, I never got to talk to
-        him again not until 2011 where I met him again to learn Major and Minor
-        scales and the CAGED system, demonstrating how Chords can be shaped in
-        different positions. In 2018, I managed to visit him again for Country
-        Violin lessons and one of the best things I've learned was the Hokum
-        Bowing and the Figure Eight for the \"Orange Blossom Special\".\ 
+      description: >-
+        When we say of inspiration, we think about the people who influenced us
+        the most. My first inspiration was my Uncle Manny from my mother side,
+        who was also my first guitar teacher back in 2007. He taught me all the
+        basics I had to learn but ever since he left for Hongkong, I never got
+        to talk to him again not until 2011 where I met him again in Hong Kong
+        to learn Major and Minor scales and the CAGED system, demonstrating how
+        Chords can be shaped in different positions. In 2018, I managed to visit
+        him again for Country Violin lessons and one of the best things I've
+        learned was the Hokum Bowing and the Figure Eight for the <em>Orange
+        Blossom Special</em>. 
 
-        <br><br>\r
+        <br><br>
 
-        \r
 
-        My Uncle Henry resides here in the Philippines, and he filled in
-        the void what I lacked during my beginner days of learning guitar. In
-        2009 I learned my first fingerpicking song from him entitled \"Dust in
-        The Wind\", from there I was able too woo people with it as millennials
-        in that time wasn't learning much songs from the olden days.
+        My Uncle Henry who resides here in the Philippines, filled in the void during my beginner days of learning guitar. In 2009 I learned my first fingerpicking song from him entitled <em>Dust in The Wind</em>, from there I was able to woo my contemporaries who at that time was not learning much songs from the olden days.
 
-        <br><br>\r
+        <br><br>
 
-        \r
 
-        My Uncle Herby who was also affiliated with my Uncle Manny in
-        Hongkong taught me the Blues and the Advanced Fingerpicking styles which
-        I incorporated into my technique. But he wasn't just an ordinary guitar
-        mentor, he was also a life mentor. And we talked about anything from
-        Gigs to Real life  situations and what I can do with them."
+        My Uncle Herby who was also Uncle Manny bandmate in Hongkong taught me the Blues and the Advanced Fingerpicking styles which I incorporated into my technique. But he was not just an ordinary guitar mentor, he was also a life mentor. And we talked about anything from Gigs to Real life  situations and what I can do with them.
       image: /assets/files/herby.jpg
       icon: <i class="far fa-lightbulb"></i>
       id: bioInspirations
       subtopics:
         - group:
             title: New Wave
-            description: "New Wave was the very first genre I fell in love with. I was
+            description: >-
+              New Wave was the very first genre I fell in love with. I was
               originally influenced by my Mom as I listened to Madonna, Cindy
-              Lauper, A-ha, The Cure, The Police, just to name a few.\ 
+              Lauper, A-ha, The Cure, The Police, just to name a few. 
 
-              <br><br>\r
+              <br><br>
 
-              \r
 
-              My Uncle Jojo was also crazy over New Wave music so
-              I got some of his stuff from him and was jamming with him to play
-              most 80s stuff.\ 
+              My Uncle Jojo was also crazy over New Wave music so I got some of his stuff from him and was jamming with him to play most 80's stuff. 
 
-              <br><br>\r
+              <br><br>
 
-              \r
 
-              At the time, the game \"Guitar Hero\" was a thing
-              and we had this version of the game that played to 80s tracks
-              which got me more excited and motivated to learn guitar, despite
-              the genre being keyboard focused, I was always feeling hype into
-              listening to these type of music."
+              At the time, the game "Guitar Hero" was a thing and we had this version of the game that played to 80's tracks which got me more excited and motivated to learn guitar, despite the genre being keyboard focused, I was always feeling hyped into listening to this type of music.
             image: /assets/files/inspiration-new-wave.jpg
         - group:
             title: Pop Punk
@@ -154,204 +133,145 @@ bio-sections:
             gallery: []
         - group:
             title: Classical
-            description: "Classical Music was more like a come and go genre for me as I only
+            description: >-
+              Classical Music was more like a come and go genre for me as I only
               get to enjoy it occasionally. I would only get to play it when I
-              feel like it, but the lack of techniques I possessed and the
-              complexity of the music style always leads me to give up easily
-              and come back again when I feel like I'm ready to play it.\ 
+              feel like it, but the techniques I have not had and the complexity
+              of the music style, always lead me to give up easily and come back
+              again when I feel like I'm ready to play it. 
 
-              <br><br>\r
+              <br><br>
 
-              \r
 
-              My Mom was a classically trained singer in UST.
-              Since I was a kid, besides her new wave tracks, she'd play some
-              classical ones as well mostly from Bach and one of her favorite
-              pieces \"Canon in D\" by Pachelbel.\ 
+              My Mom was a classically-trained singer in UST. Since I was a kid, besides her new wave tracks, she'd play some classical ones as well mostly from Bach and one of her favorite pieces <em>Canon in D</em> by Pachelbel. 
 
-              <br><br>\r
+              <br><br>
 
-              \r
 
-              I loved some of the Classical stuff so much I had to
-              force myself to learn one by ear. And that is \"Minuet in G
-              Major\" by Bach which I learned in High School of 2009 and
-              \"Canon\" in 2010."
+              I loved some of the Classical stuffs so much I had to force myself to learn one by ear. And that is <em>Minuet in G Major</em> by Bach which I learned in High School of 2009 and <em>Canon</em> in 2010.
             image: /assets/files/inspiration-classical.jpg
-            add_description: "By 2011 I was enrolled in Guitar Lessons in Greenhills to
-              learn to read notes. It didn't last very long and I forgot almost
-              everything I learned reading notes, but my Guitar Teacher ,Phil
-              taught me to have discipline on plucking the strings alternately
-              instead of having to pluck twice or thrice with one finger on a
-              string.\r
+            add_description: >-
+              By 2011, my mom enrolled me in Guitar Lessons in Greenhills to
+              learn to read notes. It did not last very long and I forgot almost
+              everything I learned from it, but my Guitar Teacher, Phil, taught
+              me to have discipline on plucking the strings alternately instead
+              of having to pluck twice or thrice with one finger on a string.
 
-              He also taught me how to shape your fingernails
-              properly into producing a nice guitar string sound on a Nylon
-              Guitar with the use of Nail Filers and Nail Buffers.
+              He also taught me to shape your fingernails properly into producing a nice guitar string sound on a Nylon Guitar with the use of Nail Filers and Nail Buffers.
 
-              <br><br>\r
+              <br><br>
 
-              \r
 
-              When Covid started and implementing lockdowns in
-              2020, since gigs weren't available I was able to start playing
-              Classical Music again but on the Violin. If learning Violin by ear
-              was already a pain to you, it was even harder for me to play it
-              while I read the notes on the music sheet. I usually pick up the
-              flow of the piece by ear and had it memorized, which made it
-              challenging for me as I had to train myself to play the piece as
-              written in the sheet and not what is based on my memory. But
-              eventually I was over that and got to do at least the basics of
-              sightreading which nurtured my violin playing a bit more.
+              When Covid-19 became pandemic and started implementing lockdowns in 2020, since gigs were not allowed, I was able to start playing Classical Music again but on the Violin. If learning Violin by ear was already a pain, it was even harder for me to play it while I read the notes on the music sheet. I usually picked up the flow of the piece by ear and had it memorized, which made it challenging for me as I had to train myself to play the piece as written in the sheet and not what is based on my memory. But eventually I was over that and got to do at least the basics of sightreading which nurtured my violin playing a bit more.
 
-              <br><br>\r
+              <br><br>
 
-              \r
 
-              I love Classical Music but I believe it's far too
-              late now to be indulged in it as I was already enrolled in a
-              Computer Science Degree in College. And the best thing I could do
-              is learn the basics and appreciate where Beautiful music of today
-              really came from."
+              I love Classical Music but I believe it is far too late to be indulged in it as I was already enrolled in a Computer Science Degree in college. And the best thing I could do was learn the basics and appreciate where beautiful music of today really came from.
         - group:
             title: Folk, Country and Rock N Roll
-            description: "2011 was  the most eventful year of my life, mixed with both sad
+            description: >-
+              2011 was  the most eventful year of my life, mixed with both sad
               and happy moments. It is also the year when I first stepped foot
-              in Hong Kong to meet Uncle Manny and Uncle Herby.\r
+              in Hong Kong to meet Uncle Manny and Uncle Herby.
 
-              \r
 
-              My mind was so naïve to think that I know a lot of
-              Music already not until I saw both my Uncles perform live Folk,
-              Country and Rock N Roll music. It was exhilarating, the music
-              style was entirely new to me, that I when I got home in Manila, I
-              knew I had to update my personal playlist and learn learn some of
-              the songs.\r
+              My mind was so naïve to think that I know a lot of Music already not until I saw both my Uncles perform live Folk, Country and Rock N Roll music. It was exhilarating, the music style was entirely new to me, that when I got back in Manila, I knew I had to update my personal playlist and learn some of the songs.
 
-              \r
 
-              Jim Croce, Eagles, The Beatles, Elvis Presley, Simon
-              & Garfunkel, Bread, Cat Stevens and several others were just all a
-              treasure to listen to."
+              Jim Croce, Eagles, The Beatles, Elvis Presley, Simon & Garfunkel, Bread, Cat Stevens and several others were just all a bliss to listen to.
             image: /assets/files/inspiration-folk.jpg
   - section:
       alignment: right
       title: Bands / Affiliations
-      description: "The most exciting part of playing music is having the opportunity
-        to play in a band. We all know that practicing is really important but
+      description: >-
+        The most exciting part of playing music is having the opportunity to
+        play in a band. We all know that self-practice is really important but
         if you want to know how far you really progressed is by collaborating
         with friends of the same interests. Testing ourselves to perform with
-        people and to know much of a team player we are.
+        people and to know much of a team player we are is no mean gift. 
 
-        <br><br>\r
+        <br><br>
 
-        \r
 
-        Being in a band is also like being in a family, you treat each
-        other, compliment each other and enjoy music together. Like any other
-        families, bands also undergo emotional situations that they have to
-        resolve as a group. In spite of this, it is still fun to do music as a
-        group."
+        Being in a band is also like being in a family, you treat each other, compliment each other and enjoy music together. Like any other families, bands also undergo emotional situations that they have to resolve as a group. In spite of this, it is still fun to do music as a group.
       icon: <i class="fas fa-users"></i>
       id: bioBands
       subtopics:
         - group:
             title: Janemist (2011 - 2015)
-            description: "Janemist was my first ever band. I was thrilled when I got to
+            description: >-
+              Janemist was my first ever band. I was thrilled when I got to
               watch my first ever Battle of the Bands competition in my 3rd year
-              of High School. This started the motivation for me to build my own
+              of high school. This started the motivation for me to build my own
               band as I was really fascinated to see people my age to be playing
-              music on stage.\ 
+              music on stage. 
 
-              <br><br>\r
+              <br><br>
 
-              \r
 
-              Each and every member of Janemist was part of a band
-              at the time of the competition. When school year was over, I was
-              lucky enough to approach Zyril (Drummer) to invite him to form a
-              band and I was mind blown when I played with Genrei (Lead
-              Guitarist) for a jam session in his house.\ 
+              Each and every member of Janemist was part of a band at the time of the competition. When school year was over, I was lucky enough to approach Zyril (Drummer) to invite him to form a band and I was thrilled when I played with Genrei (Lead Guitarist) for a jam session in his house. 
 
-              <br><br>\r
+              <br><br>
 
-              \r
 
-              As time went by we were growing and invited Darwin,
-              Jona, Gizette, Kisha and Emman to be part of the family."
+              As time went by we were growing and invited Darwin, Jona, Gizette, Kisha and Emman to be part of the band family.
             image: /assets/files/band-janemist.jpg
-            add_description: We were crazy over Green Day, Blink 182 and Paramore and played
+            add_description: >-
+              We were crazy over Green Day, Blink 182 and Paramore and played
               most of their songs in a small studio in Libertad, Mandaluyong. We
-              were young, alive and dreaming to be professional musicians
-              someday and we just kept on practicing until as we were ready for
-              each competitions or events we joined. They were my first love,
-              there's no such thing as forever but they always remain a special
-              place in my musical journey.
+              were young, alive, promising, yet broke, but dreaming to be
+              professional musicians someday and we just kept on practicing
+              until we were ready for each competitions or events we joined in. 
+
+
+              <br> <br>
+
+
+              We have had a fair share of ups and downs, personal dreams and aspirations got on our ways and we eventually parted off. Yet, our friendships remain.
         - group:
             title: 29th of February (2015 - 2017)
-            description: "29th of February is a group lead by Milky (drummer) is an OPM,
-              Pop, Rock group that I have been noticing during my College days.
+            description: >-
+              29th of February is a group lead by Milky (drummer) is an OPM,
+              Pop, Rock group that I have been noticing during my college days.
               They were all energetic and passionate as I have observed and they
               love doing what they do.
 
-              <br><br>\r
+              <br><br>
 
-              \r
 
-              I joined the group when the leader invited me to
-              take over one of their members. The highlight of my journey with
-              them was the weekly commitment to be in their band rehearsals. I
-              was so amazed how much dedication everyone shows for the
-              rehearsals which led us being part of the Top 3 Finalists in the
-              2015 Tiendesitas Sessionistas Competition, followed by being
-              Champions in a contest held at Trinity University.
+              I joined the group when the leader invited me to take over one of their members. The highlight of my journey with them was the weekly commitment to be in their band rehearsals. I was so amazed how much dedication everyone shows for the rehearsals which led us being part of the Top 3 Finalists in the 2015 Tiendesitas Sessionistas Competition, followed by being Champions in a contest held at Trinity University.
 
               <br><br>
 
-              \r
 
-              \r
-
-              After a year we continued on and participated in
-              Greenwich's Band Contest and another organized by Atmos Music
-              Society."
+              After a year, we continued on and participated in Greenwich's Band Contest and another organized by Atmos Music Society.
             image: /assets/files/band-29th.jpg
         - group:
             title: Folk Ridge (2017 - Present)
-            description: "At some point, I was lost and overwhelmed of everything I was
-              facing during my time as a College student and as an emerging
-              musician. I was a little confused on what Musical style I wanted
-              to pursue in.
+            description: >-
+              At some point, I felt lost and overwhelmed with everything during
+              my time as a college student and as an emerging musician. I was a
+              little confused on what musical style I wanted to pursue.
 
               <br><br>
 
-              \r
 
-              \r
+              But then all those inspirations that built up from my Uncles made me decide to go back to lead another group again but this time I went from Rock to Folk music and give myself a little taste on the latter genre.
 
-              But then all those inspiration that built up from my
-              Uncles, it made me decide to go back to lead another group again
-              but this time I went from Rock to Country music to give myself a
-              little taste on the genre.
+              <br><br>
 
-              <br><br>\r
 
-              \r
-
-              I ended up liking it so much, and became so
-              dedicated I had to upskill myself. It took me 2 years to form Folk
-              Ridge, and another year for it to be strongly established.\r
-
-              \r\n"
+              I ended up liking it so much and became so dedicated I had to upskill myself. It took me two years to form Folk Ridge and another year for it to be strongly established.
             image: /assets/files/band-folkridge.jpg
             add_description: Country and Folk music used to be a thing in the 70s-80s,  the
               time I started to form this kind of group made me realized how
               Manila is overrun too much by Rock, Reggae, Pop music. Filipino
-              Millenials and Gen Zs often refer Country and Folk music as old
-              music on which is something sad for me to hear and never knew how
+              Millennials and Gen Zs often refer Country and Folk music as old
+              music, which is something sad for me to hear. I never knew how
               challenging and fun the musical style can be. I hope that with
-              this band, I hope to change their perception with this kind of
-              music and make Folk, Country and Rock N Roll be great again!
+              this band, it can change their perception with this kind of music
+              and make Folk, Country and Rock N Roll be great again!
             gallery:
               - alt: Folk Ridge 1
                 image: /assets/files/band-folkridge2.jpg
@@ -361,27 +281,20 @@ bio-sections:
                 image: /assets/files/band-folkridge3.jpg
         - group:
             title: Other Bands
-            description: "Other bands I'd also like to thank when I was a student are New
-              World, Pitch Street and Catalyst. I'd be honest their genres Hard
-              Rock and Pop were all different for me but I still enjoyed it.
+            description: >-
+              Other bands I also like to thank when I was a student are New
+              World, Pitch Street and Catalyst. Honestly, their genres Hard Rock
+              and Pop were all different for me but I still enjoyed it.
 
               <br><br>
 
-              \r
 
-              \r
+              I'm also a part time violinist for Yandelz Wedding group on which it specializes on Wedding and other related events.
 
-              I'm also a part time violinist for Yandelz Wedding
-              group on which it specializes on Wedding related events.
+              <br><br>
 
-              <br><br>\r
 
-              \r
-
-              and currently a part of an Indie-OPM group called
-              Slumberparty on which I'm also looking forward to. I'm excited to
-              see how far the band can go and the compositions that Zoe (band
-              leader) will show present to the group in the future."
+              Currently, I am a part of an Indie-OPM group called Slumberparty. I'm excited to see how far the band can go and the compositions that Zoe (band leader) will present to the group in the future.
             image: /assets/files/other-bands-selfie.jpg
             gallery:
               - alt: Other Bands 1
