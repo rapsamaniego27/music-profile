@@ -1,4 +1,4 @@
-url: "https://rapmusikero.com/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://rapmusikero.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Rap Esteva Music" # the name of your site, e.g. ACME Corp.
 owner: "Rap Esteva"
