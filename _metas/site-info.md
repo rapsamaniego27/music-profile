@@ -1,10 +1,8 @@
 ---
 title: Site Info
-description: Thank you for stopping by my site. I made this so I can present
-  projects to clients, developers and employer. As well as featuring my
-  skillset. Listed here are the technologies I used for my Personal portfolio
-  site and the people that shared their knowledge and efforts into making this
-  site possible.
+description: "The over-all structure of my music site, from concept to content,
+  platforms and technology used to people who contributed immensely to achieve
+  all of this.   "
 slug: site-info
 permalink: /site-info/
 ---
