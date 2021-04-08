@@ -10989,7 +10989,7 @@ h3, .h3 {
 }
 @media only screen and (max-width: 840px) {
   h3, .h3 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 }
 
@@ -14302,6 +14302,23 @@ header {
     padding-right: 40px;
   }
 }
+.header__logo {
+  width: 40px;
+  margin-right: 20px;
+}
+@media only screen and (max-width: 800px) {
+  .header__logo {
+    width: 34px;
+  }
+}
+
+.header__logo-link {
+  margin-top: 12px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
 .nav__list {
   padding-left: 0 !important;
   margin-bottom: 0 !important;

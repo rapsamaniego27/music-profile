@@ -35,3 +35,17 @@ header{
   }
 
 }
+
+.header__logo{
+  width:40px;
+  margin-right:20px; 
+
+  @media only screen and (max-width:800px){
+   width:34px;
+  }
+}
+
+.header__logo-link{
+  margin-top:12px;
+  width: max-content;
+}
