@@ -36,6 +36,7 @@ excerpt: My experience of busking alone and how it helped me evolve to be a
   better musician.
 layout: single-post
 image: /assets/files/busking-solo.jpg
+image-credits: Ednalyn Abichuela
 date: 2023-08-03T02:20:24.406Z
 categories:
   - Personal
@@ -44,6 +45,7 @@ categories:
 tags:
   - Guitar
   - Folk
+  - Busking
 authors:
   - name: Rap Esteva
 additional: []
